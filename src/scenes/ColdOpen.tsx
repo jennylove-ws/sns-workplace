@@ -1,11 +1,11 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame} from 'remotion';
 import {COLORS, FONT_FAMILY, FPS} from '../constants';
 import {StepValue, SpinningCounter} from '../components/NumberDisplay';
 import {CrashChart} from '../components/CrashChart';
-import {VaultDoor} from '../components/VaultDoor';
 import {CenterLines} from '../components/CenterLines';
 import {TitleCard} from '../components/TitleCard';
+import {SlideImage} from '../components/SlideImage';
 
 // 콜드 오픈 내레이션(파트01 전체 + 파트02 앞부분, "...1화 시작합니다."까지)의
 // 실측 길이. public/audio/timeline.json 기준 프레임 1929 (=64.3초).
@@ -47,30 +47,40 @@ const ThreeDaysFreeze: React.FC = () => {
   );
 };
 
-const VaultBeat: React.FC = () => {
+// 화면 하단에 문구를 페이드인시키는 실사 이미지 비트 (사진 ↔ 모션그래픽 번갈아 배치용)
+const PhotoBeat: React.FC<{
+  src: string;
+  caption?: string;
+  durationInFrames: number;
+  zoom?: 'in' | 'out';
+}> = ({src, caption, durationInFrames, zoom = 'in'}) => {
   const frame = useCurrentFrame();
-  const textOpacity = interpolate(frame, [s(2), s(3)], [0, 1], {
+  const textOpacity = interpolate(frame, [8, 18], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
   });
   return (
-    <AbsoluteFill
-      style={{alignItems: 'center', justifyContent: 'center', gap: 40}}
-    >
-      <VaultDoor openAtFrame={0} openDurationFrames={14} interiorText="먼지뿐" />
-      <div
-        style={{
-          position: 'absolute',
-          bottom: 220,
-          fontFamily: FONT_FAMILY,
-          fontSize: 46,
-          fontWeight: 800,
-          color: COLORS.accent,
-          opacity: textOpacity,
-        }}
-      >
-        약 400억 달러 증발 · 우리 돈 50조 원
-      </div>
+    <AbsoluteFill>
+      <SlideImage src={src} durationInFrames={durationInFrames} zoom={zoom} intensity={0.12} />
+      {caption && (
+        <div
+          style={{
+            position: 'absolute',
+            bottom: 220,
+            left: 0,
+            right: 0,
+            textAlign: 'center',
+            fontFamily: FONT_FAMILY,
+            fontSize: 46,
+            fontWeight: 800,
+            color: COLORS.accent,
+            opacity: textOpacity,
+            textShadow: '0 2px 12px rgba(0,0,0,0.8)',
+          }}
+        >
+          {caption}
+        </div>
+      )}
     </AbsoluteFill>
   );
 };
@@ -78,7 +88,7 @@ const VaultBeat: React.FC = () => {
 export const ColdOpen: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: COLORS.bg}}>
-      {/* $1.00 → $0.68 → $0.30 → $0.02 */}
+      {/* $1.00 → $0.68 → $0.30 → $0.02 — 모션그래픽 */}
       <Sequence from={0} durationInFrames={s(15)}>
         <Centered>
           <StepValue
@@ -92,11 +102,11 @@ export const ColdOpen: React.FC = () => {
         </Centered>
       </Sequence>
 
-      {/* 루나 절벽 붕괴 차트 */}
-      <Sequence from={s(15)} durationInFrames={s(24) - s(15)}>
+      {/* 루나 절벽 붕괴 차트 — 모션그래픽 */}
+      <Sequence from={s(15)} durationInFrames={s(22) - s(15)}>
         <Centered>
           <CrashChart
-            durationInFrames={s(8)}
+            durationInFrames={s(6)}
             points={[
               {x: 0, y: 1},
               {x: 0.55, y: 0.97},
@@ -110,24 +120,38 @@ export const ColdOpen: React.FC = () => {
         </Centered>
       </Sequence>
 
-      {/* 10억 → 6조 폭증 카운터 */}
+      {/* 돈이 찍혀 나오는 실사 인서트 — 사진 */}
+      <Sequence from={s(22)} durationInFrames={s(24) - s(22)}>
+        <PhotoBeat
+          src={staticFile('images/Gemini_Generated_Image_vwlpcevwlpcevwlp.png')}
+          durationInFrames={s(24) - s(22)}
+          zoom="in"
+        />
+      </Sequence>
+
+      {/* 10억 → 6조 폭증 카운터 — 모션그래픽 */}
       <Sequence from={s(24)} durationInFrames={s(32) - s(24)}>
         <Centered>
           <SpinningCounter from={1_000_000_000} to={6_000_000_000_000} durationInFrames={s(7)} />
         </Centered>
       </Sequence>
 
-      {/* 텅 빈 금고 */}
+      {/* 텅 빈 금고 — 사진 */}
       <Sequence from={s(32)} durationInFrames={s(42) - s(32)}>
-        <VaultBeat />
+        <PhotoBeat
+          src={staticFile('images/Gemini_Generated_Image_zcp5ogzcp5ogzcp5.png')}
+          caption="약 400억 달러 증발 · 우리 돈 50조 원"
+          durationInFrames={s(42) - s(32)}
+          zoom="out"
+        />
       </Sequence>
 
-      {/* 정지, "사흘" */}
+      {/* 정지, "사흘" — 모션그래픽 */}
       <Sequence from={s(42)} durationInFrames={s(48) - s(42)}>
         <ThreeDaysFreeze />
       </Sequence>
 
-      {/* 흰 글씨 한 줄씩 */}
+      {/* 흰 글씨 한 줄씩 — 모션그래픽 */}
       <Sequence from={s(48)} durationInFrames={s(66) - s(48)}>
         <CenterLines
           lines={[
@@ -148,7 +172,7 @@ export const ColdOpen: React.FC = () => {
         />
       </Sequence>
 
-      {/* 되감기, 숫자 역순 상승 */}
+      {/* 되감기, 숫자 역순 상승 — 모션그래픽 */}
       <Sequence from={s(66)} durationInFrames={s(78) - s(66)}>
         <Centered>
           <StepValue
@@ -162,7 +186,7 @@ export const ColdOpen: React.FC = () => {
         </Centered>
       </Sequence>
 
-      {/* 채널 로고 */}
+      {/* 채널 로고 — 모션그래픽 */}
       <Sequence from={s(78)} durationInFrames={COLD_OPEN_DURATION - s(78)}>
         <TitleCard />
       </Sequence>

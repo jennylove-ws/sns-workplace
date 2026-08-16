@@ -3,38 +3,20 @@ import {SubtitleLine} from '../components/Subtitle';
 
 export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
-    "text": "오늘 우리가 추적할 이",
+    "text": "오늘 우리가 추적할 이 코인은, 가격이 흔들리면 안 됩니다.",
     "startFrame": 0,
-    "endFrame": 51,
+    "endFrame": 133,
     "part": 1
   },
   {
-    "text": "코인은, 가격이",
-    "startFrame": 51,
-    "endFrame": 84,
+    "text": "무슨 일이 있어도 1달러.",
+    "startFrame": 133,
+    "endFrame": 189,
     "part": 1
   },
   {
-    "text": "흔들리면 안 됩니다.",
-    "startFrame": 84,
-    "endFrame": 131,
-    "part": 1
-  },
-  {
-    "text": "무슨 일이 있어도",
-    "startFrame": 131,
-    "endFrame": 169,
-    "part": 1
-  },
-  {
-    "text": "1달러. 그러라고 만든",
-    "startFrame": 169,
-    "endFrame": 220,
-    "part": 1
-  },
-  {
-    "text": "코인이거든요.",
-    "startFrame": 220,
+    "text": "그러라고 만든 코인이거든요.",
+    "startFrame": 189,
     "endFrame": 249,
     "part": 1
   },
@@ -51,5090 +33,2276 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
     "part": 1
   },
   {
-    "text": "이 코인을 떠받치던",
+    "text": "이 코인을 떠받치던 짝꿍 코인도 같이 무너집니다.",
     "startFrame": 327,
-    "endFrame": 369,
+    "endFrame": 436,
     "part": 1
   },
   {
-    "text": "짝꿍 코인도 같이",
-    "startFrame": 369,
-    "endFrame": 406,
-    "part": 1
-  },
-  {
-    "text": "무너집니다. 한 달",
-    "startFrame": 406,
-    "endFrame": 448,
-    "part": 1
-  },
-  {
-    "text": "전에 119달러였습니다.",
-    "startFrame": 448,
-    "endFrame": 503,
+    "text": "한 달 전에 119달러였습니다.",
+    "startFrame": 436,
+    "endFrame": 504,
     "part": 1
   },
   {
     "text": "지금은 휴지조각이고요.",
-    "startFrame": 503,
+    "startFrame": 504,
     "endFrame": 553,
     "part": 1
   },
   {
-    "text": "그사이 이 코인은",
+    "text": "그사이 이 코인은 10억 개에서 6조 개로 불어납니다.",
     "startFrame": 553,
-    "endFrame": 590,
+    "endFrame": 675,
     "part": 1
   },
   {
-    "text": "10억 개에서 6조",
-    "startFrame": 590,
-    "endFrame": 632,
+    "text": "6천 배요.",
+    "startFrame": 675,
+    "endFrame": 699,
     "part": 1
   },
   {
-    "text": "개로 불어납니다. 6천",
-    "startFrame": 632,
-    "endFrame": 682,
-    "part": 1
-  },
-  {
-    "text": "배요. 오타 아닙니다.",
-    "startFrame": 682,
+    "text": "오타 아닙니다.",
+    "startFrame": 699,
     "endFrame": 732,
     "part": 1
   },
   {
-    "text": "미국 증권거래위원회는",
+    "text": "미국 증권거래위원회는 이 사태로 하룻밤 사이에 약 400억 달러가 증발했다고 밝혔습니다.",
     "startFrame": 732,
-    "endFrame": 778,
+    "endFrame": 926,
     "part": 1
   },
   {
-    "text": "이 사태로 하룻밤",
-    "startFrame": 778,
-    "endFrame": 817,
-    "part": 1
-  },
-  {
-    "text": "사이에 약 400억",
-    "startFrame": 817,
-    "endFrame": 859,
-    "part": 1
-  },
-  {
-    "text": "달러가 증발했다고",
-    "startFrame": 859,
-    "endFrame": 897,
-    "part": 1
-  },
-  {
-    "text": "밝혔습니다. 우리 돈",
-    "startFrame": 897,
-    "endFrame": 944,
-    "part": 1
-  },
-  {
-    "text": "50조 원.",
-    "startFrame": 944,
+    "text": "우리 돈 50조 원.",
+    "startFrame": 926,
     "endFrame": 969,
     "part": 1
   },
   {
-    "text": "여기까지 걸린 시간,",
+    "text": "여기까지 걸린 시간, 사흘입니다.",
     "startFrame": 969,
-    "endFrame": 1015,
-    "part": 1
-  },
-  {
-    "text": "사흘입니다.",
-    "startFrame": 1015,
     "endFrame": 1039,
     "part": 1
   },
   {
-    "text": "그런데 이 사건, 정말",
+    "text": "그런데 이 사건, 정말 이상한 구석이 하나 있습니다.",
     "startFrame": 1039,
-    "endFrame": 1089,
-    "part": 1
-  },
-  {
-    "text": "이상한 구석이 하나",
-    "startFrame": 1089,
-    "endFrame": 1131,
-    "part": 1
-  },
-  {
-    "text": "있습니다.",
-    "startFrame": 1131,
     "endFrame": 1152,
     "part": 1
   },
   {
-    "text": "도둑이 없어요. 누가",
+    "text": "도둑이 없어요.",
     "startFrame": 1152,
-    "endFrame": 1199,
+    "endFrame": 1184,
     "part": 1
   },
   {
-    "text": "금고를 턴 것도,",
-    "startFrame": 1199,
-    "endFrame": 1236,
+    "text": "누가 금고를 턴 것도, 서버를 해킹한 것도 아닙니다.",
+    "startFrame": 1184,
+    "endFrame": 1301,
     "part": 1
   },
   {
-    "text": "서버를 해킹한 것도",
-    "startFrame": 1236,
-    "endFrame": 1279,
-    "part": 1
-  },
-  {
-    "text": "아닙니다. 시스템은",
-    "startFrame": 1279,
-    "endFrame": 1321,
-    "part": 1
-  },
-  {
-    "text": "설계도대로, 아주",
-    "startFrame": 1321,
-    "endFrame": 1359,
-    "part": 1
-  },
-  {
-    "text": "성실하게 작동했습니다.",
-    "startFrame": 1359,
+    "text": "시스템은 설계도대로, 아주 성실하게 작동했습니다.",
+    "startFrame": 1301,
     "endFrame": 1409,
     "part": 1
   },
   {
-    "text": "설계도대로 작동했는데",
+    "text": "설계도대로 작동했는데 50조가 사라졌습니다.",
     "startFrame": 1409,
-    "endFrame": 1454,
-    "part": 1
-  },
-  {
-    "text": "50조가 사라졌습니다.",
-    "startFrame": 1454,
     "endFrame": 1503,
     "part": 1
   },
   {
-    "text": "어떻게 이런 일이",
+    "text": "어떻게 이런 일이 가능할까요.",
     "startFrame": 1503,
-    "endFrame": 1540,
-    "part": 1
-  },
-  {
-    "text": "가능할까요.",
-    "startFrame": 1540,
     "endFrame": 1565,
     "part": 1
   },
   {
-    "text": "그걸 알려면 사흘",
+    "text": "그걸 알려면 사흘 전으로 돌아가야 합니다.",
     "startFrame": 1565,
-    "endFrame": 1601,
+    "endFrame": 1652,
     "part": 2
   },
   {
-    "text": "전으로 돌아가야",
-    "startFrame": 1601,
-    "endFrame": 1632,
+    "text": "아니, 조금 더 앞으로.",
+    "startFrame": 1652,
+    "endFrame": 1701,
     "part": 2
   },
   {
-    "text": "합니다. 아니, 조금",
-    "startFrame": 1632,
-    "endFrame": 1676,
-    "part": 2
-  },
-  {
-    "text": "더 앞으로. 사람들이",
-    "startFrame": 1676,
-    "endFrame": 1720,
-    "part": 2
-  },
-  {
-    "text": "이 코인에 돈을 넣기",
-    "startFrame": 1720,
-    "endFrame": 1764,
-    "part": 2
-  },
-  {
-    "text": "시작한 그때까지요.",
-    "startFrame": 1764,
+    "text": "사람들이 이 코인에 돈을 넣기 시작한 그때까지요.",
+    "startFrame": 1701,
     "endFrame": 1804,
     "part": 2
   },
   {
-    "text": "돈이 움직인 사건을",
+    "text": "돈이 움직인 사건을 추적합니다.",
     "startFrame": 1804,
-    "endFrame": 1844,
+    "endFrame": 1868,
     "part": 2
   },
   {
-    "text": "추적합니다. 돈의",
-    "startFrame": 1844,
-    "endFrame": 1880,
-    "part": 2
-  },
-  {
-    "text": "궤적, 1화",
-    "startFrame": 1880,
-    "endFrame": 1905,
-    "part": 2
-  },
-  {
-    "text": "시작합니다.",
-    "startFrame": 1905,
+    "text": "돈의 궤적, 1화 시작합니다.",
+    "startFrame": 1868,
     "endFrame": 1929,
     "part": 2
   },
   {
-    "text": "자, 사흘 전으로",
+    "text": "자, 사흘 전으로 돌아왔습니다.",
     "startFrame": 1929,
-    "endFrame": 1965,
+    "endFrame": 1992,
     "part": 2
   },
   {
-    "text": "돌아왔습니다. 이때만",
-    "startFrame": 1965,
-    "endFrame": 2008,
-    "part": 2
-  },
-  {
-    "text": "해도 이 코인은",
-    "startFrame": 2008,
-    "endFrame": 2040,
-    "part": 2
-  },
-  {
-    "text": "세상에서 제일 지루한",
-    "startFrame": 2040,
-    "endFrame": 2084,
-    "part": 2
-  },
-  {
-    "text": "코인이었습니다.",
-    "startFrame": 2084,
+    "text": "이때만 해도 이 코인은 세상에서 제일 지루한 코인이었습니다.",
+    "startFrame": 1992,
     "endFrame": 2116,
     "part": 2
   },
   {
-    "text": "보세요. 아무 일도 안",
+    "text": "보세요.",
     "startFrame": 2116,
-    "endFrame": 2164,
+    "endFrame": 2132,
     "part": 2
   },
   {
-    "text": "일어나죠. 이게",
-    "startFrame": 2164,
-    "endFrame": 2196,
+    "text": "아무 일도 안 일어나죠.",
+    "startFrame": 2132,
+    "endFrame": 2183,
     "part": 2
   },
   {
-    "text": "정상입니다. 아니,",
-    "startFrame": 2196,
-    "endFrame": 2236,
+    "text": "이게 정상입니다.",
+    "startFrame": 2183,
+    "endFrame": 2218,
     "part": 2
   },
   {
-    "text": "이게 이 코인의 존재",
-    "startFrame": 2236,
-    "endFrame": 2280,
-    "part": 2
-  },
-  {
-    "text": "이유였어요.",
-    "startFrame": 2280,
+    "text": "아니, 이게 이 코인의 존재 이유였어요.",
+    "startFrame": 2218,
     "endFrame": 2304,
     "part": 2
   },
   {
-    "text": "스테이블코인이라고",
+    "text": "스테이블코인이라고 합니다.",
     "startFrame": 2304,
-    "endFrame": 2340,
+    "endFrame": 2356,
     "part": 2
   },
   {
-    "text": "합니다. 우리말로 하면",
-    "startFrame": 2340,
-    "endFrame": 2388,
+    "text": "우리말로 하면 안정 코인 정도.",
+    "startFrame": 2356,
+    "endFrame": 2420,
     "part": 2
   },
   {
-    "text": "안정 코인 정도.",
-    "startFrame": 2388,
-    "endFrame": 2424,
-    "part": 2
-  },
-  {
-    "text": "비트코인처럼 하루에",
-    "startFrame": 2424,
-    "endFrame": 2464,
-    "part": 2
-  },
-  {
-    "text": "10%씩 널뛰는 게",
-    "startFrame": 2464,
-    "endFrame": 2505,
-    "part": 2
-  },
-  {
-    "text": "아니라, 계속 1달러에",
-    "startFrame": 2505,
-    "endFrame": 2553,
-    "part": 2
-  },
-  {
-    "text": "딱 붙어 있는",
-    "startFrame": 2553,
-    "endFrame": 2581,
-    "part": 2
-  },
-  {
-    "text": "코인이에요.",
-    "startFrame": 2581,
+    "text": "비트코인처럼 하루에 10%씩 널뛰는 게 아니라, 계속 1달러에 딱 붙어 있는 코인이에요.",
+    "startFrame": 2420,
     "endFrame": 2605,
     "part": 2
   },
   {
-    "text": "백화점 상품권",
+    "text": "백화점 상품권 생각하시면 됩니다.",
     "startFrame": 2605,
-    "endFrame": 2633,
+    "endFrame": 2673,
     "part": 2
   },
   {
-    "text": "생각하시면 됩니다.",
-    "startFrame": 2633,
-    "endFrame": 2674,
+    "text": "1만 원짜리 상품권이 왜 1만 원 값을 하죠?",
+    "startFrame": 2673,
+    "endFrame": 2768,
     "part": 2
   },
   {
-    "text": "1만 원짜리 상품권이",
-    "startFrame": 2674,
-    "endFrame": 2718,
-    "part": 2
-  },
-  {
-    "text": "왜 1만 원 값을",
-    "startFrame": 2718,
-    "endFrame": 2755,
-    "part": 2
-  },
-  {
-    "text": "하죠? 백화점 창고에",
-    "startFrame": 2755,
-    "endFrame": 2799,
-    "part": 2
-  },
-  {
-    "text": "진짜 물건이",
-    "startFrame": 2799,
-    "endFrame": 2823,
-    "part": 2
-  },
-  {
-    "text": "있으니까요.",
-    "startFrame": 2823,
+    "text": "백화점 창고에 진짜 물건이 있으니까요.",
+    "startFrame": 2768,
     "endFrame": 2848,
     "part": 2
   },
   {
-    "text": "대부분의 스테이블코인이",
+    "text": "대부분의 스테이블코인이 이 방식입니다.",
     "startFrame": 2848,
-    "endFrame": 2895,
+    "endFrame": 2925,
     "part": 3
   },
   {
-    "text": "이 방식입니다. 코인을",
-    "startFrame": 2895,
-    "endFrame": 2942,
+    "text": "코인을 하나 찍을 때마다 진짜 달러나 미국 국채를 금고에 넣어둡니다.",
+    "startFrame": 2925,
+    "endFrame": 3066,
     "part": 3
   },
   {
-    "text": "하나 찍을 때마다 진짜",
-    "startFrame": 2942,
-    "endFrame": 2989,
+    "text": "의심되면 언제든 와서 바꿔가라.",
+    "startFrame": 3066,
+    "endFrame": 3129,
     "part": 3
   },
   {
-    "text": "달러나 미국 국채를",
-    "startFrame": 2989,
-    "endFrame": 3028,
-    "part": 3
-  },
-  {
-    "text": "금고에 넣어둡니다.",
-    "startFrame": 3028,
-    "endFrame": 3067,
-    "part": 3
-  },
-  {
-    "text": "의심되면 언제든 와서",
-    "startFrame": 3067,
-    "endFrame": 3110,
-    "part": 3
-  },
-  {
-    "text": "바꿔가라. 담보가",
-    "startFrame": 3110,
-    "endFrame": 3146,
-    "part": 3
-  },
-  {
-    "text": "있다는 건 이런",
-    "startFrame": 3146,
-    "endFrame": 3177,
-    "part": 3
-  },
-  {
-    "text": "겁니다.",
-    "startFrame": 3177,
+    "text": "담보가 있다는 건 이런 겁니다.",
+    "startFrame": 3129,
     "endFrame": 3193,
     "part": 3
   },
   {
-    "text": "그런데 UST한테는 이",
+    "text": "그런데 UST한테는 이 금고가 없었습니다.",
     "startFrame": 3193,
-    "endFrame": 3238,
-    "part": 3
-  },
-  {
-    "text": "금고가 없었습니다.",
-    "startFrame": 3238,
     "endFrame": 3275,
     "part": 3
   },
   {
     "text": "대신 코드를 넣었어요.",
     "startFrame": 3275,
-    "endFrame": 3322,
+    "endFrame": 3319,
     "part": 3
   },
   {
-    "text": "가격이 1달러에서",
-    "startFrame": 3322,
-    "endFrame": 3358,
+    "text": "가격이 1달러에서 벗어나면 자동으로 되돌리는 장치를 짜 넣은 겁니다.",
+    "startFrame": 3319,
+    "endFrame": 3459,
     "part": 3
   },
   {
-    "text": "벗어나면 자동으로",
-    "startFrame": 3358,
-    "endFrame": 3393,
-    "part": 3
-  },
-  {
-    "text": "되돌리는 장치를 짜",
-    "startFrame": 3393,
-    "endFrame": 3432,
-    "part": 3
-  },
-  {
-    "text": "넣은 겁니다. 그래서",
-    "startFrame": 3432,
-    "endFrame": 3475,
-    "part": 3
-  },
-  {
-    "text": "이런 코인을 알고리즘",
-    "startFrame": 3475,
-    "endFrame": 3518,
-    "part": 3
-  },
-  {
-    "text": "스테이블코인이라고",
-    "startFrame": 3518,
-    "endFrame": 3554,
-    "part": 3
-  },
-  {
-    "text": "부릅니다.",
-    "startFrame": 3554,
+    "text": "그래서 이런 코인을 알고리즘 스테이블코인이라고 부릅니다.",
+    "startFrame": 3459,
     "endFrame": 3573,
     "part": 3
   },
   {
-    "text": "그 장치의 파트너가",
+    "text": "그 장치의 파트너가 루나입니다.",
     "startFrame": 3573,
-    "endFrame": 3613,
+    "endFrame": 3636,
     "part": 3
   },
   {
-    "text": "루나입니다. 아까",
-    "startFrame": 3613,
-    "endFrame": 3648,
+    "text": "아까 오프닝에서 절벽처럼 떨어지던 그 코인이요.",
+    "startFrame": 3636,
+    "endFrame": 3732,
     "part": 3
   },
   {
-    "text": "오프닝에서 절벽처럼",
-    "startFrame": 3648,
-    "endFrame": 3687,
-    "part": 3
-  },
-  {
-    "text": "떨어지던 그 코인이요.",
-    "startFrame": 3687,
-    "endFrame": 3734,
-    "part": 3
-  },
-  {
-    "text": "UST의 짝꿍이자,",
-    "startFrame": 3734,
-    "endFrame": 3773,
-    "part": 3
-  },
-  {
-    "text": "사실상 유일한",
-    "startFrame": 3773,
-    "endFrame": 3800,
-    "part": 3
-  },
-  {
-    "text": "안전장치였습니다.",
-    "startFrame": 3800,
+    "text": "UST의 짝꿍이자, 사실상 유일한 안전장치였습니다.",
+    "startFrame": 3732,
     "endFrame": 3836,
     "part": 3
   },
   {
     "text": "원리는 어렵지 않아요.",
     "startFrame": 3836,
-    "endFrame": 3882,
+    "endFrame": 3880,
     "part": 3
   },
   {
-    "text": "자판기 하나만 떠올려",
-    "startFrame": 3882,
-    "endFrame": 3924,
-    "part": 3
-  },
-  {
-    "text": "주세요.",
-    "startFrame": 3924,
+    "text": "자판기 하나만 떠올려 주세요.",
+    "startFrame": 3880,
     "endFrame": 3940,
     "part": 3
   },
   {
-    "text": "테라 시스템 한가운데",
+    "text": "테라 시스템 한가운데 자판기가 한 대 있다고 칩시다.",
     "startFrame": 3940,
-    "endFrame": 3982,
+    "endFrame": 4046,
     "part": 3
   },
   {
-    "text": "자판기가 한 대 있다고",
-    "startFrame": 3982,
-    "endFrame": 4028,
-    "part": 3
-  },
-  {
-    "text": "칩시다. 하는 일은 딱",
-    "startFrame": 4028,
-    "endFrame": 4074,
-    "part": 3
-  },
-  {
-    "text": "두 가지입니다.",
-    "startFrame": 4074,
+    "text": "하는 일은 딱 두 가지입니다.",
+    "startFrame": 4046,
     "endFrame": 4105,
     "part": 3
   },
   {
-    "text": "UST를 넣으면",
+    "text": "UST를 넣으면 1달러어치 루나가 나옵니다.",
     "startFrame": 4105,
-    "endFrame": 4138,
+    "endFrame": 4198,
     "part": 4
   },
   {
-    "text": "1달러어치 루나가",
-    "startFrame": 4138,
-    "endFrame": 4175,
-    "part": 4
-  },
-  {
-    "text": "나옵니다. 루나를",
-    "startFrame": 4175,
-    "endFrame": 4213,
-    "part": 4
-  },
-  {
-    "text": "넣으면 그만큼의",
-    "startFrame": 4213,
-    "endFrame": 4246,
-    "part": 4
-  },
-  {
-    "text": "UST가 나오고요.",
-    "startFrame": 4246,
+    "text": "루나를 넣으면 그만큼의 UST가 나오고요.",
+    "startFrame": 4198,
     "endFrame": 4287,
     "part": 4
   },
   {
-    "text": "누가 오든, 가격이",
+    "text": "누가 오든, 가격이 얼마든, 이 교환은 무조건 됩니다.",
     "startFrame": 4287,
-    "endFrame": 4328,
-    "part": 4
-  },
-  {
-    "text": "얼마든, 이 교환은",
-    "startFrame": 4328,
-    "endFrame": 4369,
-    "part": 4
-  },
-  {
-    "text": "무조건 됩니다.",
-    "startFrame": 4369,
     "endFrame": 4403,
     "part": 4
   },
   {
     "text": "금고에 달러는 없다.",
     "startFrame": 4403,
-    "endFrame": 4448,
+    "endFrame": 4446,
     "part": 4
   },
   {
-    "text": "대신 이 자판기는 절대",
-    "startFrame": 4448,
-    "endFrame": 4497,
+    "text": "대신 이 자판기는 절대 안 멈춘다.",
+    "startFrame": 4446,
+    "endFrame": 4521,
     "part": 4
   },
   {
-    "text": "안 멈춘다. UST가",
-    "startFrame": 4497,
-    "endFrame": 4542,
+    "text": "UST가 내건 약속은 이게 전부였습니다.",
+    "startFrame": 4521,
+    "endFrame": 4608,
     "part": 4
   },
   {
-    "text": "내건 약속은 이게",
-    "startFrame": 4542,
-    "endFrame": 4579,
-    "part": 4
-  },
-  {
-    "text": "전부였습니다. 이게",
-    "startFrame": 4579,
-    "endFrame": 4619,
-    "part": 4
-  },
-  {
-    "text": "다예요.",
-    "startFrame": 4619,
+    "text": "이게 다예요.",
+    "startFrame": 4608,
     "endFrame": 4636,
     "part": 4
   },
   {
-    "text": "앞으로 \"태운다\"는",
+    "text": "앞으로 \"태운다\"는 말이 계속 나옵니다.",
     "startFrame": 4636,
-    "endFrame": 4677,
-    "part": 4
-  },
-  {
-    "text": "말이 계속 나옵니다.",
-    "startFrame": 4677,
     "endFrame": 4722,
     "part": 4
   },
   {
     "text": "소각이라고도 하는데요.",
     "startFrame": 4722,
-    "endFrame": 4771,
+    "endFrame": 4769,
     "part": 4
   },
   {
-    "text": "이거 하나만 잘못",
-    "startFrame": 4771,
-    "endFrame": 4808,
+    "text": "이거 하나만 잘못 이해하면 뒤가 통째로 꼬입니다.",
+    "startFrame": 4769,
+    "endFrame": 4875,
     "part": 4
   },
   {
-    "text": "이해하면 뒤가 통째로",
-    "startFrame": 4808,
-    "endFrame": 4853,
-    "part": 4
-  },
-  {
-    "text": "꼬입니다. 잠깐만 짚고",
-    "startFrame": 4853,
-    "endFrame": 4902,
-    "part": 4
-  },
-  {
-    "text": "갈게요.",
-    "startFrame": 4902,
+    "text": "잠깐만 짚고 갈게요.",
+    "startFrame": 4875,
     "endFrame": 4918,
     "part": 4
   },
   {
-    "text": "판다는 건 내 코인이",
+    "text": "판다는 건 내 코인이 다른 사람 손으로 넘어가는 겁니다.",
     "startFrame": 4918,
-    "endFrame": 4963,
+    "endFrame": 5039,
     "part": 4
   },
   {
-    "text": "다른 사람 손으로",
-    "startFrame": 4963,
-    "endFrame": 5000,
+    "text": "주인만 바뀌죠.",
+    "startFrame": 5039,
+    "endFrame": 5070,
     "part": 4
   },
   {
-    "text": "넘어가는 겁니다.",
-    "startFrame": 5000,
-    "endFrame": 5037,
-    "part": 4
-  },
-  {
-    "text": "주인만 바뀌죠. 세상에",
-    "startFrame": 5037,
-    "endFrame": 5086,
-    "part": 4
-  },
-  {
-    "text": "있는 코인 개수는",
-    "startFrame": 5086,
-    "endFrame": 5123,
-    "part": 4
-  },
-  {
-    "text": "그대로입니다.",
-    "startFrame": 5123,
+    "text": "세상에 있는 코인 개수는 그대로입니다.",
+    "startFrame": 5070,
     "endFrame": 5151,
     "part": 4
   },
   {
-    "text": "태운다는 건 그 코인이",
+    "text": "태운다는 건 그 코인이 아예 없어지는 겁니다.",
     "startFrame": 5151,
-    "endFrame": 5201,
+    "endFrame": 5247,
     "part": 4
   },
   {
-    "text": "아예 없어지는 겁니다.",
-    "startFrame": 5201,
-    "endFrame": 5250,
-    "part": 4
-  },
-  {
-    "text": "아무도 열 수 없는",
-    "startFrame": 5250,
-    "endFrame": 5290,
-    "part": 4
-  },
-  {
-    "text": "주소로 보내버려서 총",
-    "startFrame": 5290,
-    "endFrame": 5335,
-    "part": 4
-  },
-  {
-    "text": "개수를 줄여버리는",
-    "startFrame": 5335,
-    "endFrame": 5372,
-    "part": 4
-  },
-  {
-    "text": "거예요.",
-    "startFrame": 5372,
+    "text": "아무도 열 수 없는 주소로 보내버려서 총 개수를 줄여버리는 거예요.",
+    "startFrame": 5247,
     "endFrame": 5389,
     "part": 4
   },
   {
-    "text": "한국은행이 헌 돈",
+    "text": "한국은행이 헌 돈 파쇄하는 장면 보신 적 있죠.",
     "startFrame": 5389,
-    "endFrame": 5425,
+    "endFrame": 5491,
     "part": 4
   },
   {
-    "text": "파쇄하는 장면 보신 적",
-    "startFrame": 5425,
-    "endFrame": 5473,
+    "text": "그겁니다.",
+    "startFrame": 5491,
+    "endFrame": 5510,
     "part": 4
   },
   {
-    "text": "있죠. 그겁니다. 파는",
-    "startFrame": 5473,
-    "endFrame": 5521,
-    "part": 4
-  },
-  {
-    "text": "게 아니라 없애는 것.",
-    "startFrame": 5521,
+    "text": "파는 게 아니라 없애는 것.",
+    "startFrame": 5510,
     "endFrame": 5569,
     "part": 4
   },
   {
-    "text": "그러니까 아까 그",
+    "text": "그러니까 아까 그 자판기는 사실 이렇게 생긴 물건입니다.",
     "startFrame": 5569,
-    "endFrame": 5606,
-    "part": 5
-  },
-  {
-    "text": "자판기는 사실 이렇게",
-    "startFrame": 5606,
-    "endFrame": 5650,
-    "part": 5
-  },
-  {
-    "text": "생긴 물건입니다.",
-    "startFrame": 5650,
     "endFrame": 5687,
     "part": 5
   },
   {
-    "text": "한쪽은 파쇄기, 한쪽은",
+    "text": "한쪽은 파쇄기, 한쪽은 인쇄기.",
     "startFrame": 5687,
-    "endFrame": 5735,
-    "part": 5
-  },
-  {
-    "text": "인쇄기.",
-    "startFrame": 5735,
     "endFrame": 5751,
     "part": 5
   },
   {
-    "text": "루나를 넣으면 그",
+    "text": "루나를 넣으면 그 루나는 태워지고, UST가 새로 찍혀 나옵니다.",
     "startFrame": 5751,
-    "endFrame": 5788,
+    "endFrame": 5887,
     "part": 5
   },
   {
-    "text": "루나는 태워지고,",
-    "startFrame": 5788,
-    "endFrame": 5824,
-    "part": 5
-  },
-  {
-    "text": "UST가 새로 찍혀",
-    "startFrame": 5824,
-    "endFrame": 5864,
-    "part": 5
-  },
-  {
-    "text": "나옵니다. UST를",
-    "startFrame": 5864,
-    "endFrame": 5905,
-    "part": 5
-  },
-  {
-    "text": "넣으면 그 UST가",
-    "startFrame": 5905,
-    "endFrame": 5945,
-    "part": 5
-  },
-  {
-    "text": "태워지고, 루나가 새로",
-    "startFrame": 5945,
-    "endFrame": 5994,
-    "part": 5
-  },
-  {
-    "text": "찍혀 나오고요.",
-    "startFrame": 5994,
+    "text": "UST를 넣으면 그 UST가 태워지고, 루나가 새로 찍혀 나오고요.",
+    "startFrame": 5887,
     "endFrame": 6026,
     "part": 5
   },
   {
-    "text": "한쪽이 줄면 다른 쪽이",
+    "text": "한쪽이 줄면 다른 쪽이 늘어납니다.",
     "startFrame": 6026,
-    "endFrame": 6075,
-    "part": 5
-  },
-  {
-    "text": "늘어납니다.",
-    "startFrame": 6075,
     "endFrame": 6099,
     "part": 5
   },
   {
-    "text": "시소처럼요. 이거",
+    "text": "시소처럼요.",
     "startFrame": 6099,
-    "endFrame": 6136,
+    "endFrame": 6122,
     "part": 5
   },
   {
-    "text": "하나만 붙잡고 계시면",
-    "startFrame": 6136,
-    "endFrame": 6181,
-    "part": 5
-  },
-  {
-    "text": "오늘 이야기는 끝까지",
-    "startFrame": 6181,
-    "endFrame": 6226,
-    "part": 5
-  },
-  {
-    "text": "다 따라오실 수",
-    "startFrame": 6226,
-    "endFrame": 6258,
-    "part": 5
-  },
-  {
-    "text": "있습니다.",
-    "startFrame": 6258,
+    "text": "이거 하나만 붙잡고 계시면 오늘 이야기는 끝까지 다 따라오실 수 있습니다.",
+    "startFrame": 6122,
     "endFrame": 6279,
     "part": 5
   },
   {
-    "text": "UST가 0.98달러로",
+    "text": "UST가 0.98달러로 싸졌다고 해보죠.",
     "startFrame": 6279,
-    "endFrame": 6325,
-    "part": 5
-  },
-  {
-    "text": "싸졌다고 해보죠.",
-    "startFrame": 6325,
     "endFrame": 6360,
     "part": 5
   },
   {
-    "text": "여기서 눈치 빠른",
+    "text": "여기서 눈치 빠른 사람이 등장합니다.",
     "startFrame": 6360,
-    "endFrame": 6397,
+    "endFrame": 6438,
     "part": 5
   },
   {
-    "text": "사람이 등장합니다.",
-    "startFrame": 6397,
-    "endFrame": 6437,
-    "part": 5
-  },
-  {
-    "text": "시장에서 0.98달러에",
-    "startFrame": 6437,
-    "endFrame": 6486,
-    "part": 5
-  },
-  {
-    "text": "UST를 삽니다.",
-    "startFrame": 6486,
+    "text": "시장에서 0.98달러에 UST를 삽니다.",
+    "startFrame": 6438,
     "endFrame": 6523,
     "part": 5
   },
   {
     "text": "자판기에 넣습니다.",
     "startFrame": 6523,
-    "endFrame": 6563,
+    "endFrame": 6562,
     "part": 5
   },
   {
-    "text": "자판기는 규칙대로",
-    "startFrame": 6563,
-    "endFrame": 6600,
+    "text": "자판기는 규칙대로 1달러어치 루나를 뱉어줍니다.",
+    "startFrame": 6562,
+    "endFrame": 6663,
     "part": 5
   },
   {
-    "text": "1달러어치 루나를",
-    "startFrame": 6600,
-    "endFrame": 6636,
-    "part": 5
-  },
-  {
-    "text": "뱉어줍니다. 그걸 팔면",
-    "startFrame": 6636,
-    "endFrame": 6685,
-    "part": 5
-  },
-  {
-    "text": "2센트가 남죠.",
-    "startFrame": 6685,
+    "text": "그걸 팔면 2센트가 남죠.",
+    "startFrame": 6663,
     "endFrame": 6717,
     "part": 5
   },
   {
-    "text": "이 사람 입장에선 그냥",
+    "text": "이 사람 입장에선 그냥 용돈벌이입니다.",
     "startFrame": 6717,
-    "endFrame": 6765,
+    "endFrame": 6796,
     "part": 5
   },
   {
-    "text": "용돈벌이입니다. 그런데",
-    "startFrame": 6765,
-    "endFrame": 6813,
-    "part": 5
-  },
-  {
-    "text": "결과적으로 시장에 있던",
-    "startFrame": 6813,
-    "endFrame": 6861,
-    "part": 5
-  },
-  {
-    "text": "UST를 태워 없앤",
-    "startFrame": 6861,
-    "endFrame": 6901,
-    "part": 5
-  },
-  {
-    "text": "셈이 됩니다.",
-    "startFrame": 6901,
+    "text": "그런데 결과적으로 시장에 있던 UST를 태워 없앤 셈이 됩니다.",
+    "startFrame": 6796,
     "endFrame": 6929,
     "part": 5
   },
   {
-    "text": "물건이 흔하면 값이",
+    "text": "물건이 흔하면 값이 떨어지고, 귀해지면 값이 오르잖아요.",
     "startFrame": 6929,
-    "endFrame": 6971,
+    "endFrame": 7050,
     "part": 6
   },
   {
-    "text": "떨어지고, 귀해지면",
-    "startFrame": 6971,
-    "endFrame": 7013,
-    "part": 6
-  },
-  {
-    "text": "값이 오르잖아요.",
-    "startFrame": 7013,
-    "endFrame": 7051,
-    "part": 6
-  },
-  {
-    "text": "시장에 UST가",
-    "startFrame": 7051,
-    "endFrame": 7085,
-    "part": 6
-  },
-  {
-    "text": "줄어드니까 값이",
-    "startFrame": 7085,
-    "endFrame": 7118,
-    "part": 6
-  },
-  {
-    "text": "올라가는 겁니다.",
-    "startFrame": 7118,
+    "text": "시장에 UST가 줄어드니까 값이 올라가는 겁니다.",
+    "startFrame": 7050,
     "endFrame": 7156,
     "part": 6
   },
   {
-    "text": "0.98에서 다시",
+    "text": "0.98에서 다시 1달러로요.",
     "startFrame": 7156,
-    "endFrame": 7194,
-    "part": 6
-  },
-  {
-    "text": "1달러로요.",
-    "startFrame": 7194,
     "endFrame": 7219,
     "part": 6
   },
   {
-    "text": "반대 상황도",
+    "text": "반대 상황도 똑같습니다.",
     "startFrame": 7219,
-    "endFrame": 7244,
+    "endFrame": 7271,
     "part": 6
   },
   {
-    "text": "똑같습니다. UST가",
-    "startFrame": 7244,
-    "endFrame": 7290,
+    "text": "UST가 1.02달러로 비싸지면 이번엔 루나를 자판기에 넣습니다.",
+    "startFrame": 7271,
+    "endFrame": 7414,
     "part": 6
   },
   {
-    "text": "1.02달러로 비싸지면",
-    "startFrame": 7290,
-    "endFrame": 7341,
+    "text": "루나가 태워지고 UST가 나오죠.",
+    "startFrame": 7414,
+    "endFrame": 7485,
     "part": 6
   },
   {
-    "text": "이번엔 루나를 자판기에",
-    "startFrame": 7341,
-    "endFrame": 7391,
+    "text": "그걸 1.02에 팔면 또 2센트.",
+    "startFrame": 7485,
+    "endFrame": 7556,
     "part": 6
   },
   {
-    "text": "넣습니다. 루나가",
-    "startFrame": 7391,
-    "endFrame": 7429,
+    "text": "이번엔 시장에 UST가 늘어났으니, 흔해진 만큼 값이 내려옵니다.",
+    "startFrame": 7556,
+    "endFrame": 7699,
     "part": 6
   },
   {
-    "text": "태워지고 UST가",
-    "startFrame": 7429,
-    "endFrame": 7467,
-    "part": 6
-  },
-  {
-    "text": "나오죠. 그걸",
-    "startFrame": 7467,
-    "endFrame": 7496,
-    "part": 6
-  },
-  {
-    "text": "1.02에 팔면 또",
-    "startFrame": 7496,
-    "endFrame": 7538,
-    "part": 6
-  },
-  {
-    "text": "2센트. 이번엔 시장에",
-    "startFrame": 7538,
-    "endFrame": 7588,
-    "part": 6
-  },
-  {
-    "text": "UST가 늘어났으니,",
-    "startFrame": 7588,
-    "endFrame": 7634,
-    "part": 6
-  },
-  {
-    "text": "흔해진 만큼 값이",
-    "startFrame": 7634,
-    "endFrame": 7672,
-    "part": 6
-  },
-  {
-    "text": "내려옵니다. 다시",
-    "startFrame": 7672,
-    "endFrame": 7710,
-    "part": 6
-  },
-  {
-    "text": "1달러로요.",
-    "startFrame": 7710,
+    "text": "다시 1달러로요.",
+    "startFrame": 7699,
     "endFrame": 7735,
     "part": 6
   },
   {
     "text": "솔직히 좀 기발하죠?",
     "startFrame": 7735,
-    "endFrame": 7781,
+    "endFrame": 7779,
     "part": 6
   },
   {
-    "text": "누가 지켜보고 있을",
-    "startFrame": 7781,
-    "endFrame": 7822,
+    "text": "누가 지켜보고 있을 필요도 없어요.",
+    "startFrame": 7779,
+    "endFrame": 7855,
     "part": 6
   },
   {
-    "text": "필요도 없어요. 돈",
-    "startFrame": 7822,
-    "endFrame": 7863,
+    "text": "돈 벌고 싶은 사람들이 알아서 가격을 1달러에 붙여주니까요.",
+    "startFrame": 7855,
+    "endFrame": 7987,
     "part": 6
   },
   {
-    "text": "벌고 싶은 사람들이",
-    "startFrame": 7863,
-    "endFrame": 7905,
-    "part": 6
-  },
-  {
-    "text": "알아서 가격을 1달러에",
-    "startFrame": 7905,
-    "endFrame": 7955,
-    "part": 6
-  },
-  {
-    "text": "붙여주니까요. 그리고",
-    "startFrame": 7955,
-    "endFrame": 8000,
-    "part": 6
-  },
-  {
-    "text": "실제로 잘 굴러갔습니다.",
-    "startFrame": 8000,
-    "endFrame": 8054,
+    "text": "그리고 실제로 잘 굴러갔습니다.",
+    "startFrame": 7987,
+    "endFrame": 8055,
     "part": 6
   },
   {
     "text": "한동안은요.",
-    "startFrame": 8054,
+    "startFrame": 8055,
     "endFrame": 8079,
     "part": 6
   },
   {
-    "text": "이 구조를 만들고 끌고",
+    "text": "이 구조를 만들고 끌고 간 사람이 권도형이었습니다.",
     "startFrame": 8079,
-    "endFrame": 8128,
-    "part": 6
-  },
-  {
-    "text": "간 사람이 권도형이었습니다.",
-    "startFrame": 8128,
     "endFrame": 8189,
     "part": 6
   },
   {
-    "text": "새로운 금융 시스템을",
+    "text": "새로운 금융 시스템을 만들고 있다고 했죠.",
     "startFrame": 8189,
-    "endFrame": 8235,
+    "endFrame": 8279,
     "part": 6
   },
   {
-    "text": "만들고 있다고 했죠.",
-    "startFrame": 8235,
-    "endFrame": 8280,
-    "part": 6
-  },
-  {
-    "text": "시장도 한동안은 그",
-    "startFrame": 8280,
-    "endFrame": 8321,
-    "part": 6
-  },
-  {
-    "text": "자신감을 믿었고요.",
-    "startFrame": 8321,
+    "text": "시장도 한동안은 그 자신감을 믿었고요.",
+    "startFrame": 8279,
     "endFrame": 8362,
     "part": 6
   },
   {
-    "text": "여기까지가 밖에서",
+    "text": "여기까지가 밖에서 보이던 그림입니다.",
     "startFrame": 8468,
-    "endFrame": 8504,
+    "endFrame": 8542,
     "part": 7
   },
   {
-    "text": "보이던 그림입니다.",
-    "startFrame": 8504,
-    "endFrame": 8543,
-    "part": 7
-  },
-  {
-    "text": "근데 장부를 한 줄씩",
-    "startFrame": 8543,
-    "endFrame": 8586,
-    "part": 7
-  },
-  {
-    "text": "열어보면, 좀 다른 게",
-    "startFrame": 8586,
-    "endFrame": 8633,
-    "part": 7
-  },
-  {
-    "text": "보입니다.",
-    "startFrame": 8633,
+    "text": "근데 장부를 한 줄씩 열어보면, 좀 다른 게 보입니다.",
+    "startFrame": 8542,
     "endFrame": 8653,
     "part": 7
   },
   {
-    "text": "아까 그 자판기",
+    "text": "아까 그 자판기 안내문, 한 번만 더 읽어보겠습니다.",
     "startFrame": 8653,
-    "endFrame": 8684,
+    "endFrame": 8760,
     "part": 7
   },
   {
-    "text": "안내문, 한 번만 더",
-    "startFrame": 8684,
-    "endFrame": 8727,
-    "part": 7
-  },
-  {
-    "text": "읽어보겠습니다.",
-    "startFrame": 8727,
-    "endFrame": 8759,
-    "part": 7
-  },
-  {
-    "text": "\"UST 1개 =",
-    "startFrame": 8759,
-    "endFrame": 8794,
-    "part": 7
-  },
-  {
-    "text": "1달러어치 루나.\"",
-    "startFrame": 8794,
+    "text": "\"UST 1개 = 1달러어치 루나.\"",
+    "startFrame": 8760,
     "endFrame": 8834,
     "part": 7
   },
   {
     "text": "질문 하나 드릴게요.",
     "startFrame": 8834,
-    "endFrame": 8877,
+    "endFrame": 8874,
     "part": 7
   },
   {
-    "text": "그 자판기 안에 달러가",
-    "startFrame": 8877,
-    "endFrame": 8923,
-    "part": 7
-  },
-  {
-    "text": "한 장이라도 들어",
-    "startFrame": 8923,
-    "endFrame": 8959,
-    "part": 7
-  },
-  {
-    "text": "있을까요?",
-    "startFrame": 8959,
+    "text": "그 자판기 안에 달러가 한 장이라도 들어 있을까요?",
+    "startFrame": 8874,
     "endFrame": 8978,
     "part": 7
   },
   {
     "text": "한 장도 없습니다.",
     "startFrame": 8978,
-    "endFrame": 9017,
+    "endFrame": 9016,
     "part": 7
   },
   {
-    "text": "자판기가 내주는 건",
-    "startFrame": 9017,
-    "endFrame": 9056,
+    "text": "자판기가 내주는 건 처음부터 끝까지 루나뿐이었어요.",
+    "startFrame": 9016,
+    "endFrame": 9121,
     "part": 7
   },
   {
-    "text": "처음부터 끝까지",
-    "startFrame": 9056,
-    "endFrame": 9088,
+    "text": "루나가 1달러 값을 한다.",
+    "startFrame": 9121,
+    "endFrame": 9174,
     "part": 7
   },
   {
-    "text": "루나뿐이었어요. 루나가",
-    "startFrame": 9088,
-    "endFrame": 9135,
-    "part": 7
-  },
-  {
-    "text": "1달러 값을 한다. 딱",
-    "startFrame": 9135,
-    "endFrame": 9182,
-    "part": 7
-  },
-  {
-    "text": "이 전제 하나로",
-    "startFrame": 9182,
-    "endFrame": 9213,
-    "part": 7
-  },
-  {
-    "text": "돌아가던 기계였습니다.",
-    "startFrame": 9213,
+    "text": "딱 이 전제 하나로 돌아가던 기계였습니다.",
+    "startFrame": 9174,
     "endFrame": 9260,
     "part": 7
   },
   {
-    "text": "그러니까 이 시스템의",
+    "text": "그러니까 이 시스템의 진짜 담보는 달러가 아니라 루나 가격이었습니다.",
     "startFrame": 9260,
-    "endFrame": 9304,
+    "endFrame": 9401,
     "part": 7
   },
   {
-    "text": "진짜 담보는 달러가",
-    "startFrame": 9304,
-    "endFrame": 9343,
+    "text": "그럼 루나 가격은 뭐가 받쳐주고 있었을까요.",
+    "startFrame": 9401,
+    "endFrame": 9490,
     "part": 7
   },
   {
-    "text": "아니라 루나",
-    "startFrame": 9343,
-    "endFrame": 9367,
-    "part": 7
-  },
-  {
-    "text": "가격이었습니다. 그럼",
-    "startFrame": 9367,
-    "endFrame": 9410,
-    "part": 7
-  },
-  {
-    "text": "루나 가격은 뭐가",
-    "startFrame": 9410,
-    "endFrame": 9446,
-    "part": 7
-  },
-  {
-    "text": "받쳐주고 있었을까요.",
-    "startFrame": 9446,
-    "endFrame": 9489,
-    "part": 7
-  },
-  {
-    "text": "테라가 잘될 거라는",
-    "startFrame": 9489,
-    "endFrame": 9529,
-    "part": 7
-  },
-  {
-    "text": "믿음이었습니다.",
-    "startFrame": 9529,
+    "text": "테라가 잘될 거라는 믿음이었습니다.",
+    "startFrame": 9490,
     "endFrame": 9560,
     "part": 7
   },
   {
-    "text": "UST를 받치는 건",
+    "text": "UST를 받치는 건 루나, 루나를 받치는 건 믿음.",
     "startFrame": 9560,
-    "endFrame": 9600,
+    "endFrame": 9663,
     "part": 7
   },
   {
-    "text": "루나, 루나를 받치는",
-    "startFrame": 9600,
-    "endFrame": 9643,
-    "part": 7
-  },
-  {
-    "text": "건 믿음. 믿음이",
-    "startFrame": 9643,
-    "endFrame": 9679,
-    "part": 7
-  },
-  {
-    "text": "흔들리면 담보도 같이",
-    "startFrame": 9679,
-    "endFrame": 9722,
-    "part": 7
-  },
-  {
-    "text": "흔들리는 구조였던",
-    "startFrame": 9722,
-    "endFrame": 9758,
-    "part": 7
-  },
-  {
-    "text": "거죠.",
-    "startFrame": 9758,
+    "text": "믿음이 흔들리면 담보도 같이 흔들리는 구조였던 거죠.",
+    "startFrame": 9663,
     "endFrame": 9770,
     "part": 7
   },
   {
-    "text": "이 구조가 나중에 어떤",
+    "text": "이 구조가 나중에 어떤 일을 벌이는지, 조금만 기다려 주세요.",
     "startFrame": 9770,
-    "endFrame": 9816,
-    "part": 7
-  },
-  {
-    "text": "일을 벌이는지, 조금만",
-    "startFrame": 9816,
-    "endFrame": 9862,
-    "part": 7
-  },
-  {
-    "text": "기다려 주세요.",
-    "startFrame": 9862,
     "endFrame": 9893,
     "part": 7
   },
   {
-    "text": "근데 여기서 이상한 게",
+    "text": "근데 여기서 이상한 게 하나 있습니다.",
     "startFrame": 9893,
-    "endFrame": 9944,
+    "endFrame": 9978,
     "part": 8
   },
   {
-    "text": "하나 있습니다.",
-    "startFrame": 9944,
-    "endFrame": 9979,
+    "text": "사람들이 이 코인을 대체 왜 샀을까요?",
+    "startFrame": 9978,
+    "endFrame": 10063,
     "part": 8
   },
   {
-    "text": "사람들이 이 코인을",
-    "startFrame": 9979,
-    "endFrame": 10022,
+    "text": "가격이 오르질 않는데요.",
+    "startFrame": 10063,
+    "endFrame": 10116,
     "part": 8
   },
   {
-    "text": "대체 왜 샀을까요?",
-    "startFrame": 10022,
-    "endFrame": 10065,
-    "part": 8
-  },
-  {
-    "text": "가격이 오르질",
-    "startFrame": 10065,
-    "endFrame": 10095,
-    "part": 8
-  },
-  {
-    "text": "않는데요. 1달러에",
-    "startFrame": 10095,
-    "endFrame": 10138,
-    "part": 8
-  },
-  {
-    "text": "사면 영원히",
-    "startFrame": 10138,
-    "endFrame": 10163,
-    "part": 8
-  },
-  {
-    "text": "1달러입니다.",
-    "startFrame": 10163,
+    "text": "1달러에 사면 영원히 1달러입니다.",
+    "startFrame": 10116,
     "endFrame": 10193,
     "part": 8
   },
   {
-    "text": "앵커 프로토콜이라는 게",
+    "text": "앵커 프로토콜이라는 게 있었습니다.",
     "startFrame": 10193,
-    "endFrame": 10244,
+    "endFrame": 10270,
     "part": 8
   },
   {
-    "text": "있었습니다. 이름은",
-    "startFrame": 10244,
-    "endFrame": 10286,
+    "text": "이름은 거창한데 정체는 별거 없어요.",
+    "startFrame": 10270,
+    "endFrame": 10352,
     "part": 8
   },
   {
-    "text": "거창한데 정체는 별거",
-    "startFrame": 10286,
-    "endFrame": 10333,
-    "part": 8
-  },
-  {
-    "text": "없어요. 코인 저축",
-    "startFrame": 10333,
-    "endFrame": 10375,
-    "part": 8
-  },
-  {
-    "text": "앱입니다.",
-    "startFrame": 10375,
+    "text": "코인 저축 앱입니다.",
+    "startFrame": 10352,
     "endFrame": 10396,
     "part": 8
   },
   {
-    "text": "은행 앱 쓰시죠. 돈",
+    "text": "은행 앱 쓰시죠.",
     "startFrame": 10396,
-    "endFrame": 10443,
+    "endFrame": 10433,
     "part": 8
   },
   {
-    "text": "넣어두면 이자 붙는",
-    "startFrame": 10443,
-    "endFrame": 10486,
+    "text": "돈 넣어두면 이자 붙는 그거요.",
+    "startFrame": 10433,
+    "endFrame": 10502,
     "part": 8
   },
   {
-    "text": "그거요. 앵커는 그걸",
-    "startFrame": 10486,
-    "endFrame": 10533,
+    "text": "앵커는 그걸 코인으로 합니다.",
+    "startFrame": 10502,
+    "endFrame": 10566,
     "part": 8
   },
   {
-    "text": "코인으로 합니다.",
-    "startFrame": 10533,
-    "endFrame": 10571,
+    "text": "UST를 넣어두면 이자가 붙어요.",
+    "startFrame": 10566,
+    "endFrame": 10639,
     "part": 8
   },
   {
-    "text": "UST를 넣어두면",
-    "startFrame": 10571,
-    "endFrame": 10609,
-    "part": 8
-  },
-  {
-    "text": "이자가 붙어요. 다른",
-    "startFrame": 10609,
-    "endFrame": 10656,
-    "part": 8
-  },
-  {
-    "text": "점이라면 은행은 직원과",
-    "startFrame": 10656,
-    "endFrame": 10707,
-    "part": 8
-  },
-  {
-    "text": "지점이 굴리는데,",
-    "startFrame": 10707,
-    "endFrame": 10745,
-    "part": 8
-  },
-  {
-    "text": "앵커는 코드가 굴린다는",
-    "startFrame": 10745,
-    "endFrame": 10796,
-    "part": 8
-  },
-  {
-    "text": "것 정도.",
-    "startFrame": 10796,
+    "text": "다른 점이라면 은행은 직원과 지점이 굴리는데, 앵커는 코드가 굴린다는 것 정도.",
+    "startFrame": 10639,
     "endFrame": 10818,
     "part": 8
   },
   {
-    "text": "그리고 이 앱이",
+    "text": "그리고 이 앱이 걸어놓은 이자율이 연 19.5%였습니다.",
     "startFrame": 10818,
-    "endFrame": 10851,
-    "part": 8
-  },
-  {
-    "text": "걸어놓은 이자율이 연",
-    "startFrame": 10851,
-    "endFrame": 10897,
-    "part": 8
-  },
-  {
-    "text": "19.5%였습니다.",
-    "startFrame": 10897,
     "endFrame": 10939,
     "part": 8
   },
   {
-    "text": "그때 은행 예금이 잘",
+    "text": "그때 은행 예금이 잘 받아야 2~3%였습니다.",
     "startFrame": 10939,
-    "endFrame": 10986,
+    "endFrame": 11040,
     "part": 8
   },
   {
-    "text": "받아야 2~3%였습니다.",
-    "startFrame": 10986,
-    "endFrame": 11041,
+    "text": "여기는 거의 20%예요.",
+    "startFrame": 11040,
+    "endFrame": 11093,
     "part": 8
   },
   {
-    "text": "여기는 거의",
-    "startFrame": 11041,
-    "endFrame": 11066,
-    "part": 8
-  },
-  {
-    "text": "20%예요. 은행의",
-    "startFrame": 11066,
-    "endFrame": 11109,
-    "part": 8
-  },
-  {
-    "text": "일곱 배.",
-    "startFrame": 11109,
+    "text": "은행의 일곱 배.",
+    "startFrame": 11093,
     "endFrame": 11130,
     "part": 8
   },
   {
-    "text": "여기서 하나 짚고 갈",
+    "text": "여기서 하나 짚고 갈 게 있습니다.",
     "startFrame": 11130,
-    "endFrame": 11175,
+    "endFrame": 11205,
     "part": 9
   },
   {
-    "text": "게 있습니다. UST를",
-    "startFrame": 11175,
-    "endFrame": 11225,
-    "part": 9
-  },
-  {
-    "text": "사기만 해서는 이자가",
-    "startFrame": 11225,
-    "endFrame": 11270,
-    "part": 9
-  },
-  {
-    "text": "한 푼도 안 붙습니다.",
-    "startFrame": 11270,
+    "text": "UST를 사기만 해서는 이자가 한 푼도 안 붙습니다.",
+    "startFrame": 11205,
     "endFrame": 11320,
     "part": 9
   },
   {
     "text": "앵커에 맡겨야 붙어요.",
     "startFrame": 11320,
-    "endFrame": 11369,
+    "endFrame": 11367,
     "part": 9
   },
   {
-    "text": "그래서 사람들 행동은",
-    "startFrame": 11369,
-    "endFrame": 11414,
+    "text": "그래서 사람들 행동은 늘 똑같았습니다.",
+    "startFrame": 11367,
+    "endFrame": 11450,
     "part": 9
   },
   {
-    "text": "늘 똑같았습니다.",
-    "startFrame": 11414,
-    "endFrame": 11451,
-    "part": 9
-  },
-  {
-    "text": "사자마자 바로 앵커로",
-    "startFrame": 11451,
-    "endFrame": 11497,
-    "part": 9
-  },
-  {
-    "text": "직행.",
-    "startFrame": 11497,
+    "text": "사자마자 바로 앵커로 직행.",
+    "startFrame": 11450,
     "endFrame": 11509,
     "part": 9
   },
   {
-    "text": "사실상 이게 UST를",
+    "text": "사실상 이게 UST를 살 유일한 이유였습니다.",
     "startFrame": 11509,
-    "endFrame": 11554,
-    "part": 9
-  },
-  {
-    "text": "살 유일한 이유였습니다.",
-    "startFrame": 11554,
     "endFrame": 11607,
     "part": 9
   },
   {
-    "text": "오르지도 않는 코인을",
+    "text": "오르지도 않는 코인을 누가 왜 사겠어요.",
     "startFrame": 11607,
-    "endFrame": 11652,
+    "endFrame": 11693,
     "part": 9
   },
   {
-    "text": "누가 왜 사겠어요. 그",
-    "startFrame": 11652,
-    "endFrame": 11701,
-    "part": 9
-  },
-  {
-    "text": "19.5% 하나 보고",
-    "startFrame": 11701,
-    "endFrame": 11746,
-    "part": 9
-  },
-  {
-    "text": "산 겁니다.",
-    "startFrame": 11746,
+    "text": "그 19.5% 하나 보고 산 겁니다.",
+    "startFrame": 11693,
     "endFrame": 11771,
     "part": 9
   },
   {
-    "text": "UST가 잘 팔리니 더",
+    "text": "UST가 잘 팔리니 더 발행되고, 테라 생태계는 계속 커졌습니다.",
     "startFrame": 11771,
-    "endFrame": 11820,
-    "part": 9
-  },
-  {
-    "text": "발행되고, 테라",
-    "startFrame": 11820,
-    "endFrame": 11853,
-    "part": 9
-  },
-  {
-    "text": "생태계는 계속",
-    "startFrame": 11853,
-    "endFrame": 11882,
-    "part": 9
-  },
-  {
-    "text": "커졌습니다.",
-    "startFrame": 11882,
     "endFrame": 11907,
     "part": 9
   },
   {
-    "text": "여기서 질문 하나",
+    "text": "여기서 질문 하나 던지고 갈게요.",
     "startFrame": 11907,
-    "endFrame": 11944,
+    "endFrame": 11977,
     "part": 9
   },
   {
-    "text": "던지고 갈게요. 그",
-    "startFrame": 11944,
-    "endFrame": 11985,
-    "part": 9
-  },
-  {
-    "text": "이자, 대체 누가 주는",
-    "startFrame": 11985,
-    "endFrame": 12035,
-    "part": 9
-  },
-  {
-    "text": "겁니까?",
-    "startFrame": 12035,
+    "text": "그 이자, 대체 누가 주는 겁니까?",
+    "startFrame": 11977,
     "endFrame": 12051,
     "part": 9
   },
   {
-    "text": "원래 은행은 이렇게",
+    "text": "원래 은행은 이렇게 굴러갑니다.",
     "startFrame": 12051,
-    "endFrame": 12093,
+    "endFrame": 12118,
     "part": 9
   },
   {
-    "text": "굴러갑니다. 누가 돈을",
-    "startFrame": 12093,
-    "endFrame": 12142,
+    "text": "누가 돈을 빌려 가서 이자를 냅니다.",
+    "startFrame": 12118,
+    "endFrame": 12197,
     "part": 9
   },
   {
-    "text": "빌려 가서 이자를",
-    "startFrame": 12142,
-    "endFrame": 12180,
+    "text": "그 돈으로 예금자한테 이자를 주죠.",
+    "startFrame": 12197,
+    "endFrame": 12272,
     "part": 9
   },
   {
-    "text": "냅니다. 그 돈으로",
-    "startFrame": 12180,
-    "endFrame": 12221,
-    "part": 9
-  },
-  {
-    "text": "예금자한테 이자를",
-    "startFrame": 12221,
-    "endFrame": 12258,
-    "part": 9
-  },
-  {
-    "text": "주죠. 이자를",
-    "startFrame": 12258,
-    "endFrame": 12287,
-    "part": 9
-  },
-  {
-    "text": "만들어내는 사람은 빌려",
-    "startFrame": 12287,
-    "endFrame": 12337,
-    "part": 9
-  },
-  {
-    "text": "간 쪽입니다.",
-    "startFrame": 12337,
+    "text": "이자를 만들어내는 사람은 빌려 간 쪽입니다.",
+    "startFrame": 12272,
     "endFrame": 12366,
     "part": 9
   },
   {
-    "text": "그런데 앵커는 이",
+    "text": "그런데 앵커는 이 균형이 완전히 깨져 있었습니다.",
     "startFrame": 12366,
-    "endFrame": 12402,
+    "endFrame": 12469,
     "part": 10
   },
   {
-    "text": "균형이 완전히 깨져",
-    "startFrame": 12402,
-    "endFrame": 12443,
+    "text": "맡기는 돈은 산더미인데 빌려 가는 사람은 훨씬 적었어요.",
+    "startFrame": 12469,
+    "endFrame": 12587,
     "part": 10
   },
   {
-    "text": "있었습니다. 맡기는",
-    "startFrame": 12443,
-    "endFrame": 12483,
-    "part": 10
-  },
-  {
-    "text": "돈은 산더미인데 빌려",
-    "startFrame": 12483,
-    "endFrame": 12527,
-    "part": 10
-  },
-  {
-    "text": "가는 사람은 훨씬",
-    "startFrame": 12527,
-    "endFrame": 12564,
-    "part": 10
-  },
-  {
-    "text": "적었어요. 들어오는",
-    "startFrame": 12564,
-    "endFrame": 12604,
-    "part": 10
-  },
-  {
-    "text": "이자보다 나가는 이자가",
-    "startFrame": 12604,
-    "endFrame": 12653,
-    "part": 10
-  },
-  {
-    "text": "큰 상태였던 겁니다.",
-    "startFrame": 12653,
+    "text": "들어오는 이자보다 나가는 이자가 큰 상태였던 겁니다.",
+    "startFrame": 12587,
     "endFrame": 12697,
     "part": 10
   },
   {
-    "text": "그럼 모자란 만큼은",
+    "text": "그럼 모자란 만큼은 어디서 나왔을까요.",
     "startFrame": 12697,
-    "endFrame": 12736,
-    "part": 10
-  },
-  {
-    "text": "어디서 나왔을까요.",
-    "startFrame": 12736,
     "endFrame": 12775,
     "part": 10
   },
   {
-    "text": "테라를 만든 회사와",
+    "text": "테라를 만든 회사와 재단이 자기 돈으로 채워 넣었습니다.",
     "startFrame": 12775,
-    "endFrame": 12815,
+    "endFrame": 12893,
     "part": 10
   },
   {
-    "text": "재단이 자기 돈으로",
-    "startFrame": 12815,
-    "endFrame": 12856,
+    "text": "이자 지급용 곳간을 따로 만들어두고 모자라면 거기서 꺼내 쓴 거죠.",
+    "startFrame": 12893,
+    "endFrame": 13034,
     "part": 10
   },
   {
-    "text": "채워 넣었습니다. 이자",
-    "startFrame": 12856,
-    "endFrame": 12904,
-    "part": 10
-  },
-  {
-    "text": "지급용 곳간을 따로",
-    "startFrame": 12904,
-    "endFrame": 12945,
-    "part": 10
-  },
-  {
-    "text": "만들어두고 모자라면",
-    "startFrame": 12945,
-    "endFrame": 12985,
-    "part": 10
-  },
-  {
-    "text": "거기서 꺼내 쓴 거죠.",
-    "startFrame": 12985,
-    "endFrame": 13033,
-    "part": 10
-  },
-  {
-    "text": "바닥이 보이면 다시",
-    "startFrame": 13033,
-    "endFrame": 13074,
-    "part": 10
-  },
-  {
-    "text": "부어 넣고요.",
-    "startFrame": 13074,
+    "text": "바닥이 보이면 다시 부어 넣고요.",
+    "startFrame": 13034,
     "endFrame": 13102,
     "part": 10
   },
   {
-    "text": "혹시 나라에서 주는",
+    "text": "혹시 나라에서 주는 지원금 같은 걸 떠올리셨다면, 그런 건 아닙니다.",
     "startFrame": 13102,
-    "endFrame": 13143,
+    "endFrame": 13248,
     "part": 10
   },
   {
-    "text": "지원금 같은 걸",
-    "startFrame": 13143,
-    "endFrame": 13175,
-    "part": 10
-  },
-  {
-    "text": "떠올리셨다면, 그런 건",
-    "startFrame": 13175,
-    "endFrame": 13224,
-    "part": 10
-  },
-  {
-    "text": "아닙니다. 정부랑은",
-    "startFrame": 13224,
-    "endFrame": 13265,
-    "part": 10
-  },
-  {
-    "text": "아무 상관 없어요.",
-    "startFrame": 13265,
+    "text": "정부랑은 아무 상관 없어요.",
+    "startFrame": 13248,
     "endFrame": 13305,
     "part": 10
   },
   {
-    "text": "순수하게 회사",
+    "text": "순수하게 회사 돈이었습니다.",
     "startFrame": 13305,
-    "endFrame": 13334,
-    "part": 10
-  },
-  {
-    "text": "돈이었습니다.",
-    "startFrame": 13334,
     "endFrame": 13362,
     "part": 10
   },
   {
-    "text": "새로 문 연 카페가",
+    "text": "새로 문 연 카페가 손님 모으려고 커피 공짜로 뿌리는 거 있잖아요.",
     "startFrame": 13362,
-    "endFrame": 13403,
+    "endFrame": 13504,
     "part": 10
   },
   {
-    "text": "손님 모으려고 커피",
-    "startFrame": 13403,
-    "endFrame": 13444,
+    "text": "그거랑 똑같습니다.",
+    "startFrame": 13504,
+    "endFrame": 13542,
     "part": 10
   },
   {
-    "text": "공짜로 뿌리는 거",
-    "startFrame": 13444,
-    "endFrame": 13481,
-    "part": 10
-  },
-  {
-    "text": "있잖아요. 그거랑",
-    "startFrame": 13481,
-    "endFrame": 13518,
-    "part": 10
-  },
-  {
-    "text": "똑같습니다. 그",
-    "startFrame": 13518,
-    "endFrame": 13550,
-    "part": 10
-  },
-  {
-    "text": "커피값은 손님이 아니라",
-    "startFrame": 13550,
-    "endFrame": 13599,
-    "part": 10
-  },
-  {
-    "text": "사장님 주머니에서",
-    "startFrame": 13599,
-    "endFrame": 13636,
-    "part": 10
-  },
-  {
-    "text": "나가죠.",
-    "startFrame": 13636,
+    "text": "그 커피값은 손님이 아니라 사장님 주머니에서 나가죠.",
+    "startFrame": 13542,
     "endFrame": 13652,
     "part": 10
   },
   {
     "text": "문제는 규모였습니다.",
     "startFrame": 13652,
-    "endFrame": 13696,
+    "endFrame": 13693,
     "part": 11
   },
   {
-    "text": "이 사건이 끝나고",
-    "startFrame": 13696,
-    "endFrame": 13731,
-    "part": 11
-  },
-  {
-    "text": "나서, 미국",
-    "startFrame": 13731,
-    "endFrame": 13755,
-    "part": 11
-  },
-  {
-    "text": "경제학자들이 붕괴",
-    "startFrame": 13755,
-    "endFrame": 13791,
-    "part": 11
-  },
-  {
-    "text": "과정을 통째로 뜯어본",
-    "startFrame": 13791,
-    "endFrame": 13834,
-    "part": 11
-  },
-  {
-    "text": "논문을 냈습니다.",
-    "startFrame": 13834,
+    "text": "이 사건이 끝나고 나서, 미국 경제학자들이 붕괴 과정을 통째로 뜯어본 논문을 냈습니다.",
+    "startFrame": 13693,
     "endFrame": 13869,
     "part": 11
   },
   {
-    "text": "블록체인에 남은 거래",
+    "text": "블록체인에 남은 거래 기록을 하나하나 되짚은 분석인데, 오늘 나오는 숫자들은 대부분 여기서 가져온 겁니다.",
     "startFrame": 13869,
-    "endFrame": 13913,
-    "part": 11
-  },
-  {
-    "text": "기록을 하나하나 되짚은",
-    "startFrame": 13913,
-    "endFrame": 13960,
-    "part": 11
-  },
-  {
-    "text": "분석인데, 오늘 나오는",
-    "startFrame": 13960,
-    "endFrame": 14008,
-    "part": 11
-  },
-  {
-    "text": "숫자들은 대부분 여기서",
-    "startFrame": 14008,
-    "endFrame": 14055,
-    "part": 11
-  },
-  {
-    "text": "가져온 겁니다.",
-    "startFrame": 14055,
     "endFrame": 14087,
     "part": 11
   },
   {
-    "text": "그 논문에 따르면",
+    "text": "그 논문에 따르면 2022년 4월 기준, 앵커가 하루에 메워야 하는 돈이 약 600만 달러였습니다.",
     "startFrame": 14087,
-    "endFrame": 14122,
+    "endFrame": 14292,
     "part": 11
   },
   {
-    "text": "2022년 4월 기준,",
-    "startFrame": 14122,
-    "endFrame": 14169,
+    "text": "하루에 80억 원.",
+    "startFrame": 14292,
+    "endFrame": 14329,
     "part": 11
   },
   {
-    "text": "앵커가 하루에 메워야",
-    "startFrame": 14169,
-    "endFrame": 14213,
+    "text": "한 달이면 2,400억이 그냥 나갑니다.",
+    "startFrame": 14329,
+    "endFrame": 14411,
     "part": 11
   },
   {
-    "text": "하는 돈이 약 600만",
-    "startFrame": 14213,
-    "endFrame": 14260,
-    "part": 11
-  },
-  {
-    "text": "달러였습니다. 하루에",
-    "startFrame": 14260,
-    "endFrame": 14303,
-    "part": 11
-  },
-  {
-    "text": "80억 원. 한 달이면",
-    "startFrame": 14303,
-    "endFrame": 14350,
-    "part": 11
-  },
-  {
-    "text": "2,400억이 그냥",
-    "startFrame": 14350,
-    "endFrame": 14390,
-    "part": 11
-  },
-  {
-    "text": "나갑니다. 이자",
-    "startFrame": 14390,
-    "endFrame": 14421,
-    "part": 11
-  },
-  {
-    "text": "주려고요.",
-    "startFrame": 14421,
+    "text": "이자 주려고요.",
+    "startFrame": 14411,
     "endFrame": 14441,
     "part": 11
   },
   {
-    "text": "이 숫자만 놓고",
+    "text": "이 숫자만 놓고 사기라고 할 순 없습니다.",
     "startFrame": 14441,
-    "endFrame": 14473,
+    "endFrame": 14527,
     "part": 11
   },
   {
-    "text": "사기라고 할 순",
-    "startFrame": 14473,
-    "endFrame": 14505,
-    "part": 11
-  },
-  {
-    "text": "없습니다. 초기",
-    "startFrame": 14505,
-    "endFrame": 14536,
-    "part": 11
-  },
-  {
-    "text": "서비스가 마케팅비 쓰는",
-    "startFrame": 14536,
-    "endFrame": 14584,
-    "part": 11
-  },
-  {
-    "text": "건 흔한 일이니까요.",
-    "startFrame": 14584,
+    "text": "초기 서비스가 마케팅비 쓰는 건 흔한 일이니까요.",
+    "startFrame": 14527,
     "endFrame": 14628,
     "part": 11
   },
   {
-    "text": "다만 하나는",
+    "text": "다만 하나는 분명해집니다.",
     "startFrame": 14628,
-    "endFrame": 14652,
+    "endFrame": 14680,
     "part": 11
   },
   {
-    "text": "분명해집니다. 그",
-    "startFrame": 14652,
-    "endFrame": 14688,
+    "text": "그 19.5%는 시스템이 스스로 벌어낸 돈이 아니었어요.",
+    "startFrame": 14680,
+    "endFrame": 14796,
     "part": 11
   },
   {
-    "text": "19.5%는 시스템이",
-    "startFrame": 14688,
-    "endFrame": 14731,
-    "part": 11
-  },
-  {
-    "text": "스스로 벌어낸 돈이",
-    "startFrame": 14731,
-    "endFrame": 14771,
-    "part": 11
-  },
-  {
-    "text": "아니었어요. 누가 계속",
-    "startFrame": 14771,
-    "endFrame": 14819,
-    "part": 11
-  },
-  {
-    "text": "부어줘야 유지되는",
-    "startFrame": 14819,
-    "endFrame": 14855,
-    "part": 11
-  },
-  {
-    "text": "숫자였습니다.",
-    "startFrame": 14855,
+    "text": "누가 계속 부어줘야 유지되는 숫자였습니다.",
+    "startFrame": 14796,
     "endFrame": 14882,
     "part": 11
   },
   {
-    "text": "테라 커뮤니티 안에서도",
+    "text": "테라 커뮤니티 안에서도 이 이자율을 낮추자는 얘기가 나왔습니다.",
     "startFrame": 14882,
-    "endFrame": 14928,
-    "part": 12
-  },
-  {
-    "text": "이 이자율을 낮추자는",
-    "startFrame": 14928,
-    "endFrame": 14970,
-    "part": 12
-  },
-  {
-    "text": "얘기가 나왔습니다.",
-    "startFrame": 14970,
     "endFrame": 15009,
     "part": 12
   },
   {
-    "text": "5월 1일부터 좀 더",
+    "text": "5월 1일부터 좀 더 감당 가능한 수준으로 내리자는 제안이었죠.",
     "startFrame": 15009,
-    "endFrame": 15051,
-    "part": 12
-  },
-  {
-    "text": "감당 가능한 수준으로",
-    "startFrame": 15051,
-    "endFrame": 15093,
-    "part": 12
-  },
-  {
-    "text": "내리자는 제안이었죠.",
-    "startFrame": 15093,
     "endFrame": 15135,
     "part": 12
   },
   {
-    "text": "언제까지 이 이자를 줄",
+    "text": "언제까지 이 이자를 줄 수 있느냐.",
     "startFrame": 15135,
-    "endFrame": 15181,
+    "endFrame": 15204,
     "part": 12
   },
   {
-    "text": "수 있느냐. 이 질문은",
-    "startFrame": 15181,
-    "endFrame": 15227,
-    "part": 12
-  },
-  {
-    "text": "이미 나오고",
-    "startFrame": 15227,
-    "endFrame": 15251,
-    "part": 12
-  },
-  {
-    "text": "있었습니다.",
-    "startFrame": 15251,
+    "text": "이 질문은 이미 나오고 있었습니다.",
+    "startFrame": 15204,
     "endFrame": 15274,
     "part": 12
   },
   {
-    "text": "사람 심리라는 게 좀",
+    "text": "사람 심리라는 게 좀 그렇습니다.",
     "startFrame": 15274,
-    "endFrame": 15316,
+    "endFrame": 15340,
     "part": 12
   },
   {
-    "text": "그렇습니다. 규모가",
-    "startFrame": 15316,
-    "endFrame": 15355,
+    "text": "규모가 커지면 안전해 보여요.",
+    "startFrame": 15340,
+    "endFrame": 15399,
     "part": 12
   },
   {
-    "text": "커지면 안전해 보여요.",
-    "startFrame": 15355,
-    "endFrame": 15401,
+    "text": "쓰는 사람이 많으면 이미 검증된 거겠거니 싶고요.",
+    "startFrame": 15399,
+    "endFrame": 15498,
     "part": 12
   },
   {
-    "text": "쓰는 사람이 많으면",
-    "startFrame": 15401,
-    "endFrame": 15439,
-    "part": 12
-  },
-  {
-    "text": "이미 검증된 거겠거니",
-    "startFrame": 15439,
-    "endFrame": 15482,
-    "part": 12
-  },
-  {
-    "text": "싶고요. 거기다",
-    "startFrame": 15482,
-    "endFrame": 15512,
-    "part": 12
-  },
-  {
-    "text": "가격까지 오르면 그",
-    "startFrame": 15512,
-    "endFrame": 15551,
-    "part": 12
-  },
-  {
-    "text": "믿음은 더 단단해집니다.",
-    "startFrame": 15551,
+    "text": "거기다 가격까지 오르면 그 믿음은 더 단단해집니다.",
+    "startFrame": 15498,
     "endFrame": 15601,
     "part": 12
   },
   {
-    "text": "2022년 4월 5일,",
+    "text": "2022년 4월 5일, 루나는 약 119.18달러로 고점을 찍습니다.",
     "startFrame": 15601,
-    "endFrame": 15647,
+    "endFrame": 15738,
     "part": 12
   },
   {
-    "text": "루나는 약 119.18달러로",
-    "startFrame": 15647,
-    "endFrame": 15705,
-    "part": 12
-  },
-  {
-    "text": "고점을 찍습니다.",
-    "startFrame": 15705,
-    "endFrame": 15739,
-    "part": 12
-  },
-  {
-    "text": "1~2년 전만 해도 몇",
-    "startFrame": 15739,
-    "endFrame": 15786,
-    "part": 12
-  },
-  {
-    "text": "센트짜리였던 코인이",
-    "startFrame": 15786,
-    "endFrame": 15824,
-    "part": 12
-  },
-  {
-    "text": "100달러를 넘었으니",
-    "startFrame": 15824,
-    "endFrame": 15866,
-    "part": 12
-  },
-  {
-    "text": "분위기가 어땠을지는",
-    "startFrame": 15866,
-    "endFrame": 15905,
-    "part": 12
-  },
-  {
-    "text": "짐작이 가시죠.",
-    "startFrame": 15905,
+    "text": "1~2년 전만 해도 몇 센트짜리였던 코인이 100달러를 넘었으니 분위기가 어땠을지는 짐작이 가시죠.",
+    "startFrame": 15738,
     "endFrame": 15935,
     "part": 12
   },
   {
-    "text": "그런데 그 뒤로",
+    "text": "그런데 그 뒤로 암호화폐 시장 전체가 식으면서 루나도 같이 내려옵니다.",
     "startFrame": 15935,
-    "endFrame": 15967,
+    "endFrame": 16078,
     "part": 12
   },
   {
-    "text": "암호화폐 시장 전체가",
-    "startFrame": 15967,
-    "endFrame": 16010,
+    "text": "아까 말씀드렸죠.",
+    "startFrame": 16078,
+    "endFrame": 16111,
     "part": 12
   },
   {
-    "text": "식으면서 루나도 같이",
-    "startFrame": 16010,
-    "endFrame": 16053,
+    "text": "UST의 담보는 루나 가격이었습니다.",
+    "startFrame": 16111,
+    "endFrame": 16185,
     "part": 12
   },
   {
-    "text": "내려옵니다. 아까",
-    "startFrame": 16053,
-    "endFrame": 16088,
-    "part": 12
-  },
-  {
-    "text": "말씀드렸죠. UST의",
-    "startFrame": 16088,
-    "endFrame": 16131,
-    "part": 12
-  },
-  {
-    "text": "담보는 루나",
-    "startFrame": 16131,
-    "endFrame": 16154,
-    "part": 12
-  },
-  {
-    "text": "가격이었습니다. 루나가",
-    "startFrame": 16154,
-    "endFrame": 16201,
-    "part": 12
-  },
-  {
-    "text": "내려간다는 건",
-    "startFrame": 16201,
-    "endFrame": 16229,
-    "part": 12
-  },
-  {
-    "text": "안전장치가 얇아진다는",
-    "startFrame": 16229,
-    "endFrame": 16272,
-    "part": 12
-  },
-  {
-    "text": "뜻입니다.",
-    "startFrame": 16272,
+    "text": "루나가 내려간다는 건 안전장치가 얇아진다는 뜻입니다.",
+    "startFrame": 16185,
     "endFrame": 16291,
     "part": 12
   },
   {
-    "text": "앵커 안쪽에서도 변화가",
+    "text": "앵커 안쪽에서도 변화가 있었습니다.",
     "startFrame": 16291,
-    "endFrame": 16338,
+    "endFrame": 16360,
     "part": 13
   },
   {
-    "text": "있었습니다. 4월",
-    "startFrame": 16338,
-    "endFrame": 16372,
-    "part": 13
-  },
-  {
-    "text": "후반, 새로 맡기는",
-    "startFrame": 16372,
-    "endFrame": 16411,
-    "part": 13
-  },
-  {
-    "text": "돈은 느려지고 빼가는",
-    "startFrame": 16411,
-    "endFrame": 16453,
-    "part": 13
-  },
-  {
-    "text": "돈은 빨라집니다.",
-    "startFrame": 16453,
+    "text": "4월 후반, 새로 맡기는 돈은 느려지고 빼가는 돈은 빨라집니다.",
+    "startFrame": 16360,
     "endFrame": 16488,
     "part": 13
   },
   {
-    "text": "앱을 열어보면 이자율은",
+    "text": "앱을 열어보면 이자율은 여전히 19.5%였습니다.",
     "startFrame": 16488,
-    "endFrame": 16535,
+    "endFrame": 16587,
     "part": 13
   },
   {
-    "text": "여전히 19.5%였습니다.",
-    "startFrame": 16535,
-    "endFrame": 16589,
+    "text": "겉으로는 달라진 게 하나도 없었어요.",
+    "startFrame": 16587,
+    "endFrame": 16661,
     "part": 13
   },
   {
-    "text": "겉으로는 달라진 게",
-    "startFrame": 16589,
-    "endFrame": 16628,
-    "part": 13
-  },
-  {
-    "text": "하나도 없었어요. 그",
-    "startFrame": 16628,
-    "endFrame": 16670,
-    "part": 13
-  },
-  {
-    "text": "숫자 뒤에서 돈의",
-    "startFrame": 16670,
-    "endFrame": 16705,
-    "part": 13
-  },
-  {
-    "text": "방향은 이미 바뀌고",
-    "startFrame": 16705,
-    "endFrame": 16744,
-    "part": 13
-  },
-  {
-    "text": "있었는데도요.",
-    "startFrame": 16744,
+    "text": "그 숫자 뒤에서 돈의 방향은 이미 바뀌고 있었는데도요.",
+    "startFrame": 16661,
     "endFrame": 16771,
     "part": 13
   },
   {
-    "text": "돈은 뉴스보다 먼저",
+    "text": "돈은 뉴스보다 먼저 움직입니다.",
     "startFrame": 16771,
-    "endFrame": 16809,
-    "part": 13
-  },
-  {
-    "text": "움직입니다.",
-    "startFrame": 16809,
     "endFrame": 16832,
     "part": 13
   },
   {
-    "text": "여기서 한 번 짚고",
+    "text": "여기서 한 번 짚고 가야 할 게 있습니다.",
     "startFrame": 16832,
-    "endFrame": 16870,
-    "part": 13
-  },
-  {
-    "text": "가야 할 게 있습니다.",
-    "startFrame": 16870,
     "endFrame": 16916,
     "part": 13
   },
   {
-    "text": "이 영상은 당시 투자한",
+    "text": "이 영상은 당시 투자한 사람들을 비웃으려고 만든 게 아닙니다.",
     "startFrame": 16916,
-    "endFrame": 16963,
-    "part": 13
-  },
-  {
-    "text": "사람들을 비웃으려고",
-    "startFrame": 16963,
-    "endFrame": 17001,
-    "part": 13
-  },
-  {
-    "text": "만든 게 아닙니다.",
-    "startFrame": 17001,
     "endFrame": 17039,
     "part": 13
   },
   {
-    "text": "솔직히 말씀드리면,",
+    "text": "솔직히 말씀드리면, 지금까지 제가 풀어드린 이 구조를 당시에 다 이해하고 들어간 사람이 몇이나 됐을까요.",
     "startFrame": 17039,
-    "endFrame": 17078,
-    "part": 13
-  },
-  {
-    "text": "지금까지 제가 풀어드린",
-    "startFrame": 17078,
-    "endFrame": 17125,
-    "part": 13
-  },
-  {
-    "text": "이 구조를 당시에 다",
-    "startFrame": 17125,
-    "endFrame": 17167,
-    "part": 13
-  },
-  {
-    "text": "이해하고 들어간 사람이",
-    "startFrame": 17167,
-    "endFrame": 17214,
-    "part": 13
-  },
-  {
-    "text": "몇이나 됐을까요.",
-    "startFrame": 17214,
     "endFrame": 17249,
     "part": 13
   },
   {
-    "text": "백서를 열면 수식이",
+    "text": "백서를 열면 수식이 나오고, 커뮤니티 글은 죄다 영어입니다.",
     "startFrame": 17249,
-    "endFrame": 17287,
-    "part": 13
-  },
-  {
-    "text": "나오고, 커뮤니티 글은",
-    "startFrame": 17287,
-    "endFrame": 17334,
-    "part": 13
-  },
-  {
-    "text": "죄다 영어입니다.",
-    "startFrame": 17334,
     "endFrame": 17369,
     "part": 13
   },
   {
-    "text": "게다가 블록체인 하면",
+    "text": "게다가 블록체인 하면 다들 떠올리는 게 하나 있죠.",
     "startFrame": 17369,
-    "endFrame": 17412,
+    "endFrame": 17472,
     "part": 13
   },
   {
-    "text": "다들 떠올리는 게 하나",
-    "startFrame": 17412,
-    "endFrame": 17458,
-    "part": 13
-  },
-  {
-    "text": "있죠. 모든 거래가",
-    "startFrame": 17458,
-    "endFrame": 17497,
-    "part": 13
-  },
-  {
-    "text": "공개된다는 것.",
-    "startFrame": 17497,
+    "text": "모든 거래가 공개된다는 것.",
+    "startFrame": 17472,
     "endFrame": 17528,
     "part": 13
   },
   {
-    "text": "투명하니까 안전할 것",
+    "text": "투명하니까 안전할 것 같잖아요.",
     "startFrame": 17528,
-    "endFrame": 17571,
-    "part": 13
-  },
-  {
-    "text": "같잖아요.",
-    "startFrame": 17571,
     "endFrame": 17591,
     "part": 13
   },
   {
-    "text": "근데 공개된 장부하고",
+    "text": "근데 공개된 장부하고 이해할 수 있는 장부는 다른 겁니다.",
     "startFrame": 17591,
-    "endFrame": 17635,
+    "endFrame": 17713,
     "part": 14
   },
   {
-    "text": "이해할 수 있는 장부는",
-    "startFrame": 17635,
-    "endFrame": 17683,
-    "part": 14
-  },
-  {
-    "text": "다른 겁니다. 숫자가",
-    "startFrame": 17683,
-    "endFrame": 17728,
-    "part": 14
-  },
-  {
-    "text": "다 보인다고 구조까지",
-    "startFrame": 17728,
-    "endFrame": 17772,
-    "part": 14
-  },
-  {
-    "text": "보이는 건 아니에요.",
-    "startFrame": 17772,
+    "text": "숫자가 다 보인다고 구조까지 보이는 건 아니에요.",
+    "startFrame": 17713,
     "endFrame": 17816,
     "part": 14
   },
   {
-    "text": "앞서 말씀드린 그",
+    "text": "앞서 말씀드린 그 논문에도 나옵니다.",
     "startFrame": 17816,
-    "endFrame": 17853,
+    "endFrame": 17893,
     "part": 14
   },
   {
-    "text": "논문에도 나옵니다.",
-    "startFrame": 17853,
-    "endFrame": 17895,
+    "text": "자산이 많고 정보가 빠른 쪽이 먼저 빠져나갔고, 늦게 움직인 쪽이 더 크게 잃었다고요.",
+    "startFrame": 17893,
+    "endFrame": 18077,
     "part": 14
   },
   {
-    "text": "자산이 많고 정보가",
-    "startFrame": 17895,
-    "endFrame": 17936,
-    "part": 14
-  },
-  {
-    "text": "빠른 쪽이 먼저",
-    "startFrame": 17936,
-    "endFrame": 17969,
-    "part": 14
-  },
-  {
-    "text": "빠져나갔고, 늦게",
-    "startFrame": 17969,
-    "endFrame": 18006,
-    "part": 14
-  },
-  {
-    "text": "움직인 쪽이 더 크게",
-    "startFrame": 18006,
-    "endFrame": 18051,
-    "part": 14
-  },
-  {
-    "text": "잃었다고요. 장부가",
-    "startFrame": 18051,
-    "endFrame": 18093,
-    "part": 14
-  },
-  {
-    "text": "투명하다고 정보",
-    "startFrame": 18093,
-    "endFrame": 18126,
-    "part": 14
-  },
-  {
-    "text": "격차까지 사라지진",
-    "startFrame": 18126,
-    "endFrame": 18163,
-    "part": 14
-  },
-  {
-    "text": "않았던 겁니다.",
-    "startFrame": 18163,
+    "text": "장부가 투명하다고 정보 격차까지 사라지진 않았던 겁니다.",
+    "startFrame": 18077,
     "endFrame": 18196,
     "part": 14
   },
   {
-    "text": "테라의 약속은 정말",
+    "text": "테라의 약속은 정말 단순했습니다.",
     "startFrame": 18196,
-    "endFrame": 18236,
+    "endFrame": 18266,
     "part": 14
   },
   {
-    "text": "단순했습니다. 1달러를",
-    "startFrame": 18236,
-    "endFrame": 18285,
+    "text": "1달러를 지킨다.",
+    "startFrame": 18266,
+    "endFrame": 18300,
     "part": 14
   },
   {
-    "text": "지킨다. 근데 그",
-    "startFrame": 18285,
-    "endFrame": 18322,
-    "part": 14
-  },
-  {
-    "text": "약속을 떠받치던 돈의",
-    "startFrame": 18322,
-    "endFrame": 18367,
-    "part": 14
-  },
-  {
-    "text": "흐름은 하나도 단순하지",
-    "startFrame": 18367,
-    "endFrame": 18416,
-    "part": 14
-  },
-  {
-    "text": "않았어요.",
-    "startFrame": 18416,
+    "text": "근데 그 약속을 떠받치던 돈의 흐름은 하나도 단순하지 않았어요.",
+    "startFrame": 18300,
     "endFrame": 18436,
     "part": 14
   },
   {
     "text": "2022년 5월 7일.",
     "startFrame": 18436,
-    "endFrame": 18485,
+    "endFrame": 18483,
     "part": 14
   },
   {
-    "text": "큰 지갑 두 곳에서 약",
-    "startFrame": 18485,
-    "endFrame": 18534,
+    "text": "큰 지갑 두 곳에서 약 3억 7,500만 UST가 한꺼번에 빠져나갑니다.",
+    "startFrame": 18483,
+    "endFrame": 18638,
     "part": 14
   },
   {
-    "text": "3억 7,500만",
-    "startFrame": 18534,
-    "endFrame": 18571,
-    "part": 14
-  },
-  {
-    "text": "UST가 한꺼번에",
-    "startFrame": 18571,
-    "endFrame": 18608,
-    "part": 14
-  },
-  {
-    "text": "빠져나갑니다. 저축",
-    "startFrame": 18608,
-    "endFrame": 18649,
-    "part": 14
-  },
-  {
-    "text": "앱에 맡겨뒀던 돈을",
-    "startFrame": 18649,
-    "endFrame": 18690,
-    "part": 14
-  },
-  {
-    "text": "통째로 인출한 거죠.",
-    "startFrame": 18690,
+    "text": "저축 앱에 맡겨뒀던 돈을 통째로 인출한 거죠.",
+    "startFrame": 18638,
     "endFrame": 18735,
     "part": 14
   },
   {
-    "text": "우리 돈으로 5천억",
+    "text": "우리 돈으로 5천억 원쯤 됩니다.",
     "startFrame": 18735,
-    "endFrame": 18776,
-    "part": 14
-  },
-  {
-    "text": "원쯤 됩니다.",
-    "startFrame": 18776,
     "endFrame": 18804,
     "part": 14
   },
   {
-    "text": "그런데 여기서 진짜",
+    "text": "그런데 여기서 진짜 중요한 건 금액이 아닙니다.",
     "startFrame": 18804,
-    "endFrame": 18845,
+    "endFrame": 18904,
     "part": 14
   },
   {
-    "text": "중요한 건 금액이",
-    "startFrame": 18845,
-    "endFrame": 18882,
-    "part": 14
-  },
-  {
-    "text": "아닙니다. 모두가 그",
-    "startFrame": 18882,
-    "endFrame": 18927,
-    "part": 14
-  },
-  {
-    "text": "장면을 실시간으로",
-    "startFrame": 18927,
-    "endFrame": 18963,
-    "part": 14
-  },
-  {
-    "text": "봤다는 겁니다.",
-    "startFrame": 18963,
+    "text": "모두가 그 장면을 실시간으로 봤다는 겁니다.",
+    "startFrame": 18904,
     "endFrame": 18996,
     "part": 14
   },
   {
-    "text": "블록체인은 거래가",
+    "text": "블록체인은 거래가 공개되니까요.",
     "startFrame": 18996,
-    "endFrame": 19033,
+    "endFrame": 19062,
     "part": 15
   },
   {
-    "text": "공개되니까요. 누가",
-    "startFrame": 19033,
-    "endFrame": 19074,
+    "text": "누가 언제 얼마를 뺐는지 다 보입니다.",
+    "startFrame": 19062,
+    "endFrame": 19144,
     "part": 15
   },
   {
-    "text": "언제 얼마를 뺐는지 다",
-    "startFrame": 19074,
-    "endFrame": 19124,
-    "part": 15
-  },
-  {
-    "text": "보입니다. 그래서",
-    "startFrame": 19124,
-    "endFrame": 19161,
-    "part": 15
-  },
-  {
-    "text": "큰돈이 한번",
-    "startFrame": 19161,
-    "endFrame": 19186,
-    "part": 15
-  },
-  {
-    "text": "빠져나가면, 그걸로",
-    "startFrame": 19186,
-    "endFrame": 19227,
-    "part": 15
-  },
-  {
-    "text": "끝나지 않습니다.",
-    "startFrame": 19227,
+    "text": "그래서 큰돈이 한번 빠져나가면, 그걸로 끝나지 않습니다.",
+    "startFrame": 19144,
     "endFrame": 19264,
     "part": 15
   },
   {
-    "text": "어? 큰손이 나가네.",
+    "text": "어?",
     "startFrame": 19264,
-    "endFrame": 19309,
+    "endFrame": 19273,
     "part": 15
   },
   {
-    "text": "뭘 알고 나가는 거",
-    "startFrame": 19309,
-    "endFrame": 19350,
+    "text": "큰손이 나가네.",
+    "startFrame": 19273,
+    "endFrame": 19305,
     "part": 15
   },
   {
-    "text": "아냐? …나도 일단",
-    "startFrame": 19350,
-    "endFrame": 19391,
+    "text": "뭘 알고 나가는 거 아냐?",
+    "startFrame": 19305,
+    "endFrame": 19362,
     "part": 15
   },
   {
-    "text": "빼야 하나?",
-    "startFrame": 19391,
+    "text": "…나도 일단 빼야 하나?",
+    "startFrame": 19362,
     "endFrame": 19416,
     "part": 15
   },
   {
-    "text": "한 사람의 출금이 다른",
+    "text": "한 사람의 출금이 다른 사람한테는 신호가 됩니다.",
     "startFrame": 19416,
-    "endFrame": 19465,
+    "endFrame": 19520,
     "part": 15
   },
   {
-    "text": "사람한테는 신호가",
-    "startFrame": 19465,
-    "endFrame": 19502,
-    "part": 15
-  },
-  {
-    "text": "됩니다. 그리고 신호는",
-    "startFrame": 19502,
-    "endFrame": 19551,
-    "part": 15
-  },
-  {
-    "text": "아주 빠르게 불안으로",
-    "startFrame": 19551,
-    "endFrame": 19596,
-    "part": 15
-  },
-  {
-    "text": "번지죠.",
-    "startFrame": 19596,
+    "text": "그리고 신호는 아주 빠르게 불안으로 번지죠.",
+    "startFrame": 19520,
     "endFrame": 19612,
     "part": 15
   },
   {
-    "text": "물론 이 인출 때문에",
+    "text": "물론 이 인출 때문에 테라가 무너졌다고 할 순 없습니다.",
     "startFrame": 19612,
-    "endFrame": 19657,
+    "endFrame": 19733,
     "part": 15
   },
   {
-    "text": "테라가 무너졌다고 할",
-    "startFrame": 19657,
-    "endFrame": 19703,
+    "text": "다만 여기서부터 속도가 붙습니다.",
+    "startFrame": 19733,
+    "endFrame": 19803,
     "part": 15
   },
   {
-    "text": "순 없습니다. 다만",
-    "startFrame": 19703,
-    "endFrame": 19744,
-    "part": 15
-  },
-  {
-    "text": "여기서부터 속도가",
-    "startFrame": 19744,
-    "endFrame": 19781,
-    "part": 15
-  },
-  {
-    "text": "붙습니다. 그것도 아주",
-    "startFrame": 19781,
-    "endFrame": 19830,
-    "part": 15
-  },
-  {
-    "text": "빠르게.",
-    "startFrame": 19830,
+    "text": "그것도 아주 빠르게.",
+    "startFrame": 19803,
     "endFrame": 19846,
     "part": 15
   },
   {
-    "text": "UST가 1달러 밑으로",
+    "text": "UST가 1달러 밑으로 내려갑니다.",
     "startFrame": 19846,
-    "endFrame": 19896,
+    "endFrame": 19920,
     "part": 15
   },
   {
-    "text": "내려갑니다. 사실 이것",
-    "startFrame": 19896,
-    "endFrame": 19945,
+    "text": "사실 이것 자체는 흔한 일일 수도 있었어요.",
+    "startFrame": 19920,
+    "endFrame": 20013,
     "part": 15
   },
   {
-    "text": "자체는 흔한 일일 수도",
-    "startFrame": 19945,
-    "endFrame": 19994,
-    "part": 15
-  },
-  {
-    "text": "있었어요. 시장에서는",
-    "startFrame": 19994,
-    "endFrame": 20039,
-    "part": 15
-  },
-  {
-    "text": "0.99, 0.995",
-    "startFrame": 20039,
-    "endFrame": 20084,
-    "part": 15
-  },
-  {
-    "text": "같은 이탈이 늘",
-    "startFrame": 20084,
-    "endFrame": 20117,
-    "part": 15
-  },
-  {
-    "text": "생기니까요.",
-    "startFrame": 20117,
+    "text": "시장에서는 0.99, 0.995 같은 이탈이 늘 생기니까요.",
+    "startFrame": 20013,
     "endFrame": 20141,
     "part": 15
   },
   {
-    "text": "근데 이번엔 사람들이",
+    "text": "근데 이번엔 사람들이 기다려주지 않았습니다.",
     "startFrame": 20141,
-    "endFrame": 20185,
-    "part": 15
-  },
-  {
-    "text": "기다려주지 않았습니다.",
-    "startFrame": 20185,
     "endFrame": 20232,
     "part": 15
   },
   {
-    "text": "불안해진 사람들이",
+    "text": "불안해진 사람들이 UST를 팔거나 루나로 바꾸기 시작합니다.",
     "startFrame": 20232,
-    "endFrame": 20268,
+    "endFrame": 20357,
     "part": 16
   },
   {
-    "text": "UST를 팔거나 루나로",
-    "startFrame": 20268,
-    "endFrame": 20316,
-    "part": 16
-  },
-  {
-    "text": "바꾸기 시작합니다.",
-    "startFrame": 20316,
-    "endFrame": 20356,
-    "part": 16
-  },
-  {
-    "text": "문제는 바꿔 받은",
-    "startFrame": 20356,
-    "endFrame": 20392,
-    "part": 16
-  },
-  {
-    "text": "루나를 들고 있을",
-    "startFrame": 20392,
-    "endFrame": 20428,
-    "part": 16
-  },
-  {
-    "text": "이유가 없다는 거예요.",
-    "startFrame": 20428,
-    "endFrame": 20477,
+    "text": "문제는 바꿔 받은 루나를 들고 있을 이유가 없다는 거예요.",
+    "startFrame": 20357,
+    "endFrame": 20479,
     "part": 16
   },
   {
     "text": "곧바로 팔아버립니다.",
-    "startFrame": 20477,
+    "startFrame": 20479,
     "endFrame": 20521,
     "part": 16
   },
   {
-    "text": "여기서 구조가",
+    "text": "여기서 구조가 뒤집힙니다.",
     "startFrame": 20521,
-    "endFrame": 20549,
-    "part": 16
-  },
-  {
-    "text": "뒤집힙니다.",
-    "startFrame": 20549,
     "endFrame": 20572,
     "part": 16
   },
   {
-    "text": "여기가 이 사건의",
+    "text": "여기가 이 사건의 심장입니다.",
     "startFrame": 20572,
-    "endFrame": 20608,
+    "endFrame": 20634,
     "part": 16
   },
   {
-    "text": "심장입니다. 집중해서",
-    "startFrame": 20608,
-    "endFrame": 20652,
-    "part": 16
-  },
-  {
-    "text": "봐주세요.",
-    "startFrame": 20652,
+    "text": "집중해서 봐주세요.",
+    "startFrame": 20634,
     "endFrame": 20672,
     "part": 16
   },
   {
-    "text": "앞에서 본 자판기",
+    "text": "앞에서 본 자판기 기억하시죠.",
     "startFrame": 20672,
-    "endFrame": 20708,
+    "endFrame": 20733,
     "part": 16
   },
   {
-    "text": "기억하시죠. UST를",
-    "startFrame": 20708,
-    "endFrame": 20753,
-    "part": 16
-  },
-  {
-    "text": "넣으면 UST는",
-    "startFrame": 20753,
-    "endFrame": 20785,
-    "part": 16
-  },
-  {
-    "text": "태워지고 루나가 새로",
-    "startFrame": 20785,
-    "endFrame": 20829,
-    "part": 16
-  },
-  {
-    "text": "찍혀 나옵니다.",
-    "startFrame": 20829,
+    "text": "UST를 넣으면 UST는 태워지고 루나가 새로 찍혀 나옵니다.",
+    "startFrame": 20733,
     "endFrame": 20861,
     "part": 16
   },
   {
-    "text": "평소엔 아무 문제가",
+    "text": "평소엔 아무 문제가 없었습니다.",
     "startFrame": 20861,
-    "endFrame": 20901,
+    "endFrame": 20926,
     "part": 16
   },
   {
-    "text": "없었습니다. 넣는",
-    "startFrame": 20901,
-    "endFrame": 20936,
+    "text": "넣는 사람이 몇 없었으니까요.",
+    "startFrame": 20926,
+    "endFrame": 20987,
     "part": 16
   },
   {
-    "text": "사람이 몇 없었으니까요.",
-    "startFrame": 20936,
-    "endFrame": 20988,
-    "part": 16
-  },
-  {
-    "text": "근데 지금은 모두가 그",
-    "startFrame": 20988,
-    "endFrame": 21036,
-    "part": 16
-  },
-  {
-    "text": "앞에 줄을 섰습니다.",
-    "startFrame": 21036,
+    "text": "근데 지금은 모두가 그 앞에 줄을 섰습니다.",
+    "startFrame": 20987,
     "endFrame": 21079,
     "part": 16
   },
   {
-    "text": "수억 개의 UST가",
+    "text": "수억 개의 UST가 들어갑니다.",
     "startFrame": 21079,
-    "endFrame": 21119,
+    "endFrame": 21144,
     "part": 16
   },
   {
-    "text": "들어갑니다. 그만큼의",
-    "startFrame": 21119,
-    "endFrame": 21164,
+    "text": "그만큼의 루나가 찍혀 나옵니다.",
+    "startFrame": 21144,
+    "endFrame": 21209,
     "part": 16
   },
   {
-    "text": "루나가 찍혀 나옵니다.",
-    "startFrame": 21164,
-    "endFrame": 21212,
+    "text": "받은 사람들은 그걸 바로 시장에 던집니다.",
+    "startFrame": 21209,
+    "endFrame": 21297,
     "part": 16
   },
   {
-    "text": "받은 사람들은 그걸",
-    "startFrame": 21212,
-    "endFrame": 21252,
-    "part": 16
-  },
-  {
-    "text": "바로 시장에 던집니다.",
-    "startFrame": 21252,
-    "endFrame": 21300,
-    "part": 16
-  },
-  {
-    "text": "공급은 늘고 매도는",
-    "startFrame": 21300,
-    "endFrame": 21340,
-    "part": 16
-  },
-  {
-    "text": "쏟아지고, 루나 가격은",
-    "startFrame": 21340,
-    "endFrame": 21388,
-    "part": 16
-  },
-  {
-    "text": "주저앉습니다.",
-    "startFrame": 21388,
+    "text": "공급은 늘고 매도는 쏟아지고, 루나 가격은 주저앉습니다.",
+    "startFrame": 21297,
     "endFrame": 21416,
     "part": 16
   },
   {
-    "text": "여기까지는 뭐, 그럴",
+    "text": "여기까지는 뭐, 그럴 수 있어요.",
     "startFrame": 21416,
-    "endFrame": 21459,
+    "endFrame": 21485,
     "part": 16
   },
   {
-    "text": "수 있어요. 진짜 미친",
-    "startFrame": 21459,
-    "endFrame": 21507,
-    "part": 16
-  },
-  {
-    "text": "건 그다음입니다.",
-    "startFrame": 21507,
+    "text": "진짜 미친 건 그다음입니다.",
+    "startFrame": 21485,
     "endFrame": 21542,
     "part": 16
   },
   {
-    "text": "자판기 규칙을 다시",
+    "text": "자판기 규칙을 다시 봅시다.",
     "startFrame": 21542,
-    "endFrame": 21582,
+    "endFrame": 21599,
     "part": 16
   },
   {
-    "text": "봅시다. UST 1개를",
-    "startFrame": 21582,
-    "endFrame": 21630,
-    "part": 16
-  },
-  {
-    "text": "넣으면 1달러어치",
-    "startFrame": 21630,
-    "endFrame": 21666,
-    "part": 16
-  },
-  {
-    "text": "루나를 준다.",
-    "startFrame": 21666,
+    "text": "UST 1개를 넣으면 1달러어치 루나를 준다.",
+    "startFrame": 21599,
     "endFrame": 21694,
     "part": 16
   },
   {
-    "text": "루나가 80달러일 때는",
+    "text": "루나가 80달러일 때는 1달러어치가 0.0125개였습니다.",
     "startFrame": 21694,
-    "endFrame": 21747,
-    "part": 17
-  },
-  {
-    "text": "1달러어치가",
-    "startFrame": 21747,
-    "endFrame": 21773,
-    "part": 17
-  },
-  {
-    "text": "0.0125개였습니다.",
-    "startFrame": 21773,
-    "endFrame": 21826,
+    "endFrame": 21832,
     "part": 17
   },
   {
     "text": "조금만 찍으면 됐죠.",
-    "startFrame": 21826,
-    "endFrame": 21874,
+    "startFrame": 21832,
+    "endFrame": 21879,
     "part": 17
   },
   {
     "text": "루나가 1달러가 되면?",
-    "startFrame": 21874,
-    "endFrame": 21927,
+    "startFrame": 21879,
+    "endFrame": 21931,
     "part": 17
   },
   {
     "text": "1개를 줘야 합니다.",
-    "startFrame": 21927,
-    "endFrame": 21976,
+    "startFrame": 21931,
+    "endFrame": 21978,
     "part": 17
   },
   {
     "text": "0.01달러가 되면?",
-    "startFrame": 21976,
-    "endFrame": 22024,
+    "startFrame": 21978,
+    "endFrame": 22026,
     "part": 17
   },
   {
     "text": "100개를 줘야 해요.",
-    "startFrame": 22024,
+    "startFrame": 22026,
     "endFrame": 22077,
     "part": 17
   },
   {
-    "text": "보이시죠. 가격이",
+    "text": "보이시죠.",
     "startFrame": 22077,
-    "endFrame": 22118,
+    "endFrame": 22099,
     "part": 17
   },
   {
-    "text": "떨어질수록 자판기는 더",
-    "startFrame": 22118,
-    "endFrame": 22172,
+    "text": "가격이 떨어질수록 자판기는 더 많이 찍어야 합니다.",
+    "startFrame": 22099,
+    "endFrame": 22217,
     "part": 17
   },
   {
-    "text": "많이 찍어야 합니다.",
-    "startFrame": 22172,
-    "endFrame": 22221,
+    "text": "많이 찍으니까 더 떨어지고, 더 떨어지니까 또 더 찍고.",
+    "startFrame": 22217,
+    "endFrame": 22348,
     "part": 17
   },
   {
-    "text": "많이 찍으니까 더",
-    "startFrame": 22221,
-    "endFrame": 22262,
-    "part": 17
-  },
-  {
-    "text": "떨어지고, 더",
-    "startFrame": 22262,
-    "endFrame": 22294,
-    "part": 17
-  },
-  {
-    "text": "떨어지니까 또 더",
-    "startFrame": 22294,
-    "endFrame": 22334,
-    "part": 17
-  },
-  {
-    "text": "찍고. 찍고,",
-    "startFrame": 22334,
-    "endFrame": 22366,
-    "part": 17
-  },
-  {
-    "text": "떨어지고, 찍고,",
-    "startFrame": 22366,
-    "endFrame": 22406,
-    "part": 17
-  },
-  {
-    "text": "떨어지고.",
-    "startFrame": 22406,
+    "text": "찍고, 떨어지고, 찍고, 떨어지고.",
+    "startFrame": 22348,
     "endFrame": 22429,
     "part": 17
   },
   {
-    "text": "브레이크를 밟았는데",
+    "text": "브레이크를 밟았는데 가속 페달이 같이 밟히는 구조였던 겁니다.",
     "startFrame": 22429,
-    "endFrame": 22473,
+    "endFrame": 22570,
     "part": 17
   },
   {
-    "text": "가속 페달이 같이",
-    "startFrame": 22473,
-    "endFrame": 22512,
-    "part": 17
-  },
-  {
-    "text": "밟히는 구조였던",
-    "startFrame": 22512,
-    "endFrame": 22548,
-    "part": 17
-  },
-  {
-    "text": "겁니다. 멈출 방법이",
-    "startFrame": 22548,
-    "endFrame": 22596,
-    "part": 17
-  },
-  {
-    "text": "시스템 안에 없었어요.",
-    "startFrame": 22596,
+    "text": "멈출 방법이 시스템 안에 없었어요.",
+    "startFrame": 22570,
     "endFrame": 22649,
     "part": 17
   },
   {
-    "text": "이게 그 유명한 죽음의",
+    "text": "이게 그 유명한 죽음의 소용돌이입니다.",
     "startFrame": 22649,
-    "endFrame": 22702,
+    "endFrame": 22738,
     "part": 17
   },
   {
-    "text": "소용돌이입니다. 이름이",
-    "startFrame": 22702,
-    "endFrame": 22754,
+    "text": "이름이 좀 과하다 싶죠?",
+    "startFrame": 22738,
+    "endFrame": 22793,
     "part": 17
   },
   {
-    "text": "좀 과하다 싶죠?",
-    "startFrame": 22754,
-    "endFrame": 22794,
-    "part": 17
-  },
-  {
-    "text": "숫자를 보시면 생각이",
-    "startFrame": 22794,
-    "endFrame": 22842,
-    "part": 17
-  },
-  {
-    "text": "달라지실 겁니다.",
-    "startFrame": 22842,
+    "text": "숫자를 보시면 생각이 달라지실 겁니다.",
+    "startFrame": 22793,
     "endFrame": 22882,
     "part": 17
   },
   {
-    "text": "3일. 루나 공급량이",
+    "text": "3일.",
     "startFrame": 22882,
-    "endFrame": 22931,
+    "endFrame": 22894,
     "part": 17
   },
   {
-    "text": "10억 개에서 6조",
-    "startFrame": 22931,
-    "endFrame": 22975,
+    "text": "루나 공급량이 10억 개에서 6조 개가 됩니다.",
+    "startFrame": 22894,
+    "endFrame": 23004,
     "part": 17
   },
   {
-    "text": "개가 됩니다. 같은",
-    "startFrame": 22975,
-    "endFrame": 23019,
+    "text": "같은 기간 가격은 80달러 근처에서 거의 0까지 내려갔고요.",
+    "startFrame": 23004,
+    "endFrame": 23144,
     "part": 17
   },
   {
-    "text": "기간 가격은 80달러",
-    "startFrame": 23019,
-    "endFrame": 23068,
-    "part": 17
-  },
-  {
-    "text": "근처에서 거의 0까지",
-    "startFrame": 23068,
-    "endFrame": 23117,
-    "part": 17
-  },
-  {
-    "text": "내려갔고요. 오프닝에서",
-    "startFrame": 23117,
-    "endFrame": 23170,
-    "part": 17
-  },
-  {
-    "text": "보신 그 카운터가 바로",
-    "startFrame": 23170,
-    "endFrame": 23223,
-    "part": 17
-  },
-  {
-    "text": "이겁니다.",
-    "startFrame": 23223,
+    "text": "오프닝에서 보신 그 카운터가 바로 이겁니다.",
+    "startFrame": 23144,
     "endFrame": 23245,
     "part": 17
   },
   {
-    "text": "주식으로 바꿔 보면",
+    "text": "주식으로 바꿔 보면 이런 겁니다.",
     "startFrame": 23245,
-    "endFrame": 23285,
+    "endFrame": 23313,
     "part": 18
   },
   {
-    "text": "이런 겁니다. 빚",
-    "startFrame": 23285,
-    "endFrame": 23322,
+    "text": "빚 갚겠다고 신주를 계속 찍어냅니다.",
+    "startFrame": 23313,
+    "endFrame": 23389,
     "part": 18
   },
   {
-    "text": "갚겠다고 신주를 계속",
-    "startFrame": 23322,
-    "endFrame": 23366,
-    "part": 18
-  },
-  {
-    "text": "찍어냅니다. 찍을수록",
-    "startFrame": 23366,
-    "endFrame": 23410,
-    "part": 18
-  },
-  {
-    "text": "한 주 값어치는",
-    "startFrame": 23410,
-    "endFrame": 23442,
-    "part": 18
-  },
-  {
-    "text": "줄어들고, 줄어드니까",
-    "startFrame": 23442,
-    "endFrame": 23487,
-    "part": 18
-  },
-  {
-    "text": "더 많이 찍어야 하고,",
-    "startFrame": 23487,
-    "endFrame": 23535,
-    "part": 18
-  },
-  {
-    "text": "결국 원래 주주 몫은",
-    "startFrame": 23535,
-    "endFrame": 23579,
-    "part": 18
-  },
-  {
-    "text": "0에 수렴합니다.",
-    "startFrame": 23579,
+    "text": "찍을수록 한 주 값어치는 줄어들고, 줄어드니까 더 많이 찍어야 하고, 결국 원래 주주 몫은 0에 수렴합니다.",
+    "startFrame": 23389,
     "endFrame": 23615,
     "part": 18
   },
   {
-    "text": "가격을 지키라고 만든",
+    "text": "가격을 지키라고 만든 장치가 가격을 무너뜨리는 엔진이 된 겁니다.",
     "startFrame": 23615,
-    "endFrame": 23660,
-    "part": 18
-  },
-  {
-    "text": "장치가 가격을",
-    "startFrame": 23660,
-    "endFrame": 23688,
-    "part": 18
-  },
-  {
-    "text": "무너뜨리는 엔진이 된",
-    "startFrame": 23688,
-    "endFrame": 23733,
-    "part": 18
-  },
-  {
-    "text": "겁니다.",
-    "startFrame": 23733,
     "endFrame": 23749,
     "part": 18
   },
   {
-    "text": "이틀. 사람들 생각이",
+    "text": "이틀.",
     "startFrame": 23749,
-    "endFrame": 23793,
+    "endFrame": 23760,
     "part": 18
   },
   {
-    "text": "바뀌는 데 걸린",
-    "startFrame": 23793,
-    "endFrame": 23825,
-    "part": 18
-  },
-  {
-    "text": "시간입니다.",
-    "startFrame": 23825,
+    "text": "사람들 생각이 바뀌는 데 걸린 시간입니다.",
+    "startFrame": 23760,
     "endFrame": 23849,
     "part": 18
   },
   {
-    "text": "그전까지는 UST가",
+    "text": "그전까지는 UST가 0.98달러여도 다들 느긋했습니다.",
     "startFrame": 23849,
-    "endFrame": 23889,
+    "endFrame": 23963,
     "part": 18
   },
   {
-    "text": "0.98달러여도 다들",
-    "startFrame": 23889,
-    "endFrame": 23933,
-    "part": 18
-  },
-  {
-    "text": "느긋했습니다. 어차피",
-    "startFrame": 23933,
-    "endFrame": 23978,
-    "part": 18
-  },
-  {
-    "text": "자판기가 있으니 곧",
-    "startFrame": 23978,
-    "endFrame": 24018,
-    "part": 18
-  },
-  {
-    "text": "1달러로 돌아오겠지.",
-    "startFrame": 24018,
+    "text": "어차피 자판기가 있으니 곧 1달러로 돌아오겠지.",
+    "startFrame": 23963,
     "endFrame": 24062,
     "part": 18
   },
   {
-    "text": "그 믿음 하나로 버틴",
+    "text": "그 믿음 하나로 버틴 거죠.",
     "startFrame": 24062,
-    "endFrame": 24107,
-    "part": 18
-  },
-  {
-    "text": "거죠.",
-    "startFrame": 24107,
     "endFrame": 24119,
     "part": 18
   },
   {
-    "text": "근데 이제 그 믿음이",
+    "text": "근데 이제 그 믿음이 사라졌습니다.",
     "startFrame": 24119,
-    "endFrame": 24163,
+    "endFrame": 24191,
     "part": 18
   },
   {
-    "text": "사라졌습니다. 루나가",
-    "startFrame": 24163,
-    "endFrame": 24207,
+    "text": "루나가 무너지는 걸 두 눈으로 봤으니까요.",
+    "startFrame": 24191,
+    "endFrame": 24278,
     "part": 18
   },
   {
-    "text": "무너지는 걸 두 눈으로",
-    "startFrame": 24207,
-    "endFrame": 24255,
-    "part": 18
-  },
-  {
-    "text": "봤으니까요. 자판기는",
-    "startFrame": 24255,
-    "endFrame": 24299,
-    "part": 18
-  },
-  {
-    "text": "멀쩡히 돌아가는데,",
-    "startFrame": 24299,
-    "endFrame": 24339,
-    "part": 18
-  },
-  {
-    "text": "아무도 그 결과를 믿지",
-    "startFrame": 24339,
-    "endFrame": 24386,
-    "part": 18
-  },
-  {
-    "text": "않게 된 겁니다.",
-    "startFrame": 24386,
+    "text": "자판기는 멀쩡히 돌아가는데, 아무도 그 결과를 믿지 않게 된 겁니다.",
+    "startFrame": 24278,
     "endFrame": 24422,
     "part": 18
   },
   {
-    "text": "그때부터 사람들은",
+    "text": "그때부터 사람들은 UST를 이렇게 보기 시작합니다.",
     "startFrame": 24422,
-    "endFrame": 24460,
+    "endFrame": 24532,
     "part": 19
   },
   {
-    "text": "UST를 이렇게 보기",
-    "startFrame": 24460,
-    "endFrame": 24506,
+    "text": "이건 1달러짜리가 아니라, 지금 팔리는 값이 진짜 값이다.",
+    "startFrame": 24532,
+    "endFrame": 24657,
     "part": 19
   },
   {
-    "text": "시작합니다. 이건",
-    "startFrame": 24506,
-    "endFrame": 24544,
-    "part": 19
-  },
-  {
-    "text": "1달러짜리가 아니라,",
-    "startFrame": 24544,
-    "endFrame": 24590,
-    "part": 19
-  },
-  {
-    "text": "지금 팔리는 값이 진짜",
-    "startFrame": 24590,
-    "endFrame": 24640,
-    "part": 19
-  },
-  {
-    "text": "값이다. 0.68달러면",
-    "startFrame": 24640,
-    "endFrame": 24691,
-    "part": 19
-  },
-  {
-    "text": "0.68달러,",
-    "startFrame": 24691,
-    "endFrame": 24720,
-    "part": 19
-  },
-  {
-    "text": "0.30달러면",
-    "startFrame": 24720,
-    "endFrame": 24749,
-    "part": 19
-  },
-  {
-    "text": "0.30달러.",
-    "startFrame": 24749,
+    "text": "0.68달러면 0.68달러, 0.30달러면 0.30달러.",
+    "startFrame": 24657,
     "endFrame": 24779,
     "part": 19
   },
   {
-    "text": "1달러라는 기준선",
+    "text": "1달러라는 기준선 자체가 사라진 겁니다.",
     "startFrame": 24779,
-    "endFrame": 24816,
+    "endFrame": 24865,
     "part": 19
   },
   {
-    "text": "자체가 사라진 겁니다.",
-    "startFrame": 24816,
-    "endFrame": 24866,
-    "part": 19
-  },
-  {
-    "text": "그 순간부터 UST는",
-    "startFrame": 24866,
-    "endFrame": 24911,
-    "part": 19
-  },
-  {
-    "text": "더 이상 안정 코인이",
-    "startFrame": 24911,
-    "endFrame": 24957,
-    "part": 19
-  },
-  {
-    "text": "아니었습니다.",
-    "startFrame": 24957,
+    "text": "그 순간부터 UST는 더 이상 안정 코인이 아니었습니다.",
+    "startFrame": 24865,
     "endFrame": 24986,
     "part": 19
   },
   {
-    "text": "테라 측은 유동성을",
+    "text": "테라 측은 유동성을 끌어와서 신뢰를 되돌려보려 했습니다.",
     "startFrame": 24986,
-    "endFrame": 25028,
+    "endFrame": 25106,
     "part": 19
   },
   {
-    "text": "끌어와서 신뢰를",
-    "startFrame": 25028,
-    "endFrame": 25061,
-    "part": 19
-  },
-  {
-    "text": "되돌려보려 했습니다.",
-    "startFrame": 25061,
-    "endFrame": 25108,
-    "part": 19
-  },
-  {
-    "text": "하지만 그때 사람들",
-    "startFrame": 25108,
-    "endFrame": 25150,
-    "part": 19
-  },
-  {
-    "text": "머릿속엔 이미 같은",
-    "startFrame": 25150,
-    "endFrame": 25191,
-    "part": 19
-  },
-  {
-    "text": "질문 하나만 남아",
-    "startFrame": 25191,
-    "endFrame": 25229,
-    "part": 19
-  },
-  {
-    "text": "있었어요.",
-    "startFrame": 25229,
+    "text": "하지만 그때 사람들 머릿속엔 이미 같은 질문 하나만 남아 있었어요.",
+    "startFrame": 25106,
     "endFrame": 25250,
     "part": 19
   },
   {
-    "text": "누가 마지막에 나가게",
+    "text": "누가 마지막에 나가게 되는가.",
     "startFrame": 25250,
-    "endFrame": 25295,
-    "part": 19
-  },
-  {
-    "text": "되는가.",
-    "startFrame": 25295,
     "endFrame": 25312,
     "part": 19
   },
   {
-    "text": "이 질문이 나오기",
+    "text": "이 질문이 나오기 시작하면 사실 결론은 난 겁니다.",
     "startFrame": 25312,
-    "endFrame": 25349,
+    "endFrame": 25421,
     "part": 19
   },
   {
-    "text": "시작하면 사실 결론은",
-    "startFrame": 25349,
-    "endFrame": 25395,
-    "part": 19
-  },
-  {
-    "text": "난 겁니다. 모두가",
-    "startFrame": 25395,
-    "endFrame": 25437,
-    "part": 19
-  },
-  {
-    "text": "동시에 나갈 수 있는",
-    "startFrame": 25437,
-    "endFrame": 25482,
-    "part": 19
-  },
-  {
-    "text": "출구란 건 어디에도",
-    "startFrame": 25482,
-    "endFrame": 25524,
-    "part": 19
-  },
-  {
-    "text": "없으니까요.",
-    "startFrame": 25524,
+    "text": "모두가 동시에 나갈 수 있는 출구란 건 어디에도 없으니까요.",
+    "startFrame": 25421,
     "endFrame": 25549,
     "part": 19
   },
   {
-    "text": "다시 말씀드리지만 이",
+    "text": "다시 말씀드리지만 이 사건은 누가 작정하고 벌인 일이 아닙니다.",
     "startFrame": 25549,
-    "endFrame": 25597,
+    "endFrame": 25691,
     "part": 20
   },
   {
-    "text": "사건은 누가 작정하고",
-    "startFrame": 25597,
-    "endFrame": 25644,
+    "text": "감당 못 할 수익률, 루나 하나에만 기댄 담보 구조, 식어가던 시장, 그리고 한꺼번에 몰린 출금.",
+    "startFrame": 25691,
+    "endFrame": 25910,
     "part": 20
   },
   {
-    "text": "벌인 일이 아닙니다.",
-    "startFrame": 25644,
-    "endFrame": 25692,
-    "part": 20
-  },
-  {
-    "text": "감당 못 할 수익률,",
-    "startFrame": 25692,
-    "endFrame": 25740,
-    "part": 20
-  },
-  {
-    "text": "루나 하나에만 기댄",
-    "startFrame": 25740,
-    "endFrame": 25783,
-    "part": 20
-  },
-  {
-    "text": "담보 구조, 식어가던",
-    "startFrame": 25783,
-    "endFrame": 25831,
-    "part": 20
-  },
-  {
-    "text": "시장, 그리고 한꺼번에",
-    "startFrame": 25831,
-    "endFrame": 25882,
-    "part": 20
-  },
-  {
-    "text": "몰린 출금. 이 네",
-    "startFrame": 25882,
-    "endFrame": 25926,
-    "part": 20
-  },
-  {
-    "text": "가지가 같은 방향으로",
-    "startFrame": 25926,
-    "endFrame": 25973,
-    "part": 20
-  },
-  {
-    "text": "겹쳤습니다.",
-    "startFrame": 25973,
+    "text": "이 네 가지가 같은 방향으로 겹쳤습니다.",
+    "startFrame": 25910,
     "endFrame": 25999,
     "part": 20
   },
   {
-    "text": "그 끝에서 UST는",
+    "text": "그 끝에서 UST는 1달러를 잃었습니다.",
     "startFrame": 25999,
-    "endFrame": 26042,
+    "endFrame": 26088,
     "part": 20
   },
   {
-    "text": "1달러를 잃었습니다.",
-    "startFrame": 26042,
-    "endFrame": 26090,
-    "part": 20
-  },
-  {
-    "text": "루나는 충격을 막아주는",
-    "startFrame": 26090,
-    "endFrame": 26141,
-    "part": 20
-  },
-  {
-    "text": "쪽이 아니라, 손실이",
-    "startFrame": 26141,
-    "endFrame": 26189,
-    "part": 20
-  },
-  {
-    "text": "전부 쏟아져 들어오는",
-    "startFrame": 26189,
-    "endFrame": 26236,
-    "part": 20
-  },
-  {
-    "text": "쪽이 됐고요.",
-    "startFrame": 26236,
+    "text": "루나는 충격을 막아주는 쪽이 아니라, 손실이 전부 쏟아져 들어오는 쪽이 됐고요.",
+    "startFrame": 26088,
     "endFrame": 26266,
     "part": 20
   },
   {
-    "text": "지금까지 우리가 본 건",
+    "text": "지금까지 우리가 본 건 구조였습니다.",
     "startFrame": 26266,
-    "endFrame": 26318,
+    "endFrame": 26349,
     "part": 20
   },
   {
-    "text": "구조였습니다. 자판기,",
-    "startFrame": 26318,
-    "endFrame": 26369,
+    "text": "자판기, 저울, 톱니바퀴.",
+    "startFrame": 26349,
+    "endFrame": 26406,
     "part": 20
   },
   {
-    "text": "저울, 톱니바퀴.",
-    "startFrame": 26369,
-    "endFrame": 26407,
-    "part": 20
-  },
-  {
-    "text": "그런데 그 톱니 사이에",
-    "startFrame": 26407,
-    "endFrame": 26459,
-    "part": 20
-  },
-  {
-    "text": "사람이 있었습니다.",
-    "startFrame": 26459,
+    "text": "그런데 그 톱니 사이에 사람이 있었습니다.",
+    "startFrame": 26406,
     "endFrame": 26501,
     "part": 20
   },
   {
-    "text": "한번 이렇게 상상해",
+    "text": "한번 이렇게 상상해 보시죠.",
     "startFrame": 26501,
-    "endFrame": 26544,
-    "part": 20
-  },
-  {
-    "text": "보시죠.",
-    "startFrame": 26544,
     "endFrame": 26561,
     "part": 20
   },
   {
     "text": "코인은 잘 모릅니다.",
     "startFrame": 26561,
-    "endFrame": 26609,
+    "endFrame": 26607,
     "part": 20
   },
   {
-    "text": "비트코인은 무섭다고",
-    "startFrame": 26609,
-    "endFrame": 26652,
+    "text": "비트코인은 무섭다고 들었어요.",
+    "startFrame": 26607,
+    "endFrame": 26675,
     "part": 20
   },
   {
-    "text": "들었어요. 하루에 몇십",
-    "startFrame": 26652,
-    "endFrame": 26704,
+    "text": "하루에 몇십 퍼센트씩 빠진다니까요.",
+    "startFrame": 26675,
+    "endFrame": 26755,
     "part": 20
   },
   {
-    "text": "퍼센트씩 빠진다니까요.",
-    "startFrame": 26704,
-    "endFrame": 26756,
+    "text": "그런데 누가 이런 걸 알려줍니다.",
+    "startFrame": 26755,
+    "endFrame": 26830,
     "part": 20
   },
   {
-    "text": "그런데 누가 이런 걸",
-    "startFrame": 26756,
-    "endFrame": 26804,
+    "text": "\"이건 가격이 안 움직여.",
+    "startFrame": 26830,
+    "endFrame": 26889,
     "part": 20
   },
   {
-    "text": "알려줍니다. \"이건",
-    "startFrame": 26804,
-    "endFrame": 26847,
+    "text": "1달러에 딱 고정돼 있어.",
+    "startFrame": 26889,
+    "endFrame": 26948,
     "part": 20
   },
   {
-    "text": "가격이 안 움직여.",
-    "startFrame": 26847,
-    "endFrame": 26890,
-    "part": 20
-  },
-  {
-    "text": "1달러에 딱 고정돼",
-    "startFrame": 26890,
-    "endFrame": 26934,
-    "part": 20
-  },
-  {
-    "text": "있어. 근데 이자를",
-    "startFrame": 26934,
-    "endFrame": 26977,
-    "part": 20
-  },
-  {
-    "text": "20% 줘.\"",
-    "startFrame": 26977,
+    "text": "근데 이자를 20% 줘.\"",
+    "startFrame": 26948,
     "endFrame": 27007,
     "part": 20
   },
   {
-    "text": "위험한 코인이 아니라",
+    "text": "위험한 코인이 아니라 안전한 코인이라고 했습니다.",
     "startFrame": 27007,
-    "endFrame": 27058,
+    "endFrame": 27124,
     "part": 21
   },
   {
-    "text": "안전한 코인이라고",
-    "startFrame": 27058,
-    "endFrame": 27099,
-    "part": 21
-  },
-  {
-    "text": "했습니다. 게다가 매일",
-    "startFrame": 27099,
-    "endFrame": 27154,
-    "part": 21
-  },
-  {
-    "text": "잔액이 아주 조금씩",
-    "startFrame": 27154,
-    "endFrame": 27200,
-    "part": 21
-  },
-  {
-    "text": "늘어나는 게 보입니다.",
-    "startFrame": 27200,
+    "text": "게다가 매일 잔액이 아주 조금씩 늘어나는 게 보입니다.",
+    "startFrame": 27124,
     "endFrame": 27255,
     "part": 21
   },
   {
     "text": "그래서 넣습니다.",
     "startFrame": 27255,
-    "endFrame": 27296,
+    "endFrame": 27295,
     "part": 21
   },
   {
-    "text": "처음엔 조금. 잘",
-    "startFrame": 27296,
-    "endFrame": 27338,
+    "text": "처음엔 조금.",
+    "startFrame": 27295,
+    "endFrame": 27326,
     "part": 21
   },
   {
-    "text": "되니까 더 많이.",
-    "startFrame": 27338,
-    "endFrame": 27379,
+    "text": "잘 되니까 더 많이.",
+    "startFrame": 27326,
+    "endFrame": 27375,
     "part": 21
   },
   {
-    "text": "전세금을 넣은 사람도",
-    "startFrame": 27379,
-    "endFrame": 27430,
-    "part": 21
-  },
-  {
-    "text": "있었고, 퇴직금을 넣은",
-    "startFrame": 27430,
-    "endFrame": 27486,
-    "part": 21
-  },
-  {
-    "text": "사람도 있었습니다.",
-    "startFrame": 27486,
+    "text": "전세금을 넣은 사람도 있었고, 퇴직금을 넣은 사람도 있었습니다.",
+    "startFrame": 27375,
     "endFrame": 27532,
     "part": 21
   },
   {
-    "text": "그리고 5월의 어느",
+    "text": "그리고 5월의 어느 밤, 숫자가 0.98이 됩니다.",
     "startFrame": 27532,
-    "endFrame": 27578,
-    "part": 21
-  },
-  {
-    "text": "밤, 숫자가 0.98이",
-    "startFrame": 27578,
-    "endFrame": 27633,
-    "part": 21
-  },
-  {
-    "text": "됩니다.",
-    "startFrame": 27633,
     "endFrame": 27651,
     "part": 21
   },
   {
-    "text": "자, 여기서 어떻게",
+    "text": "자, 여기서 어떻게 하시겠어요.",
     "startFrame": 27651,
-    "endFrame": 27697,
-    "part": 21
-  },
-  {
-    "text": "하시겠어요.",
-    "startFrame": 27697,
     "endFrame": 27724,
     "part": 21
   },
   {
-    "text": "지금 팔면 2%를 손해",
+    "text": "지금 팔면 2%를 손해 봅니다.",
     "startFrame": 27724,
-    "endFrame": 27780,
+    "endFrame": 27801,
     "part": 21
   },
   {
-    "text": "봅니다. 아깝죠.",
-    "startFrame": 27780,
-    "endFrame": 27822,
+    "text": "아깝죠.",
+    "startFrame": 27801,
+    "endFrame": 27819,
     "part": 21
   },
   {
-    "text": "게다가 여태 잘",
-    "startFrame": 27822,
-    "endFrame": 27860,
+    "text": "게다가 여태 잘 돌아왔잖아요.",
+    "startFrame": 27819,
+    "endFrame": 27892,
     "part": 21
   },
   {
-    "text": "돌아왔잖아요. 사람들은",
-    "startFrame": 27860,
-    "endFrame": 27916,
+    "text": "사람들은 기다렸습니다.",
+    "startFrame": 27892,
+    "endFrame": 27946,
     "part": 21
   },
   {
-    "text": "기다렸습니다. 곧",
-    "startFrame": 27916,
-    "endFrame": 27958,
-    "part": 21
-  },
-  {
-    "text": "1달러로 돌아올",
-    "startFrame": 27958,
-    "endFrame": 27995,
-    "part": 21
-  },
-  {
-    "text": "거니까.",
-    "startFrame": 27995,
+    "text": "곧 1달러로 돌아올 거니까.",
+    "startFrame": 27946,
     "endFrame": 28014,
     "part": 21
   },
   {
-    "text": "기다린 사람들의 돈은",
+    "text": "기다린 사람들의 돈은 돌아오지 않았습니다.",
     "startFrame": 28014,
-    "endFrame": 28063,
-    "part": 21
-  },
-  {
-    "text": "돌아오지 않았습니다.",
-    "startFrame": 28063,
     "endFrame": 28112,
     "part": 21
   },
   {
-    "text": "이게 이 사건에서 제일",
+    "text": "이게 이 사건에서 제일 잔인한 부분입니다.",
     "startFrame": 28112,
-    "endFrame": 28168,
+    "endFrame": 28213,
     "part": 21
   },
   {
-    "text": "잔인한 부분입니다. 겁",
-    "startFrame": 28168,
-    "endFrame": 28224,
+    "text": "겁 없이 도박한 사람들이 당한 게 아니에요.",
+    "startFrame": 28213,
+    "endFrame": 28317,
     "part": 21
   },
   {
-    "text": "없이 도박한 사람들이",
-    "startFrame": 28224,
-    "endFrame": 28275,
-    "part": 21
-  },
-  {
-    "text": "당한 게 아니에요.",
-    "startFrame": 28275,
-    "endFrame": 28321,
-    "part": 21
-  },
-  {
-    "text": "위험을 피하고 싶어서",
-    "startFrame": 28321,
-    "endFrame": 28372,
-    "part": 21
-  },
-  {
-    "text": "안전해 보이는 쪽을",
-    "startFrame": 28372,
-    "endFrame": 28419,
-    "part": 21
-  },
-  {
-    "text": "고른 사람들이",
-    "startFrame": 28419,
-    "endFrame": 28451,
-    "part": 21
-  },
-  {
-    "text": "당했습니다.",
-    "startFrame": 28451,
+    "text": "위험을 피하고 싶어서 안전해 보이는 쪽을 고른 사람들이 당했습니다.",
+    "startFrame": 28317,
     "endFrame": 28479,
     "part": 21
   },
   {
-    "text": "50조라는 숫자는 그냥",
+    "text": "50조라는 숫자는 그냥 숫자가 아닙니다.",
     "startFrame": 28479,
-    "endFrame": 28534,
+    "endFrame": 28575,
     "part": 21
   },
   {
-    "text": "숫자가 아닙니다.",
-    "startFrame": 28534,
-    "endFrame": 28576,
-    "part": 21
-  },
-  {
-    "text": "누군가의 전세금이고,",
-    "startFrame": 28576,
-    "endFrame": 28627,
-    "part": 21
-  },
-  {
-    "text": "누군가의 몇 년치",
-    "startFrame": 28627,
-    "endFrame": 28668,
-    "part": 21
-  },
-  {
-    "text": "월급이었습니다.",
-    "startFrame": 28668,
+    "text": "누군가의 전세금이고, 누군가의 몇 년치 월급이었습니다.",
+    "startFrame": 28575,
     "endFrame": 28705,
     "part": 21
   },
   {
-    "text": "그 뒤 책임 문제는",
+    "text": "그 뒤 책임 문제는 법정으로 넘어갔습니다.",
     "startFrame": 28705,
-    "endFrame": 28731,
-    "part": 22
-  },
-  {
-    "text": "법정으로 넘어갔습니다.",
-    "startFrame": 28731,
     "endFrame": 28762,
     "part": 22
   },
   {
-    "text": "배심원단은 Terraform과",
+    "text": "배심원단은 Terraform과 권도형이 투자자를 속였다고 평결했습니다.",
     "startFrame": 28762,
-    "endFrame": 28806,
+    "endFrame": 28861,
     "part": 22
   },
   {
-    "text": "권도형이 투자자를",
-    "startFrame": 28806,
-    "endFrame": 28830,
+    "text": "그리고 45억 달러가 넘는 돈을 내기로 합의가 이뤄졌고요.",
+    "startFrame": 28861,
+    "endFrame": 28942,
     "part": 22
   },
   {
-    "text": "속였다고 평결했습니다.",
-    "startFrame": 28830,
-    "endFrame": 28862,
-    "part": 22
-  },
-  {
-    "text": "그리고 45억 달러가",
-    "startFrame": 28862,
-    "endFrame": 28892,
-    "part": 22
-  },
-  {
-    "text": "넘는 돈을 내기로",
-    "startFrame": 28892,
-    "endFrame": 28916,
-    "part": 22
-  },
-  {
-    "text": "합의가 이뤄졌고요.",
-    "startFrame": 28916,
-    "endFrame": 28943,
-    "part": 22
-  },
-  {
-    "text": "권도형은 2025년",
-    "startFrame": 28943,
-    "endFrame": 28971,
-    "part": 22
-  },
-  {
-    "text": "미국 법정에서 사기",
-    "startFrame": 28971,
-    "endFrame": 28998,
-    "part": 22
-  },
-  {
-    "text": "관련 혐의에 유죄를",
-    "startFrame": 28998,
-    "endFrame": 29025,
-    "part": 22
-  },
-  {
-    "text": "인정했고, 15년형을",
-    "startFrame": 29025,
-    "endFrame": 29054,
-    "part": 22
-  },
-  {
-    "text": "선고받았습니다.",
-    "startFrame": 29054,
+    "text": "권도형은 2025년 미국 법정에서 사기 관련 혐의에 유죄를 인정했고, 15년형을 선고받았습니다.",
+    "startFrame": 28942,
     "endFrame": 29076,
     "part": 22
   },
   {
-    "text": "그런데 법원이 밝혀준",
+    "text": "그런데 법원이 밝혀준 건 누가 책임을 지느냐까지입니다.",
     "startFrame": 29076,
-    "endFrame": 29106,
+    "endFrame": 29152,
     "part": 22
   },
   {
-    "text": "건 누가 책임을",
-    "startFrame": 29106,
-    "endFrame": 29128,
+    "text": "왜 이런 구조가 만들어졌고 어쩌다 이렇게 무너졌는지, 그건 판결문에 안 나옵니다.",
+    "startFrame": 29152,
+    "endFrame": 29266,
     "part": 22
   },
   {
-    "text": "지느냐까지입니다. 왜",
-    "startFrame": 29128,
-    "endFrame": 29158,
-    "part": 22
-  },
-  {
-    "text": "이런 구조가 만들어졌고",
-    "startFrame": 29158,
-    "endFrame": 29190,
-    "part": 22
-  },
-  {
-    "text": "어쩌다 이렇게",
-    "startFrame": 29190,
-    "endFrame": 29209,
-    "part": 22
-  },
-  {
-    "text": "무너졌는지, 그건",
-    "startFrame": 29209,
-    "endFrame": 29234,
-    "part": 22
-  },
-  {
-    "text": "판결문에 안 나옵니다.",
-    "startFrame": 29234,
-    "endFrame": 29267,
-    "part": 22
-  },
-  {
-    "text": "그래서 저는 오늘 그",
-    "startFrame": 29267,
-    "endFrame": 29297,
-    "part": 22
-  },
-  {
-    "text": "이야기를 하고",
-    "startFrame": 29297,
-    "endFrame": 29316,
-    "part": 22
-  },
-  {
-    "text": "싶었습니다.",
-    "startFrame": 29316,
+    "text": "그래서 저는 오늘 그 이야기를 하고 싶었습니다.",
+    "startFrame": 29266,
     "endFrame": 29332,
     "part": 22
   },
   {
-    "text": "그럼 이 사건에서",
+    "text": "그럼 이 사건에서 우리가 배울 건 뭘까요.",
     "startFrame": 29332,
-    "endFrame": 29357,
-    "part": 22
-  },
-  {
-    "text": "우리가 배울 건",
-    "startFrame": 29357,
-    "endFrame": 29378,
-    "part": 22
-  },
-  {
-    "text": "뭘까요.",
-    "startFrame": 29378,
     "endFrame": 29389,
     "part": 22
   },
   {
-    "text": "첫째, 이름에",
+    "text": "첫째, 이름에 '안정'이 붙었다고 금고가 있는 건 아닙니다.",
     "startFrame": 29389,
-    "endFrame": 29408,
+    "endFrame": 29474,
     "part": 22
   },
   {
-    "text": "'안정'이 붙었다고",
-    "startFrame": 29408,
-    "endFrame": 29435,
+    "text": "스테이블코인이라고 다 같은 스테이블코인이 아니에요.",
+    "startFrame": 29474,
+    "endFrame": 29545,
     "part": 22
   },
   {
-    "text": "금고가 있는 건",
-    "startFrame": 29435,
-    "endFrame": 29457,
+    "text": "이름 말고, 뭘로 그 안정을 유지하는지를 봐야 합니다.",
+    "startFrame": 29545,
+    "endFrame": 29622,
     "part": 22
   },
   {
-    "text": "아닙니다. 스테이블코인이라고",
-    "startFrame": 29457,
-    "endFrame": 29498,
-    "part": 22
-  },
-  {
-    "text": "다 같은 스테이블코인이",
-    "startFrame": 29498,
-    "endFrame": 29530,
-    "part": 22
-  },
-  {
-    "text": "아니에요. 이름 말고,",
-    "startFrame": 29530,
-    "endFrame": 29563,
-    "part": 22
-  },
-  {
-    "text": "뭘로 그 안정을",
-    "startFrame": 29563,
-    "endFrame": 29585,
-    "part": 22
-  },
-  {
-    "text": "유지하는지를 봐야",
-    "startFrame": 29585,
-    "endFrame": 29609,
-    "part": 22
-  },
-  {
-    "text": "합니다. 달러인지,",
-    "startFrame": 29609,
-    "endFrame": 29636,
-    "part": 22
-  },
-  {
-    "text": "국채인지, 아니면 다른",
-    "startFrame": 29636,
-    "endFrame": 29669,
-    "part": 22
-  },
-  {
-    "text": "코인 가격인지.",
-    "startFrame": 29669,
+    "text": "달러인지, 국채인지, 아니면 다른 코인 가격인지.",
+    "startFrame": 29622,
     "endFrame": 29690,
     "part": 22
   },
   {
-    "text": "둘째, 수익률보다 그",
+    "text": "둘째, 수익률보다 그 수익이 어디서 나오는지가 먼저입니다.",
     "startFrame": 29690,
-    "endFrame": 29734,
+    "endFrame": 29812,
     "part": 23
   },
   {
-    "text": "수익이 어디서",
-    "startFrame": 29734,
-    "endFrame": 29762,
+    "text": "연 19.5%.",
+    "startFrame": 29812,
+    "endFrame": 29842,
     "part": 23
   },
   {
-    "text": "나오는지가 먼저입니다.",
-    "startFrame": 29762,
-    "endFrame": 29811,
+    "text": "이건 그냥 숫자에 불과합니다.",
+    "startFrame": 29842,
+    "endFrame": 29903,
     "part": 23
   },
   {
-    "text": "연 19.5%. 이건",
-    "startFrame": 29811,
-    "endFrame": 29855,
+    "text": "진짜 봐야 할 건 그 뒤예요.",
+    "startFrame": 29903,
+    "endFrame": 29963,
     "part": 23
   },
   {
-    "text": "그냥 숫자에",
-    "startFrame": 29855,
-    "endFrame": 29879,
+    "text": "이 이자를 누가 벌어서, 누구 돈으로, 언제까지 주는가.",
+    "startFrame": 29963,
+    "endFrame": 30081,
     "part": 23
   },
   {
-    "text": "불과합니다. 진짜 봐야",
-    "startFrame": 29879,
-    "endFrame": 29927,
-    "part": 23
-  },
-  {
-    "text": "할 건 그 뒤예요. 이",
-    "startFrame": 29927,
-    "endFrame": 29975,
-    "part": 23
-  },
-  {
-    "text": "이자를 누가 벌어서,",
-    "startFrame": 29975,
-    "endFrame": 30019,
-    "part": 23
-  },
-  {
-    "text": "누구 돈으로, 언제까지",
-    "startFrame": 30019,
-    "endFrame": 30067,
-    "part": 23
-  },
-  {
-    "text": "주는가. 여기에 답이",
-    "startFrame": 30067,
-    "endFrame": 30111,
-    "part": 23
-  },
-  {
-    "text": "없다면, 그 돈은 결국",
-    "startFrame": 30111,
-    "endFrame": 30159,
-    "part": 23
-  },
-  {
-    "text": "참여자 중 누군가의",
-    "startFrame": 30159,
-    "endFrame": 30199,
-    "part": 23
-  },
-  {
-    "text": "주머니에서 나오고 있는",
-    "startFrame": 30199,
-    "endFrame": 30247,
-    "part": 23
-  },
-  {
-    "text": "겁니다.",
-    "startFrame": 30247,
+    "text": "여기에 답이 없다면, 그 돈은 결국 참여자 중 누군가의 주머니에서 나오고 있는 겁니다.",
+    "startFrame": 30081,
     "endFrame": 30263,
     "part": 23
   },
   {
-    "text": "셋째, 투명하다고 쉬운",
+    "text": "셋째, 투명하다고 쉬운 건 아닙니다.",
     "startFrame": 30263,
-    "endFrame": 30311,
+    "endFrame": 30339,
     "part": 23
   },
   {
-    "text": "건 아닙니다. 테라의",
-    "startFrame": 30311,
-    "endFrame": 30355,
+    "text": "테라의 장부는 처음부터 끝까지 다 공개돼 있었습니다.",
+    "startFrame": 30339,
+    "endFrame": 30449,
     "part": 23
   },
   {
-    "text": "장부는 처음부터 끝까지",
-    "startFrame": 30355,
-    "endFrame": 30402,
+    "text": "그런데도 대부분은 늦게 알았어요.",
+    "startFrame": 30449,
+    "endFrame": 30518,
     "part": 23
   },
   {
-    "text": "다 공개돼 있었습니다.",
-    "startFrame": 30402,
-    "endFrame": 30450,
+    "text": "기억해 두세요.",
+    "startFrame": 30518,
+    "endFrame": 30548,
     "part": 23
   },
   {
-    "text": "그런데도 대부분은 늦게",
-    "startFrame": 30450,
-    "endFrame": 30498,
-    "part": 23
-  },
-  {
-    "text": "알았어요. 기억해",
-    "startFrame": 30498,
-    "endFrame": 30533,
-    "part": 23
-  },
-  {
-    "text": "두세요. 복잡함은 어둠",
-    "startFrame": 30533,
-    "endFrame": 30581,
-    "part": 23
-  },
-  {
-    "text": "속에만 숨는 게",
-    "startFrame": 30581,
-    "endFrame": 30613,
-    "part": 23
-  },
-  {
-    "text": "아니라, 밝은 곳에도",
-    "startFrame": 30613,
-    "endFrame": 30657,
-    "part": 23
-  },
-  {
-    "text": "숨는다는 것을요.",
-    "startFrame": 30657,
+    "text": "복잡함은 어둠 속에만 숨는 게 아니라, 밝은 곳에도 숨는다는 것을요.",
+    "startFrame": 30548,
     "endFrame": 30693,
     "part": 23
   },
   {
-    "text": "그런데 여기서 끝내면",
+    "text": "그런데 여기서 끝내면 안 될 것 같습니다.",
     "startFrame": 30693,
-    "endFrame": 30736,
-    "part": 23
-  },
-  {
-    "text": "안 될 것 같습니다.",
-    "startFrame": 30736,
     "endFrame": 30779,
     "part": 23
   },
   {
-    "text": "왜냐하면 이게 다 끝난",
+    "text": "왜냐하면 이게 다 끝난 옛날얘기가 아니거든요.",
     "startFrame": 30779,
-    "endFrame": 30825,
-    "part": 23
-  },
-  {
-    "text": "옛날얘기가 아니거든요.",
-    "startFrame": 30825,
     "endFrame": 30872,
     "part": 23
   },
   {
-    "text": "이 사건 이후에",
+    "text": "이 사건 이후에 스테이블코인 시장이 사라졌을까요.",
     "startFrame": 30872,
-    "endFrame": 30904,
+    "endFrame": 30972,
     "part": 24
   },
   {
-    "text": "스테이블코인 시장이",
-    "startFrame": 30904,
-    "endFrame": 30943,
+    "text": "반대입니다.",
+    "startFrame": 30972,
+    "endFrame": 30994,
     "part": 24
   },
   {
-    "text": "사라졌을까요.",
-    "startFrame": 30943,
-    "endFrame": 30971,
+    "text": "2026년 5월 기준 전체 스테이블코인 시가총액은 3,217억 달러로 사상 최고치를 찍었습니다.",
+    "startFrame": 30994,
+    "endFrame": 31189,
     "part": 24
   },
   {
-    "text": "반대입니다. 2026년",
-    "startFrame": 30971,
-    "endFrame": 31018,
+    "text": "2026년 1월 한 달 이체량은 10조 달러를 넘었고요.",
+    "startFrame": 31189,
+    "endFrame": 31303,
     "part": 24
   },
   {
-    "text": "5월 기준 전체",
-    "startFrame": 31018,
-    "endFrame": 31050,
-    "part": 24
-  },
-  {
-    "text": "스테이블코인 시가총액은",
-    "startFrame": 31050,
-    "endFrame": 31097,
-    "part": 24
-  },
-  {
-    "text": "3,217억 달러로",
-    "startFrame": 31097,
-    "endFrame": 31136,
-    "part": 24
-  },
-  {
-    "text": "사상 최고치를",
-    "startFrame": 31136,
-    "endFrame": 31164,
-    "part": 24
-  },
-  {
-    "text": "찍었습니다. 2026년",
-    "startFrame": 31164,
-    "endFrame": 31211,
-    "part": 24
-  },
-  {
-    "text": "1월 한 달 이체량은",
-    "startFrame": 31211,
-    "endFrame": 31254,
-    "part": 24
-  },
-  {
-    "text": "10조 달러를",
-    "startFrame": 31254,
-    "endFrame": 31282,
-    "part": 24
-  },
-  {
-    "text": "넘었고요. 테라가",
-    "startFrame": 31282,
-    "endFrame": 31317,
-    "part": 24
-  },
-  {
-    "text": "무너지기 직전인",
-    "startFrame": 31317,
-    "endFrame": 31349,
-    "part": 24
-  },
-  {
-    "text": "2022년 4월 이후",
-    "startFrame": 31349,
-    "endFrame": 31392,
-    "part": 24
-  },
-  {
-    "text": "가장 큰 규모입니다.",
-    "startFrame": 31392,
+    "text": "테라가 무너지기 직전인 2022년 4월 이후 가장 큰 규모입니다.",
+    "startFrame": 31303,
     "endFrame": 31435,
     "part": 24
   },
   {
-    "text": "지금 스테이블코인은",
+    "text": "지금 스테이블코인은 거래소 안에만 있지 않습니다.",
     "startFrame": 31435,
-    "endFrame": 31474,
+    "endFrame": 31534,
     "part": 24
   },
   {
-    "text": "거래소 안에만 있지",
-    "startFrame": 31474,
-    "endFrame": 31514,
+    "text": "결제에 쓰이고, 송금에 쓰이고, 기관들이 정산에 씁니다.",
+    "startFrame": 31534,
+    "endFrame": 31648,
     "part": 24
   },
   {
-    "text": "않습니다. 결제에",
-    "startFrame": 31514,
-    "endFrame": 31549,
-    "part": 24
-  },
-  {
-    "text": "쓰이고, 송금에",
-    "startFrame": 31549,
-    "endFrame": 31580,
-    "part": 24
-  },
-  {
-    "text": "쓰이고, 기관들이",
-    "startFrame": 31580,
-    "endFrame": 31615,
-    "part": 24
-  },
-  {
-    "text": "정산에 씁니다.",
-    "startFrame": 31615,
-    "endFrame": 31647,
-    "part": 24
-  },
-  {
-    "text": "그러니까 이건 코인",
-    "startFrame": 31647,
-    "endFrame": 31686,
-    "part": 24
-  },
-  {
-    "text": "하는 사람들만의 얘기가",
-    "startFrame": 31686,
-    "endFrame": 31733,
-    "part": 24
-  },
-  {
-    "text": "아니게 된 겁니다.",
-    "startFrame": 31733,
+    "text": "그러니까 이건 코인 하는 사람들만의 얘기가 아니게 된 겁니다.",
+    "startFrame": 31648,
     "endFrame": 31772,
     "part": 24
   },
   {
-    "text": "그리고 그 코인들은",
+    "text": "그리고 그 코인들은 겉으로 보면 다 똑같이 생겼습니다.",
     "startFrame": 31772,
-    "endFrame": 31811,
+    "endFrame": 31883,
     "part": 24
   },
   {
-    "text": "겉으로 보면 다 똑같이",
-    "startFrame": 31811,
-    "endFrame": 31859,
+    "text": "전부 1달러라고 적혀 있어요.",
+    "startFrame": 31883,
+    "endFrame": 31942,
     "part": 24
   },
   {
-    "text": "생겼습니다. 전부",
-    "startFrame": 31859,
-    "endFrame": 31894,
-    "part": 24
-  },
-  {
-    "text": "1달러라고 적혀",
-    "startFrame": 31894,
-    "endFrame": 31925,
-    "part": 24
-  },
-  {
-    "text": "있어요. 뭐가 뒤에",
-    "startFrame": 31925,
-    "endFrame": 31965,
-    "part": 24
-  },
-  {
-    "text": "있는지는, 열어봐야",
-    "startFrame": 31965,
-    "endFrame": 32004,
-    "part": 24
-  },
-  {
-    "text": "압니다.",
-    "startFrame": 32004,
+    "text": "뭐가 뒤에 있는지는, 열어봐야 압니다.",
+    "startFrame": 31942,
     "endFrame": 32019,
     "part": 24
   },
   {
-    "text": "이 영상은 특정 자산을",
+    "text": "이 영상은 특정 자산을 사라거나 팔라는 얘기가 아닙니다.",
     "startFrame": 32019,
-    "endFrame": 32066,
+    "endFrame": 32132,
     "part": 24
   },
   {
-    "text": "사라거나 팔라는 얘기가",
-    "startFrame": 32066,
-    "endFrame": 32112,
-    "part": 24
-  },
-  {
-    "text": "아닙니다. 우리는 그저",
-    "startFrame": 32112,
-    "endFrame": 32158,
-    "part": 24
-  },
-  {
-    "text": "돈이 어떤 약속을 믿고",
-    "startFrame": 32158,
-    "endFrame": 32205,
-    "part": 24
-  },
-  {
-    "text": "움직였는지를 따라가",
-    "startFrame": 32205,
-    "endFrame": 32243,
-    "part": 24
-  },
-  {
-    "text": "봤을 뿐입니다.",
-    "startFrame": 32243,
+    "text": "우리는 그저 돈이 어떤 약속을 믿고 움직였는지를 따라가 봤을 뿐입니다.",
+    "startFrame": 32132,
     "endFrame": 32274,
     "part": 24
   },
   {
-    "text": "이 사건이 남긴 건",
+    "text": "이 사건이 남긴 건 결국 이 한 문장입니다.",
     "startFrame": 32274,
-    "endFrame": 32316,
-    "part": 25
-  },
-  {
-    "text": "결국 이 한",
-    "startFrame": 32316,
-    "endFrame": 32341,
-    "part": 25
-  },
-  {
-    "text": "문장입니다.",
-    "startFrame": 32341,
     "endFrame": 32367,
     "part": 25
   },
   {
-    "text": "시장에서 가장 먼저",
+    "text": "시장에서 가장 먼저 무너지는 건 가격이 아닙니다.",
     "startFrame": 32367,
-    "endFrame": 32408,
+    "endFrame": 32476,
     "part": 25
   },
   {
-    "text": "무너지는 건 가격이",
-    "startFrame": 32408,
-    "endFrame": 32449,
-    "part": 25
-  },
-  {
-    "text": "아닙니다. 믿음입니다.",
-    "startFrame": 32449,
-    "endFrame": 32499,
+    "text": "믿음입니다.",
+    "startFrame": 32476,
+    "endFrame": 32500,
     "part": 25
   },
   {
     "text": "가격은 그다음이고요.",
-    "startFrame": 32499,
+    "startFrame": 32500,
     "endFrame": 32544,
     "part": 25
   },
   {
-    "text": "마지막으로 하나",
+    "text": "마지막으로 하나 여쭤보고 싶습니다.",
     "startFrame": 32544,
-    "endFrame": 32577,
-    "part": 25
-  },
-  {
-    "text": "여쭤보고 싶습니다.",
-    "startFrame": 32577,
     "endFrame": 32618,
     "part": 25
   },
   {
-    "text": "여러분이라면 그 밤에",
+    "text": "여러분이라면 그 밤에 어떻게 하셨을 것 같으세요.",
     "startFrame": 32618,
-    "endFrame": 32664,
+    "endFrame": 32727,
     "part": 25
   },
   {
-    "text": "어떻게 하셨을 것",
-    "startFrame": 32664,
-    "endFrame": 32702,
-    "part": 25
-  },
-  {
-    "text": "같으세요. 0.98달러.",
-    "startFrame": 32702,
-    "endFrame": 32757,
+    "text": "0.98달러.",
+    "startFrame": 32727,
+    "endFrame": 32756,
     "part": 25
   },
   {
     "text": "지금 팔면 2% 손해.",
-    "startFrame": 32757,
-    "endFrame": 32807,
+    "startFrame": 32756,
+    "endFrame": 32804,
     "part": 25
   },
   {
-    "text": "기다리면 돌아올지도",
-    "startFrame": 32807,
-    "endFrame": 32850,
+    "text": "기다리면 돌아올지도 모르는 상황.",
+    "startFrame": 32804,
+    "endFrame": 32877,
     "part": 25
   },
   {
-    "text": "모르는 상황.",
-    "startFrame": 32850,
-    "endFrame": 32879,
-    "part": 25
-  },
-  {
-    "text": "팔았을까요,",
-    "startFrame": 32879,
-    "endFrame": 32905,
-    "part": 25
-  },
-  {
-    "text": "기다렸을까요.",
-    "startFrame": 32905,
+    "text": "팔았을까요, 기다렸을까요.",
+    "startFrame": 32877,
     "endFrame": 32934,
     "part": 25
   },
   {
-    "text": "댓글에 적어주시면 다음",
+    "text": "댓글에 적어주시면 다음 영상 만들 때 참고하겠습니다.",
     "startFrame": 32934,
-    "endFrame": 32984,
+    "endFrame": 33048,
     "part": 25
   },
   {
-    "text": "영상 만들 때",
-    "startFrame": 32984,
-    "endFrame": 33013,
-    "part": 25
-  },
-  {
-    "text": "참고하겠습니다. 사실",
-    "startFrame": 33013,
-    "endFrame": 33058,
-    "part": 25
-  },
-  {
-    "text": "이게 이 채널이 계속",
-    "startFrame": 33058,
-    "endFrame": 33104,
-    "part": 25
-  },
-  {
-    "text": "다루게 될 질문이거든요.",
-    "startFrame": 33104,
+    "text": "사실 이게 이 채널이 계속 다루게 될 질문이거든요.",
+    "startFrame": 33048,
     "endFrame": 33158,
     "part": 25
   },
   {
-    "text": "다음 화에서는 은행",
+    "text": "다음 화에서는 은행 하나가 단 이틀 만에 사라진 사건을 다룹니다.",
     "startFrame": 33158,
-    "endFrame": 33200,
+    "endFrame": 33301,
     "part": 25
   },
   {
-    "text": "하나가 단 이틀 만에",
-    "startFrame": 33200,
-    "endFrame": 33246,
+    "text": "이번엔 코인이 아닙니다.",
+    "startFrame": 33301,
+    "endFrame": 33352,
     "part": 25
   },
   {
-    "text": "사라진 사건을",
-    "startFrame": 33246,
-    "endFrame": 33275,
+    "text": "미국에서 열여섯 번째로 큰, 진짜 은행이었습니다.",
+    "startFrame": 33352,
+    "endFrame": 33459,
     "part": 25
   },
   {
-    "text": "다룹니다. 이번엔",
-    "startFrame": 33275,
-    "endFrame": 33313,
-    "part": 25
-  },
-  {
-    "text": "코인이 아닙니다.",
-    "startFrame": 33313,
-    "endFrame": 33351,
-    "part": 25
-  },
-  {
-    "text": "미국에서 열여섯 번째로",
-    "startFrame": 33351,
-    "endFrame": 33401,
-    "part": 25
-  },
-  {
-    "text": "큰, 진짜 은행이었습니다.",
-    "startFrame": 33401,
-    "endFrame": 33460,
-    "part": 25
-  },
-  {
-    "text": "그리고 그 은행을",
-    "startFrame": 33460,
-    "endFrame": 33498,
-    "part": 25
-  },
-  {
-    "text": "무너뜨린 건 예금자들의",
-    "startFrame": 33498,
-    "endFrame": 33548,
-    "part": 25
-  },
-  {
-    "text": "문자메시지였습니다.",
-    "startFrame": 33548,
+    "text": "그리고 그 은행을 무너뜨린 건 예금자들의 문자메시지였습니다.",
+    "startFrame": 33459,
     "endFrame": 33590,
     "part": 25
   },
   {
-    "text": "돈이 움직인 사건을",
+    "text": "돈이 움직인 사건을 계속 추적합니다.",
     "startFrame": 33590,
-    "endFrame": 33632,
+    "endFrame": 33669,
     "part": 25
   },
   {
-    "text": "계속 추적합니다.",
-    "startFrame": 33632,
-    "endFrame": 33670,
-    "part": 25
-  },
-  {
-    "text": "구독해 두시면 다음",
-    "startFrame": 33670,
-    "endFrame": 33712,
-    "part": 25
-  },
-  {
-    "text": "궤적도 놓치지 않으실",
-    "startFrame": 33712,
-    "endFrame": 33759,
-    "part": 25
-  },
-  {
-    "text": "겁니다.",
-    "startFrame": 33759,
+    "text": "구독해 두시면 다음 궤적도 놓치지 않으실 겁니다.",
+    "startFrame": 33669,
     "endFrame": 33776,
     "part": 25
   },
   {
-    "text": "그럼 다음 사건에서",
+    "text": "그럼 다음 사건에서 뵙겠습니다.",
     "startFrame": 33776,
-    "endFrame": 33817,
-    "part": 25
-  },
-  {
-    "text": "뵙겠습니다.",
-    "startFrame": 33817,
     "endFrame": 33841,
     "part": 25
   }

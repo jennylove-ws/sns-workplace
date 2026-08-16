@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 docs/tts-script.md (파트별 실제 TTS 원문)과 public/audio/timeline.json
-(각 wav의 실측 길이)을 합쳐서, 화면에 12자 안팎으로 나오는 자막 청크
-타임라인을 생성한다. 결과는 src/data/subtitles.generated.ts,
-src/data/audioParts.generated.ts 로 저장.
+(각 wav의 실측 길이)을 합쳐서, 문장 단위로 자막 청크 타임라인을 생성한다.
+글자수로 강제로 자르지 않고 마침표/물음표/느낌표 경계에서만 끊는다
+(소수점 "0.98" 같은 숫자는 뒤에 공백이 없으므로 문장 경계로 오인하지 않음).
+결과는 src/data/subtitles.generated.ts, src/data/audioParts.generated.ts 로 저장.
 """
 import json
 import re
@@ -16,8 +17,9 @@ TIMELINE_JSON = os.path.join(ROOT, "public/audio/timeline.json")
 OUT_SUBS = os.path.join(ROOT, "src/data/subtitles.generated.ts")
 OUT_AUDIO = os.path.join(ROOT, "src/data/audioParts.generated.ts")
 
-TARGET_LEN = 12
-MAX_LEN = 16
+# 문장 종결 부호(.!?…) 바로 뒤에 공백/줄끝이 오는 지점에서만 자른다.
+# "0.98달러"처럼 숫자 뒤에 곧바로 글자가 이어지는 경우는 공백이 없어 분리되지 않는다.
+SENTENCE_SPLIT = re.compile(r"(?<=[.!?…])\s+")
 
 def parse_parts(md: str):
     # split on "## 파트 NN" headers
@@ -36,25 +38,8 @@ def parse_parts(md: str):
     return parts
 
 def chunk_paragraph(text: str):
-    words = text.split(" ")
-    chunks = []
-    cur = ""
-    for w in words:
-        candidate = (cur + " " + w).strip() if cur else w
-        if not cur:
-            cur = w
-            continue
-        if len(candidate) <= TARGET_LEN:
-            cur = candidate
-        elif len(cur) < 6 and len(candidate) <= MAX_LEN:
-            # too short a chunk on its own -- allow slight overflow
-            cur = candidate
-        else:
-            chunks.append(cur)
-            cur = w
-    if cur:
-        chunks.append(cur)
-    return chunks
+    sentences = [s.strip() for s in SENTENCE_SPLIT.split(text) if s.strip()]
+    return sentences if sentences else [text]
 
 def main():
     with open(SCRIPT_MD, encoding="utf-8") as f:
