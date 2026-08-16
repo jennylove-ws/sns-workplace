@@ -1,0 +1,135 @@
+{
+  "totalDurationSec": 1128.04,
+  "segments": [
+    {
+      "file": "1.wav",
+      "durationSec": 52.16,
+      "startSec": 0.0
+    },
+    {
+      "file": "2.wav",
+      "durationSec": 42.76,
+      "startSec": 52.16
+    },
+    {
+      "file": "3.wav",
+      "durationSec": 41.92,
+      "startSec": 94.92
+    },
+    {
+      "file": "4.wav",
+      "durationSec": 48.8,
+      "startSec": 136.84
+    },
+    {
+      "file": "5.wav",
+      "durationSec": 45.32,
+      "startSec": 185.64
+    },
+    {
+      "file": "6.wav",
+      "durationSec": 47.76,
+      "startSec": 230.96
+    },
+    {
+      "file": "6-1.wav",
+      "durationSec": 3.56,
+      "startSec": 278.72
+    },
+    {
+      "file": "7.wav",
+      "durationSec": 47.48,
+      "startSec": 282.28
+    },
+    {
+      "file": "8.wav",
+      "durationSec": 41.24,
+      "startSec": 329.76
+    },
+    {
+      "file": "9.wav",
+      "durationSec": 41.2,
+      "startSec": 371.0
+    },
+    {
+      "file": "10.wav",
+      "durationSec": 42.88,
+      "startSec": 412.2
+    },
+    {
+      "file": "11.wav",
+      "durationSec": 41.0,
+      "startSec": 455.08
+    },
+    {
+      "file": "12.wav",
+      "durationSec": 46.96,
+      "startSec": 496.08
+    },
+    {
+      "file": "13.wav",
+      "durationSec": 43.32,
+      "startSec": 543.04
+    },
+    {
+      "file": "14.wav",
+      "durationSec": 46.84,
+      "startSec": 586.36
+    },
+    {
+      "file": "15.wav",
+      "durationSec": 41.2,
+      "startSec": 633.2
+    },
+    {
+      "file": "16.wav",
+      "durationSec": 48.72,
+      "startSec": 674.4
+    },
+    {
+      "file": "17.wav",
+      "durationSec": 51.72,
+      "startSec": 723.12
+    },
+    {
+      "file": "18.wav",
+      "durationSec": 39.24,
+      "startSec": 774.84
+    },
+    {
+      "file": "19.wav",
+      "durationSec": 37.56,
+      "startSec": 814.08
+    },
+    {
+      "file": "20.wav",
+      "durationSec": 48.6,
+      "startSec": 851.64
+    },
+    {
+      "file": "21.wav",
+      "durationSec": 56.6,
+      "startSec": 900.24
+    },
+    {
+      "file": "22.wav",
+      "durationSec": 32.84,
+      "startSec": 956.84
+    },
+    {
+      "file": "23.wav",
+      "durationSec": 39.4,
+      "startSec": 989.68
+    },
+    {
+      "file": "24.wav",
+      "durationSec": 46.72,
+      "startSec": 1029.08
+    },
+    {
+      "file": "25.wav",
+      "durationSec": 52.24,
+      "startSec": 1075.8
+    }
+  ]
+}
