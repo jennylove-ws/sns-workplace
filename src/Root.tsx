@@ -1,8 +1,7 @@
 import React from 'react';
 import {Composition} from 'remotion';
-import {MainVideo} from './Composition';
+import {MainVideo, TOTAL_DURATION_FRAMES} from './Composition';
 import {FPS, WIDTH, HEIGHT} from './constants';
-import {COLD_OPEN_DURATION} from './scenes/ColdOpen';
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -10,7 +9,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="MainVideo"
         component={MainVideo}
-        durationInFrames={COLD_OPEN_DURATION}
+        durationInFrames={TOTAL_DURATION_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
