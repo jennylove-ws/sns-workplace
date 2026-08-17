@@ -49,10 +49,14 @@ def main():
 
     parts_text = parse_parts(md)
     seg_by_num = {}
+    extra_segments = []
     for seg in timeline["segments"]:
-        # 6-1.wav is an inserted correction clip, not part of the 25 main parts
+        # 6-1.wav is an inserted clip with no matching TTS-script text (no
+        # transcript to build subtitles from) -- still play its audio, just
+        # without subtitle coverage, instead of silently dropping 3.5s of narration.
         name = seg["file"]
         if name == "6-1.wav":
+            extra_segments.append(seg)
             continue
         num = int(name.replace(".wav", ""))
         seg_by_num[num] = seg
@@ -97,6 +101,15 @@ def main():
                 })
                 sub_cursor = end
             cursor = p_start + p_dur
+
+    for seg in extra_segments:
+        audio_parts.append({
+            "part": 6.1,
+            "file": seg["file"],
+            "startSec": seg["startSec"],
+            "durationSec": seg["durationSec"],
+        })
+    audio_parts.sort(key=lambda p: p["startSec"])
 
     # ensure no zero-length / overlapping frames from rounding
     for i in range(1, len(subtitle_lines)):

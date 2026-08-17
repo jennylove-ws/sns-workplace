@@ -40,6 +40,12 @@ export const audioParts: AudioPart[] = [
     "durationSec": 47.76
   },
   {
+    "part": 6.1,
+    "file": "6-1.wav",
+    "startSec": 278.72,
+    "durationSec": 3.56
+  },
+  {
     "part": 7,
     "file": "7.wav",
     "startSec": 282.28,
