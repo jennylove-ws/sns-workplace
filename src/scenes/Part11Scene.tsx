@@ -1,8 +1,9 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame} from 'remotion';
 import {COLORS, FONT_FAMILY} from '../constants';
 import {AnimatedWaveform} from '../components/AnimatedWaveform';
 import {StepValue} from '../components/NumberDisplay';
+import {SlideImage} from '../components/SlideImage';
 
 // 파트11 오디오 구간(455.08s~496.08s) = 1230프레임
 export const PART11_DURATION = 1230;
@@ -47,66 +48,34 @@ const Caption: React.FC<{text: string; top?: string | number; color?: string}> =
   );
 };
 
-const ROWS = ['거래 기록 전수 재구성', '일별 자금 흐름 분석', '앵커 예치·인출 내역'];
-
-const PaperAnalysis: React.FC = () => {
+const PhotoBeat: React.FC<{src: string; caption?: string; durationInFrames: number}> = ({
+  src,
+  caption,
+  durationInFrames,
+}) => {
   const frame = useCurrentFrame();
-  const {fps} = useVideoConfig();
+  const textOpacity = interpolate(frame, [8, 18], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
-      <Caption text="블록체인 전수 분석 논문" />
-      <Centered>
-        <div
-          style={{
-            width: 640,
-            borderRadius: 20,
-            background: COLORS.panel,
-            border: `2px solid ${COLORS.line}`,
-            padding: '40px 50px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 26,
-          }}
-        >
-          {ROWS.map((row, i) => {
-            const atFrame = 20 + i * 45;
-            const local = frame - atFrame;
-            const reveal = spring({frame: local, fps, config: {damping: 14, stiffness: 160}, durationInFrames: 18});
-            const opacity = interpolate(local, [0, 10], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-            return (
-              <div
-                key={row}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: 18,
-                  opacity,
-                  transform: `translateX(${(1 - reveal) * -40}px)`,
-                }}
-              >
-                <span
-                  style={{
-                    width: 34,
-                    height: 34,
-                    borderRadius: '50%',
-                    background: reveal > 0.6 ? COLORS.accentGreen : COLORS.line,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    fontSize: 20,
-                    color: COLORS.bg,
-                    fontWeight: 800,
-                    flexShrink: 0,
-                  }}
-                >
-                  {reveal > 0.6 ? '✓' : ''}
-                </span>
-                <span style={{fontFamily: FONT_FAMILY, fontSize: 30, fontWeight: 700, color: COLORS.ink}}>{row}</span>
-              </div>
-            );
-          })}
+      <SlideImage src={src} durationInFrames={durationInFrames} zoom="in" intensity={0.1} />
+      {caption && (
+        <div style={{position: 'absolute', top: '30%', left: 0, right: 0, textAlign: 'center', opacity: textOpacity}}>
+          <span
+            style={{
+              display: 'inline-block',
+              fontFamily: FONT_FAMILY,
+              fontSize: 40,
+              fontWeight: 800,
+              color: COLORS.gold,
+              background: 'rgba(0,0,0,0.45)',
+              borderRadius: 12,
+              padding: '10px 28px',
+            }}
+          >
+            {caption}
+          </span>
         </div>
-      </Centered>
+      )}
     </AbsoluteFill>
   );
 };
@@ -239,7 +208,11 @@ export const Part11Scene: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: COLORS.bg}}>
       <Sequence from={B.paperStart} durationInFrames={B.dailyStart - B.paperStart}>
-        <PaperAnalysis />
+        <PhotoBeat
+          src={staticFile('images/Gemini_Generated_Image_10rbsn10rbsn10rb.png')}
+          caption="블록체인 전수 분석 논문"
+          durationInFrames={B.dailyStart - B.paperStart}
+        />
       </Sequence>
 
       <Sequence from={B.dailyStart} durationInFrames={B.monthStart - B.dailyStart}>

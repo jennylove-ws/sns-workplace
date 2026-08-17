@@ -1,8 +1,9 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {COLORS, FONT_FAMILY} from '../constants';
 import {AnimatedWaveform} from '../components/AnimatedWaveform';
 import {StepValue} from '../components/NumberDisplay';
+import {SlideImage} from '../components/SlideImage';
 
 // 파트15 오디오 구간(633.2s~674.4s) = 1236프레임
 export const PART15_DURATION = 1236;
@@ -105,11 +106,18 @@ const THOUGHTS = [
   {atFrame: 120, text: '나도 일단 빼야 하나?'},
 ];
 
-const PanicThoughts: React.FC = () => {
+const PanicThoughts: React.FC<{durationInFrames: number}> = ({durationInFrames}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   return (
     <AbsoluteFill>
+      <SlideImage
+        src={staticFile('images/Gemini_Generated_Image_9kwtfb9kwtfb9kwt.png')}
+        durationInFrames={durationInFrames}
+        zoom="in"
+        intensity={0.08}
+      />
+      <AbsoluteFill style={{background: 'rgba(10,10,12,0.5)'}} />
       <Caption text="한 사람의 출금이, 다른 사람에겐 신호가 된다" />
       <Centered>
         <div style={{display: 'flex', flexDirection: 'column', gap: 22, alignItems: 'flex-start'}}>
@@ -307,7 +315,7 @@ export const Part15Scene: React.FC = () => {
       </Sequence>
 
       <Sequence from={B.panicStart} durationInFrames={B.signalStart - B.panicStart}>
-        <PanicThoughts />
+        <PanicThoughts durationInFrames={B.signalStart - B.panicStart} />
       </Sequence>
 
       <Sequence from={B.signalStart} durationInFrames={B.speedStart - B.signalStart}>

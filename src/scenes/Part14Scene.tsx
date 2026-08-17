@@ -1,6 +1,7 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {COLORS, FONT_FAMILY} from '../constants';
+import {SlideImage} from '../components/SlideImage';
 
 // 파트14 오디오 구간(586.36s~633.2s) = 1405프레임
 export const PART14_DURATION = 1405;
@@ -47,12 +48,19 @@ const Caption: React.FC<{text: string; top?: string | number; color?: string}> =
 
 const GRID_NUMS = ['482.1', '90.4K', '3.7M', '0.98', '119.2', '55.6', '2,400', '19.5', '600K'];
 
-const TransparentVsUnderstand: React.FC = () => {
+const TransparentVsUnderstand: React.FC<{durationInFrames: number}> = ({durationInFrames}) => {
   const frame = useCurrentFrame();
   const opacity = interpolate(frame, [0, 15], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const fogOpacity = interpolate(frame, [40, 90], [0, 0.94], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
+      <SlideImage
+        src={staticFile('images/Gemini_Generated_Image_r1iaptr1iaptr1ia.png')}
+        durationInFrames={durationInFrames}
+        zoom="in"
+        intensity={0.08}
+      />
+      <AbsoluteFill style={{background: 'rgba(10,10,12,0.6)'}} />
       <Caption text="다 보인다고, 구조까지 보이는 건 아니다" color={COLORS.accent} />
       <Centered>
         <div style={{position: 'relative', width: 620, height: 380}}>
@@ -315,7 +323,7 @@ export const Part14Scene: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: COLORS.bg}}>
       <Sequence from={B.gapStart} durationInFrames={B.raceStart - B.gapStart}>
-        <TransparentVsUnderstand />
+        <TransparentVsUnderstand durationInFrames={B.raceStart - B.gapStart} />
       </Sequence>
 
       <Sequence from={B.raceStart} durationInFrames={B.promiseStart - B.raceStart}>

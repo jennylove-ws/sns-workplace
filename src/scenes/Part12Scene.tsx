@@ -1,8 +1,9 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {COLORS, FONT_FAMILY} from '../constants';
 import {AnimatedWaveform} from '../components/AnimatedWaveform';
 import {CrashChart} from '../components/CrashChart';
+import {SlideImage} from '../components/SlideImage';
 
 // 파트12 오디오 구간(496.08s~543.04s) = 1409프레임
 export const PART12_DURATION = 1409;
@@ -109,12 +110,19 @@ const ILLUSION_STEPS = [
   {atFrame: 190, label: '가격도 오른다', icon: '💰'},
 ];
 
-const SizeIllusion: React.FC = () => {
+const SizeIllusion: React.FC<{durationInFrames: number}> = ({durationInFrames}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const scale = 1 + Math.min(Math.max(frame - 10, 0) / 300, 1) * 0.7;
   return (
     <AbsoluteFill>
+      <SlideImage
+        src={staticFile('images/Gemini_Generated_Image_69p0v669p0v669p0.png')}
+        durationInFrames={durationInFrames}
+        zoom="in"
+        intensity={0.08}
+      />
+      <AbsoluteFill style={{background: 'rgba(10,10,12,0.62)'}} />
       <Caption text="착시: 커질수록 안전해 보인다" color={COLORS.accent} />
       <Centered>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 50}}>
@@ -241,7 +249,7 @@ export const Part12Scene: React.FC = () => {
       </Sequence>
 
       <Sequence from={B.illusionStart} durationInFrames={B.peakStart - B.illusionStart}>
-        <SizeIllusion />
+        <SizeIllusion durationInFrames={B.peakStart - B.illusionStart} />
       </Sequence>
 
       <Sequence from={B.peakStart} durationInFrames={B.thinsStart - B.peakStart}>

@@ -1,7 +1,8 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame} from 'remotion';
 import {COLORS, FONT_FAMILY} from '../constants';
 import {AnimatedWaveform} from '../components/AnimatedWaveform';
+import {SlideImage} from '../components/SlideImage';
 
 // 파트13 오디오 구간(543.04s~586.36s) = 1300프레임
 export const PART13_DURATION = 1300;
@@ -162,59 +163,42 @@ const NotMocking: React.FC = () => {
   );
 };
 
-const Complexity: React.FC = () => {
+const Complexity: React.FC<{durationInFrames: number}> = ({durationInFrames}) => {
   const frame = useCurrentFrame();
-  const {fps} = useVideoConfig();
-  const docReveal = spring({frame, fps, config: {damping: 14, stiffness: 160}, durationInFrames: 20});
-  const enLocal = frame - 140;
-  const enReveal = spring({frame: enLocal, fps, config: {damping: 14, stiffness: 160}, durationInFrames: 20});
+  const textOpacity = interpolate(frame, [8, 20], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
-      <Caption text="백서엔 수식, 커뮤니티 글은 죄다 영어" color={COLORS.accent} />
-      <Centered>
-        <div style={{display: 'flex', alignItems: 'center', gap: 90}}>
-          <div
-            style={{
-              opacity: docReveal,
-              transform: `translateY(${(1 - docReveal) * 20}px)`,
-              width: 260,
-              height: 320,
-              borderRadius: 14,
-              background: COLORS.panel,
-              border: `2px solid ${COLORS.line}`,
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: 14,
-            }}
-          >
-            <span style={{fontFamily: FONT_FAMILY, fontSize: 46, fontWeight: 800, color: COLORS.ink}}>Σ ∫ x²</span>
-            <span style={{fontFamily: FONT_FAMILY, fontSize: 24, fontWeight: 700, color: COLORS.inkDim}}>백서</span>
-          </div>
-          <div
-            style={{
-              opacity: enReveal,
-              transform: `translateY(${(1 - enReveal) * 20}px)`,
-              width: 260,
-              height: 320,
-              borderRadius: 14,
-              background: COLORS.panel,
-              border: `2px solid ${COLORS.line}`,
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: 14,
-            }}
-          >
-            <span style={{fontFamily: FONT_FAMILY, fontSize: 46, fontWeight: 800, color: COLORS.ink}}>EN</span>
-            <span style={{fontFamily: FONT_FAMILY, fontSize: 24, fontWeight: 700, color: COLORS.inkDim}}>
-              커뮤니티
-            </span>
-          </div>
-        </div>
-      </Centered>
+      <SlideImage
+        src={staticFile('images/Gemini_Generated_Image_2v26ro2v26ro2v26.png')}
+        durationInFrames={durationInFrames}
+        zoom="in"
+        intensity={0.1}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          top: '30%',
+          left: 0,
+          right: 0,
+          textAlign: 'center',
+          opacity: textOpacity,
+        }}
+      >
+        <span
+          style={{
+            display: 'inline-block',
+            fontFamily: FONT_FAMILY,
+            fontSize: 40,
+            fontWeight: 800,
+            color: COLORS.accent,
+            background: 'rgba(0,0,0,0.5)',
+            borderRadius: 12,
+            padding: '10px 28px',
+          }}
+        >
+          백서엔 수식, 커뮤니티 글은 죄다 영어
+        </span>
+      </div>
     </AbsoluteFill>
   );
 };
@@ -257,7 +241,7 @@ export const Part13Scene: React.FC = () => {
       </Sequence>
 
       <Sequence from={B.complexityStart} durationInFrames={B.transparentStart - B.complexityStart}>
-        <Complexity />
+        <Complexity durationInFrames={B.transparentStart - B.complexityStart} />
       </Sequence>
 
       <Sequence from={B.transparentStart} durationInFrames={B.end - B.transparentStart}>
