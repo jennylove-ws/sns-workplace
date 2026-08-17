@@ -3,14 +3,15 @@ import {AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame} from '
 import {COLORS, FONT_FAMILY} from '../constants';
 import {SlideImage} from '../components/SlideImage';
 import {RateCompareBar} from '../components/RateCompareBar';
+import {AnimatedWaveform} from '../components/AnimatedWaveform';
 
 // 파트08 오디오 구간(329.77s~371.0s) = 1237프레임
 export const PART8_DURATION = 1237;
 
 const B = {
   hookStart: 0,
-  anchorStart: 300, // 10.0s
-  compareStart: 673, // +12.43s
+  anchorStart: 240, // 8.0s (질문 텍스트만 오래 정지해 있지 않도록 단축)
+  compareStart: 673, // +14.43s (파형 배경이 생긴 만큼 리빌에 시간을 더 줌)
   rateStart: 925, // +8.4s
   end: PART8_DURATION, // +10.4s
 };
@@ -50,16 +51,35 @@ const Hook: React.FC = () => {
   const frame = useCurrentFrame();
   const opacity = interpolate(frame, [0, 20], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
-    <Centered>
-      <div style={{opacity, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 28}}>
-        <div style={{fontFamily: FONT_FAMILY, fontSize: 60, fontWeight: 800, color: COLORS.ink}}>
-          사람들은 왜 샀을까?
+    <AbsoluteFill>
+      <AnimatedWaveform />
+      <Centered>
+        <div style={{opacity, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 28}}>
+          <div
+            style={{
+              fontFamily: FONT_FAMILY,
+              fontSize: 60,
+              fontWeight: 800,
+              color: COLORS.ink,
+              textShadow: '0 2px 20px rgba(0,0,0,0.9)',
+            }}
+          >
+            사람들은 왜 샀을까?
+          </div>
+          <div
+            style={{
+              fontFamily: FONT_FAMILY,
+              fontSize: 34,
+              fontWeight: 600,
+              color: COLORS.inkDim,
+              textShadow: '0 2px 20px rgba(0,0,0,0.9)',
+            }}
+          >
+            가격은 절대 오르지 않는 코인인데
+          </div>
         </div>
-        <div style={{fontFamily: FONT_FAMILY, fontSize: 34, fontWeight: 600, color: COLORS.inkDim}}>
-          가격은 절대 오르지 않는 코인인데
-        </div>
-      </div>
-    </Centered>
+      </Centered>
+    </AbsoluteFill>
   );
 };
 
