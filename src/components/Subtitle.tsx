@@ -19,14 +19,17 @@ export const Subtitle: React.FC<{lines: SubtitleLine[]}> = ({lines}) => {
 
   if (!active) return null;
 
+  // 아주 짧은 자막(예: "어?")은 FADE*2보다 길이가 짧아 페이드 인/아웃
+  // 지점이 역전될 수 있으므로, interpolate가 요구하는 단조 증가를
+  // 지키도록 절반 길이보다 살짝 더 작게 눌러준다.
+  const duration = active.endFrame - active.startFrame;
+  const fade = Math.max(0, Math.min(FADE, duration / 2 - 0.01));
+  const fadeIn = active.startFrame + fade;
+  const fadeOut = active.endFrame - fade;
+
   const opacity = interpolate(
     frame,
-    [
-      active.startFrame,
-      active.startFrame + FADE,
-      active.endFrame - FADE,
-      active.endFrame,
-    ],
+    [active.startFrame, fadeIn, fadeOut, active.endFrame],
     [0, 1, 1, 0],
     {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}
   );
