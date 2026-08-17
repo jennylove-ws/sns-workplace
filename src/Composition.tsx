@@ -7,6 +7,7 @@ import {Part4Scene, PART4_DURATION} from './scenes/Part4Scene';
 import {Part5Scene, PART5_DURATION} from './scenes/Part5Scene';
 import {Part6Scene, PART6_DURATION} from './scenes/Part6Scene';
 import {Part7Scene, PART7_DURATION} from './scenes/Part7Scene';
+import {Part8Scene, PART8_DURATION} from './scenes/Part8Scene';
 import {ImageReel} from './scenes/ImageReel';
 import {AudioTrack} from './components/AudioTrack';
 import {Subtitle} from './components/Subtitle';
@@ -39,6 +40,8 @@ const PART6_END = PART6_FROM + PART6_DURATION;
 // 밀린다 — 그 간격은 임시로 이미지 릴로 채운다.
 const PART7_FROM = partStartFrame(7);
 const PART7_END = PART7_FROM + PART7_DURATION;
+const PART8_FROM = PART7_END;
+const PART8_END = PART8_FROM + PART8_DURATION;
 
 /**
  * 전체 영상 타임라인 조립부.
@@ -47,7 +50,7 @@ const PART7_END = PART7_FROM + PART7_DURATION;
  * - 오디오(1~25.wav + 6-1.wav)와 자막은 항상 전체 구간에 걸쳐 재생
  */
 export const MainVideo: React.FC = () => {
-  const restDuration = TOTAL_DURATION_FRAMES - PART7_END;
+  const restDuration = TOTAL_DURATION_FRAMES - PART8_END;
 
   return (
     <AbsoluteFill style={{backgroundColor: '#000'}}>
@@ -85,7 +88,11 @@ export const MainVideo: React.FC = () => {
         <Part7Scene />
       </Sequence>
 
-      <Sequence from={PART7_END} durationInFrames={restDuration}>
+      <Sequence from={PART8_FROM} durationInFrames={PART8_DURATION}>
+        <Part8Scene />
+      </Sequence>
+
+      <Sequence from={PART8_END} durationInFrames={restDuration}>
         <ImageReel durationInFrames={restDuration} />
       </Sequence>
 
