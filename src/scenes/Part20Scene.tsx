@@ -50,7 +50,7 @@ const Caption: React.FC<{text: string; top?: string | number; color?: string}> =
 };
 
 const CAUSES = [
-  {label: '감당 못 할 수익률', angle: -135},
+  {label: '감당 못 할\n수익률', angle: -135},
   {label: '루나 하나뿐인 담보', angle: -45},
   {label: '식어가던 시장', angle: 135},
   {label: '한꺼번에 몰린 출금', angle: 45},
@@ -117,6 +117,7 @@ const FourCauses: React.FC = () => {
                   border: `1px solid ${COLORS.line}`,
                   borderRadius: 10,
                   padding: '10px 14px',
+                  whiteSpace: 'pre-line',
                 }}
               >
                 {c.label}
