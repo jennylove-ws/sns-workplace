@@ -191,18 +191,24 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "스테이블코인이라고 합니다.",
     "startFrame": 2304,
-    "endFrame": 2356,
+    "endFrame": 2357,
     "part": 2
   },
   {
     "text": "우리말로 하면 안정 코인 정도.",
-    "startFrame": 2356,
-    "endFrame": 2420,
+    "startFrame": 2357,
+    "endFrame": 2422,
     "part": 2
   },
   {
-    "text": "비트코인처럼 하루에 10%씩 널뛰는 게 아니라, 계속 1달러에 딱 붙어 있는 코인이에요.",
-    "startFrame": 2420,
+    "text": "비트코인처럼 하루에 10%씩 널뛰는 게 아니라,",
+    "startFrame": 2422,
+    "endFrame": 2521,
+    "part": 2
+  },
+  {
+    "text": "계속 1달러에 딱 붙어 있는 코인이에요.",
+    "startFrame": 2521,
     "endFrame": 2605,
     "part": 2
   },
@@ -441,14 +447,26 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
     "part": 5
   },
   {
-    "text": "루나를 넣으면 그 루나는 태워지고, UST가 새로 찍혀 나옵니다.",
+    "text": "루나를 넣으면 그 루나는 태워지고,",
     "startFrame": 5751,
+    "endFrame": 5825,
+    "part": 5
+  },
+  {
+    "text": "UST가 새로 찍혀 나옵니다.",
+    "startFrame": 5825,
     "endFrame": 5887,
     "part": 5
   },
   {
-    "text": "UST를 넣으면 그 UST가 태워지고, 루나가 새로 찍혀 나오고요.",
+    "text": "UST를 넣으면 그 UST가 태워지고,",
     "startFrame": 5887,
+    "endFrame": 5968,
+    "part": 5
+  },
+  {
+    "text": "루나가 새로 찍혀 나오고요.",
+    "startFrame": 5968,
     "endFrame": 6026,
     "part": 5
   },
@@ -545,24 +563,30 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "UST가 1.02달러로 비싸지면 이번엔 루나를 자판기에 넣습니다.",
     "startFrame": 7271,
-    "endFrame": 7414,
+    "endFrame": 7415,
     "part": 6
   },
   {
     "text": "루나가 태워지고 UST가 나오죠.",
-    "startFrame": 7414,
-    "endFrame": 7485,
+    "startFrame": 7415,
+    "endFrame": 7487,
     "part": 6
   },
   {
     "text": "그걸 1.02에 팔면 또 2센트.",
-    "startFrame": 7485,
-    "endFrame": 7556,
+    "startFrame": 7487,
+    "endFrame": 7559,
     "part": 6
   },
   {
-    "text": "이번엔 시장에 UST가 늘어났으니, 흔해진 만큼 값이 내려옵니다.",
-    "startFrame": 7556,
+    "text": "이번엔 시장에 UST가 늘어났으니,",
+    "startFrame": 7559,
+    "endFrame": 7635,
+    "part": 6
+  },
+  {
+    "text": "흔해진 만큼 값이 내려옵니다.",
+    "startFrame": 7635,
     "endFrame": 7699,
     "part": 6
   },
@@ -767,24 +791,30 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "돈 넣어두면 이자 붙는 그거요.",
     "startFrame": 10433,
-    "endFrame": 10502,
+    "endFrame": 10503,
     "part": 8
   },
   {
     "text": "앵커는 그걸 코인으로 합니다.",
-    "startFrame": 10502,
-    "endFrame": 10566,
+    "startFrame": 10503,
+    "endFrame": 10568,
     "part": 8
   },
   {
     "text": "UST를 넣어두면 이자가 붙어요.",
-    "startFrame": 10566,
-    "endFrame": 10639,
+    "startFrame": 10568,
+    "endFrame": 10642,
     "part": 8
   },
   {
-    "text": "다른 점이라면 은행은 직원과 지점이 굴리는데, 앵커는 코드가 굴린다는 것 정도.",
-    "startFrame": 10639,
+    "text": "다른 점이라면 은행은 직원과 지점이 굴리는데,",
+    "startFrame": 10642,
+    "endFrame": 10744,
+    "part": 8
+  },
+  {
+    "text": "앵커는 코드가 굴린다는 것 정도.",
+    "startFrame": 10744,
     "endFrame": 10818,
     "part": 8
   },
@@ -861,8 +891,14 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
     "part": 9
   },
   {
-    "text": "UST가 잘 팔리니 더 발행되고, 테라 생태계는 계속 커졌습니다.",
+    "text": "UST가 잘 팔리니 더 발행되고,",
     "startFrame": 11771,
+    "endFrame": 11841,
+    "part": 9
+  },
+  {
+    "text": "테라 생태계는 계속 커졌습니다.",
+    "startFrame": 11841,
     "endFrame": 11907,
     "part": 9
   },
@@ -945,20 +981,26 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
     "part": 10
   },
   {
-    "text": "혹시 나라에서 주는 지원금 같은 걸 떠올리셨다면, 그런 건 아닙니다.",
+    "text": "혹시 나라에서 주는 지원금 같은 걸 떠올리셨다면,",
     "startFrame": 13102,
-    "endFrame": 13248,
+    "endFrame": 13207,
+    "part": 10
+  },
+  {
+    "text": "그런 건 아닙니다.",
+    "startFrame": 13207,
+    "endFrame": 13246,
     "part": 10
   },
   {
     "text": "정부랑은 아무 상관 없어요.",
-    "startFrame": 13248,
-    "endFrame": 13305,
+    "startFrame": 13246,
+    "endFrame": 13304,
     "part": 10
   },
   {
     "text": "순수하게 회사 돈이었습니다.",
-    "startFrame": 13305,
+    "startFrame": 13304,
     "endFrame": 13362,
     "part": 10
   },
@@ -983,36 +1025,54 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "문제는 규모였습니다.",
     "startFrame": 13652,
-    "endFrame": 13693,
+    "endFrame": 13694,
     "part": 11
   },
   {
-    "text": "이 사건이 끝나고 나서, 미국 경제학자들이 붕괴 과정을 통째로 뜯어본 논문을 냈습니다.",
-    "startFrame": 13693,
+    "text": "이 사건이 끝나고 나서,",
+    "startFrame": 13694,
+    "endFrame": 13742,
+    "part": 11
+  },
+  {
+    "text": "미국 경제학자들이 붕괴 과정을 통째로 뜯어본 논문을 냈습니다.",
+    "startFrame": 13742,
     "endFrame": 13869,
     "part": 11
   },
   {
-    "text": "블록체인에 남은 거래 기록을 하나하나 되짚은 분석인데, 오늘 나오는 숫자들은 대부분 여기서 가져온 겁니다.",
+    "text": "블록체인에 남은 거래 기록을 하나하나 되짚은 분석인데,",
     "startFrame": 13869,
+    "endFrame": 13982,
+    "part": 11
+  },
+  {
+    "text": "오늘 나오는 숫자들은 대부분 여기서 가져온 겁니다.",
+    "startFrame": 13982,
     "endFrame": 14087,
     "part": 11
   },
   {
-    "text": "그 논문에 따르면 2022년 4월 기준, 앵커가 하루에 메워야 하는 돈이 약 600만 달러였습니다.",
+    "text": "그 논문에 따르면 2022년 4월 기준,",
     "startFrame": 14087,
-    "endFrame": 14292,
+    "endFrame": 14169,
+    "part": 11
+  },
+  {
+    "text": "앵커가 하루에 메워야 하는 돈이 약 600만 달러였습니다.",
+    "startFrame": 14169,
+    "endFrame": 14290,
     "part": 11
   },
   {
     "text": "하루에 80억 원.",
-    "startFrame": 14292,
-    "endFrame": 14329,
+    "startFrame": 14290,
+    "endFrame": 14328,
     "part": 11
   },
   {
     "text": "한 달이면 2,400억이 그냥 나갑니다.",
-    "startFrame": 14329,
+    "startFrame": 14328,
     "endFrame": 14411,
     "part": 11
   },
@@ -1101,14 +1161,20 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
     "part": 12
   },
   {
-    "text": "2022년 4월 5일, 루나는 약 119.18달러로 고점을 찍습니다.",
+    "text": "2022년 4월 5일,",
     "startFrame": 15601,
-    "endFrame": 15738,
+    "endFrame": 15645,
+    "part": 12
+  },
+  {
+    "text": "루나는 약 119.18달러로 고점을 찍습니다.",
+    "startFrame": 15645,
+    "endFrame": 15736,
     "part": 12
   },
   {
     "text": "1~2년 전만 해도 몇 센트짜리였던 코인이 100달러를 넘었으니 분위기가 어땠을지는 짐작이 가시죠.",
-    "startFrame": 15738,
+    "startFrame": 15736,
     "endFrame": 15935,
     "part": 12
   },
@@ -1185,14 +1251,20 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
     "part": 13
   },
   {
-    "text": "솔직히 말씀드리면, 지금까지 제가 풀어드린 이 구조를 당시에 다 이해하고 들어간 사람이 몇이나 됐을까요.",
+    "text": "솔직히 말씀드리면,",
     "startFrame": 17039,
-    "endFrame": 17249,
+    "endFrame": 17076,
+    "part": 13
+  },
+  {
+    "text": "지금까지 제가 풀어드린 이 구조를 당시에 다 이해하고 들어간 사람이 몇이나 됐을까요.",
+    "startFrame": 17076,
+    "endFrame": 17248,
     "part": 13
   },
   {
     "text": "백서를 열면 수식이 나오고, 커뮤니티 글은 죄다 영어입니다.",
-    "startFrame": 17249,
+    "startFrame": 17248,
     "endFrame": 17369,
     "part": 13
   },
@@ -1229,18 +1301,24 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "앞서 말씀드린 그 논문에도 나옵니다.",
     "startFrame": 17816,
-    "endFrame": 17893,
+    "endFrame": 17894,
     "part": 14
   },
   {
-    "text": "자산이 많고 정보가 빠른 쪽이 먼저 빠져나갔고, 늦게 움직인 쪽이 더 크게 잃었다고요.",
-    "startFrame": 17893,
-    "endFrame": 18077,
+    "text": "자산이 많고 정보가 빠른 쪽이 먼저 빠져나갔고,",
+    "startFrame": 17894,
+    "endFrame": 17994,
+    "part": 14
+  },
+  {
+    "text": "늦게 움직인 쪽이 더 크게 잃었다고요.",
+    "startFrame": 17994,
+    "endFrame": 18076,
     "part": 14
   },
   {
     "text": "장부가 투명하다고 정보 격차까지 사라지진 않았던 겁니다.",
-    "startFrame": 18077,
+    "startFrame": 18076,
     "endFrame": 18196,
     "part": 14
   },
@@ -1625,18 +1703,30 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "주식으로 바꿔 보면 이런 겁니다.",
     "startFrame": 23245,
-    "endFrame": 23313,
+    "endFrame": 23315,
     "part": 18
   },
   {
     "text": "빚 갚겠다고 신주를 계속 찍어냅니다.",
-    "startFrame": 23313,
-    "endFrame": 23389,
+    "startFrame": 23315,
+    "endFrame": 23392,
     "part": 18
   },
   {
-    "text": "찍을수록 한 주 값어치는 줄어들고, 줄어드니까 더 많이 찍어야 하고, 결국 원래 주주 몫은 0에 수렴합니다.",
-    "startFrame": 23389,
+    "text": "찍을수록 한 주 값어치는 줄어들고,",
+    "startFrame": 23392,
+    "endFrame": 23465,
+    "part": 18
+  },
+  {
+    "text": "줄어드니까 더 많이 찍어야 하고,",
+    "startFrame": 23465,
+    "endFrame": 23534,
+    "part": 18
+  },
+  {
+    "text": "결국 원래 주주 몫은 0에 수렴합니다.",
+    "startFrame": 23534,
     "endFrame": 23615,
     "part": 18
   },
@@ -1679,18 +1769,24 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "근데 이제 그 믿음이 사라졌습니다.",
     "startFrame": 24119,
-    "endFrame": 24191,
+    "endFrame": 24192,
     "part": 18
   },
   {
     "text": "루나가 무너지는 걸 두 눈으로 봤으니까요.",
-    "startFrame": 24191,
-    "endFrame": 24278,
+    "startFrame": 24192,
+    "endFrame": 24280,
     "part": 18
   },
   {
-    "text": "자판기는 멀쩡히 돌아가는데, 아무도 그 결과를 믿지 않게 된 겁니다.",
-    "startFrame": 24278,
+    "text": "자판기는 멀쩡히 돌아가는데,",
+    "startFrame": 24280,
+    "endFrame": 24338,
+    "part": 18
+  },
+  {
+    "text": "아무도 그 결과를 믿지 않게 된 겁니다.",
+    "startFrame": 24338,
     "endFrame": 24422,
     "part": 18
   },
@@ -1757,30 +1853,42 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "다시 말씀드리지만 이 사건은 누가 작정하고 벌인 일이 아닙니다.",
     "startFrame": 25549,
-    "endFrame": 25691,
+    "endFrame": 25692,
     "part": 20
   },
   {
-    "text": "감당 못 할 수익률, 루나 하나에만 기댄 담보 구조, 식어가던 시장, 그리고 한꺼번에 몰린 출금.",
-    "startFrame": 25691,
-    "endFrame": 25910,
+    "text": "감당 못 할 수익률, 루나 하나에만 기댄 담보 구조,",
+    "startFrame": 25692,
+    "endFrame": 25811,
+    "part": 20
+  },
+  {
+    "text": "식어가던 시장, 그리고 한꺼번에 몰린 출금.",
+    "startFrame": 25811,
+    "endFrame": 25909,
     "part": 20
   },
   {
     "text": "이 네 가지가 같은 방향으로 겹쳤습니다.",
-    "startFrame": 25910,
+    "startFrame": 25909,
     "endFrame": 25999,
     "part": 20
   },
   {
     "text": "그 끝에서 UST는 1달러를 잃었습니다.",
     "startFrame": 25999,
-    "endFrame": 26088,
+    "endFrame": 26090,
     "part": 20
   },
   {
-    "text": "루나는 충격을 막아주는 쪽이 아니라, 손실이 전부 쏟아져 들어오는 쪽이 됐고요.",
-    "startFrame": 26088,
+    "text": "루나는 충격을 막아주는 쪽이 아니라,",
+    "startFrame": 26090,
+    "endFrame": 26172,
+    "part": 20
+  },
+  {
+    "text": "손실이 전부 쏟아져 들어오는 쪽이 됐고요.",
+    "startFrame": 26172,
     "endFrame": 26266,
     "part": 20
   },
@@ -1865,24 +1973,30 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "그래서 넣습니다.",
     "startFrame": 27255,
-    "endFrame": 27295,
+    "endFrame": 27296,
     "part": 21
   },
   {
     "text": "처음엔 조금.",
-    "startFrame": 27295,
-    "endFrame": 27326,
+    "startFrame": 27296,
+    "endFrame": 27327,
     "part": 21
   },
   {
     "text": "잘 되니까 더 많이.",
-    "startFrame": 27326,
-    "endFrame": 27375,
+    "startFrame": 27327,
+    "endFrame": 27377,
     "part": 21
   },
   {
-    "text": "전세금을 넣은 사람도 있었고, 퇴직금을 넣은 사람도 있었습니다.",
-    "startFrame": 27375,
+    "text": "전세금을 넣은 사람도 있었고,",
+    "startFrame": 27377,
+    "endFrame": 27450,
+    "part": 21
+  },
+  {
+    "text": "퇴직금을 넣은 사람도 있었습니다.",
+    "startFrame": 27450,
     "endFrame": 27532,
     "part": 21
   },
@@ -1973,30 +2087,42 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "배심원단은 Terraform과 권도형이 투자자를 속였다고 평결했습니다.",
     "startFrame": 28762,
-    "endFrame": 28861,
+    "endFrame": 28862,
     "part": 22
   },
   {
     "text": "그리고 45억 달러가 넘는 돈을 내기로 합의가 이뤄졌고요.",
-    "startFrame": 28861,
-    "endFrame": 28942,
+    "startFrame": 28862,
+    "endFrame": 28943,
     "part": 22
   },
   {
-    "text": "권도형은 2025년 미국 법정에서 사기 관련 혐의에 유죄를 인정했고, 15년형을 선고받았습니다.",
-    "startFrame": 28942,
+    "text": "권도형은 2025년 미국 법정에서 사기 관련 혐의에 유죄를 인정했고,",
+    "startFrame": 28943,
+    "endFrame": 29040,
+    "part": 22
+  },
+  {
+    "text": "15년형을 선고받았습니다.",
+    "startFrame": 29040,
     "endFrame": 29076,
     "part": 22
   },
   {
     "text": "그런데 법원이 밝혀준 건 누가 책임을 지느냐까지입니다.",
     "startFrame": 29076,
-    "endFrame": 29152,
+    "endFrame": 29153,
     "part": 22
   },
   {
-    "text": "왜 이런 구조가 만들어졌고 어쩌다 이렇게 무너졌는지, 그건 판결문에 안 나옵니다.",
-    "startFrame": 29152,
+    "text": "왜 이런 구조가 만들어졌고 어쩌다 이렇게 무너졌는지,",
+    "startFrame": 29153,
+    "endFrame": 29227,
+    "part": 22
+  },
+  {
+    "text": "그건 판결문에 안 나옵니다.",
+    "startFrame": 29227,
     "endFrame": 29266,
     "part": 22
   },
@@ -2039,66 +2165,78 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "둘째, 수익률보다 그 수익이 어디서 나오는지가 먼저입니다.",
     "startFrame": 29690,
-    "endFrame": 29812,
+    "endFrame": 29813,
     "part": 23
   },
   {
     "text": "연 19.5%.",
-    "startFrame": 29812,
-    "endFrame": 29842,
+    "startFrame": 29813,
+    "endFrame": 29843,
     "part": 23
   },
   {
     "text": "이건 그냥 숫자에 불과합니다.",
-    "startFrame": 29842,
-    "endFrame": 29903,
+    "startFrame": 29843,
+    "endFrame": 29904,
     "part": 23
   },
   {
     "text": "진짜 봐야 할 건 그 뒤예요.",
-    "startFrame": 29903,
-    "endFrame": 29963,
+    "startFrame": 29904,
+    "endFrame": 29965,
     "part": 23
   },
   {
     "text": "이 이자를 누가 벌어서, 누구 돈으로, 언제까지 주는가.",
-    "startFrame": 29963,
-    "endFrame": 30081,
+    "startFrame": 29965,
+    "endFrame": 30084,
     "part": 23
   },
   {
-    "text": "여기에 답이 없다면, 그 돈은 결국 참여자 중 누군가의 주머니에서 나오고 있는 겁니다.",
-    "startFrame": 30081,
+    "text": "여기에 답이 없다면,",
+    "startFrame": 30084,
+    "endFrame": 30126,
+    "part": 23
+  },
+  {
+    "text": "그 돈은 결국 참여자 중 누군가의 주머니에서 나오고 있는 겁니다.",
+    "startFrame": 30126,
     "endFrame": 30263,
     "part": 23
   },
   {
     "text": "셋째, 투명하다고 쉬운 건 아닙니다.",
     "startFrame": 30263,
-    "endFrame": 30339,
+    "endFrame": 30340,
     "part": 23
   },
   {
     "text": "테라의 장부는 처음부터 끝까지 다 공개돼 있었습니다.",
-    "startFrame": 30339,
-    "endFrame": 30449,
+    "startFrame": 30340,
+    "endFrame": 30451,
     "part": 23
   },
   {
     "text": "그런데도 대부분은 늦게 알았어요.",
-    "startFrame": 30449,
-    "endFrame": 30518,
+    "startFrame": 30451,
+    "endFrame": 30520,
     "part": 23
   },
   {
     "text": "기억해 두세요.",
-    "startFrame": 30518,
-    "endFrame": 30548,
+    "startFrame": 30520,
+    "endFrame": 30551,
     "part": 23
   },
   {
-    "text": "복잡함은 어둠 속에만 숨는 게 아니라, 밝은 곳에도 숨는다는 것을요.",
-    "startFrame": 30548,
+    "text": "복잡함은 어둠 속에만 숨는 게 아니라,",
+    "startFrame": 30551,
+    "endFrame": 30631,
+    "part": 23
+  },
+  {
+    "text": "밝은 곳에도 숨는다는 것을요.",
+    "startFrame": 30631,
     "endFrame": 30693,
     "part": 23
   },

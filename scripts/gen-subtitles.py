@@ -21,6 +21,10 @@ OUT_AUDIO = os.path.join(ROOT, "src/data/audioParts.generated.ts")
 # "0.98달러"처럼 숫자 뒤에 곧바로 글자가 이어지는 경우는 공백이 없어 분리되지 않는다.
 SENTENCE_SPLIT = re.compile(r"(?<=[.!?…])\s+")
 
+# 문장이 이 길이를 넘으면 화면에서 줄바꿈되다 못해 마지막 한두 글자만
+# 외로이 남는("widow") 모양이 되기 쉽다. 그럴 때만 쉼표 경계에서 나눈다.
+LONG_SENTENCE_LEN = 34
+
 def parse_parts(md: str):
     # split on "## 파트 NN" headers
     blocks = re.split(r"\n## 파트 (\d+)\s.*\n", md)
@@ -37,9 +41,39 @@ def parse_parts(md: str):
         parts[int(num)] = paragraphs
     return parts
 
+def split_long_sentence(sentence: str):
+    """긴 문장을 쉼표 경계에서 자연스러운 절 단위로 나눈다.
+    (예: "...굴리는데, 앵커는 코드가 굴린다는 것 정도." -> 2개 화면)"""
+    if len(sentence) <= LONG_SENTENCE_LEN or "," not in sentence:
+        return [sentence]
+
+    clauses = [c.strip() for c in re.split(r"(?<=,)\s+", sentence) if c.strip()]
+    if len(clauses) < 2:
+        return [sentence]
+
+    # 절을 앞에서부터 그리디하게 묶되, LONG_SENTENCE_LEN을 넘기기 직전에
+    # 끊는다. 단, 지금까지 모은 조각이 너무 짧으면(<10자) 외로운 한 줄이
+    # 되지 않도록 한 절 더 붙인다.
+    chunks = []
+    cur = clauses[0]
+    for clause in clauses[1:]:
+        candidate = f"{cur} {clause}"
+        if len(candidate) <= LONG_SENTENCE_LEN or len(cur) < 10:
+            cur = candidate
+        else:
+            chunks.append(cur)
+            cur = clause
+    chunks.append(cur)
+    return chunks if len(chunks) > 1 else [sentence]
+
 def chunk_paragraph(text: str):
     sentences = [s.strip() for s in SENTENCE_SPLIT.split(text) if s.strip()]
-    return sentences if sentences else [text]
+    if not sentences:
+        return [text]
+    chunks = []
+    for s in sentences:
+        chunks.extend(split_long_sentence(s))
+    return chunks
 
 def main():
     with open(SCRIPT_MD, encoding="utf-8") as f:
