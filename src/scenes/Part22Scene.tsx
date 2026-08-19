@@ -124,6 +124,7 @@ const HiddenReason: React.FC = () => {
   const op3 = interpolate(frame, [288, 313], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
+      <AnimatedWaveform />
       <Caption text="법원이 밝혀준 건, 책임을 지는 사람까지" />
       <Centered>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
@@ -218,6 +219,7 @@ const Lesson1: React.FC = () => {
   const questionOpacity = interpolate(frame, [237, 262], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
+      <AnimatedWaveform />
       <Caption text="스테이블코인이라고 다 같은 스테이블코인이 아니다" color={COLORS.accent} />
       <Centered>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
@@ -249,7 +251,7 @@ const Lesson1: React.FC = () => {
                 color: COLORS.ink,
               }}
             >
-              이름에 '안정'이 붙었다고, 금고가 있는 건 아니다
+              '안정'이 붙어도, 금고가 있는 건 아니다
             </div>
           </div>
           <div style={{opacity: questionOpacity, fontFamily: FONT_FAMILY, fontSize: 26, fontWeight: 700, color: COLORS.inkDim}}>

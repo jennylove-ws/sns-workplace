@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {COLORS, FONT_FAMILY} from '../constants';
 import {CrashChart} from '../components/CrashChart';
+import {AnimatedWaveform} from '../components/AnimatedWaveform';
 
 // 파트24 오디오 구간(1046.16s~1092.88s) = 1402프레임
 export const PART24_DURATION = 1402;
@@ -110,6 +111,7 @@ const RealWorldUse: React.FC = () => {
   const conclusionOpacity = interpolate(frame, [212, 237], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
+      <AnimatedWaveform />
       <Caption text="지금은 거래소 안에만 있지 않다" />
       <Centered>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 40}}>
@@ -178,6 +180,7 @@ const LookSame: React.FC = () => {
   };
   return (
     <AbsoluteFill>
+      <AnimatedWaveform />
       <Caption text="겉보기엔 다 똑같다 — 뭐가 뒤에 있는지는 열어봐야 안다" color={COLORS.accent} />
       <Centered>
         <div style={{display: 'flex', gap: 40}}>
@@ -227,7 +230,9 @@ const NotAdvice: React.FC = () => {
   const op1 = interpolate(frame, [0, 25], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const op2 = interpolate(frame, [90, 120], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
-    <Centered>
+    <AbsoluteFill>
+      <AnimatedWaveform />
+      <Centered>
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26, maxWidth: 1300}}>
         <div
           style={{
@@ -251,10 +256,11 @@ const NotAdvice: React.FC = () => {
             textAlign: 'center',
           }}
         >
-          돈이 어떤 약속을 믿고 움직였는지, 그저 따라가 봤을 뿐입니다
+          돈이 어떤 약속을 믿고 움직였는지 따라가 봤습니다
         </div>
       </div>
-    </Centered>
+      </Centered>
+    </AbsoluteFill>
   );
 };
 

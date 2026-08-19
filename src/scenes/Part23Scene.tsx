@@ -81,6 +81,7 @@ const Lesson2: React.FC = () => {
   const conclusionOp = interpolate(frame, [435, 460], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
+      <AnimatedWaveform />
       <Caption text="수익률보다, 그 수익이 어디서 나오는지가 먼저다" color={COLORS.accent} />
       <Centered>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 24}}>
@@ -139,7 +140,7 @@ const Lesson2: React.FC = () => {
               maxWidth: 900,
             }}
           >
-            답이 없다면, 참여자 중 누군가의 주머니에서 나오고 있는 것
+            답 없으면, 누군가의 주머니에서 나오는 것
           </div>
         </div>
       </Centered>
@@ -157,6 +158,7 @@ const Lesson3: React.FC = () => {
   const line2Op = interpolate(frame, [369, 394], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
+      <AnimatedWaveform />
       <Caption text="투명하다고, 쉬운 건 아니다" color={COLORS.accent} />
       <Centered>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 22}}>
