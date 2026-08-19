@@ -139,26 +139,26 @@ export const audioParts: AudioPart[] = [
     "part": 22,
     "file": "22.wav",
     "startSec": 956.84,
-    "durationSec": 32.84
+    "durationSec": 49.92
   },
   {
     "part": 23,
     "file": "23.wav",
-    "startSec": 989.68,
+    "startSec": 1006.76,
     "durationSec": 39.4
   },
   {
     "part": 24,
     "file": "24.wav",
-    "startSec": 1029.08,
+    "startSec": 1046.16,
     "durationSec": 46.72
   },
   {
     "part": 25,
     "file": "25.wav",
-    "startSec": 1075.8,
+    "startSec": 1092.88,
     "durationSec": 52.24
   }
 ];
 
-export const TOTAL_DURATION_SEC = 1128.04;
+export const TOTAL_DURATION_SEC = 1145.12;

@@ -2081,367 +2081,367 @@ export const fullSubtitles: (SubtitleLine & {part: number})[] = [
   {
     "text": "그 뒤 책임 문제는 법정으로 넘어갔습니다.",
     "startFrame": 28705,
-    "endFrame": 28762,
+    "endFrame": 28792,
     "part": 22
   },
   {
     "text": "배심원단은 Terraform과 권도형이 투자자를 속였다고 평결했습니다.",
-    "startFrame": 28762,
-    "endFrame": 28862,
-    "part": 22
-  },
-  {
-    "text": "그리고 45억 달러가 넘는 돈을 내기로 합의가 이뤄졌고요.",
-    "startFrame": 28862,
+    "startFrame": 28792,
     "endFrame": 28943,
     "part": 22
   },
   {
-    "text": "권도형은 2025년 미국 법정에서 사기 관련 혐의에 유죄를 인정했고,",
+    "text": "그리고 45억 달러가 넘는 돈을 내기로 합의가 이뤄졌고요.",
     "startFrame": 28943,
-    "endFrame": 29040,
+    "endFrame": 29067,
+    "part": 22
+  },
+  {
+    "text": "권도형은 2025년 미국 법정에서 사기 관련 혐의에 유죄를 인정했고,",
+    "startFrame": 29067,
+    "endFrame": 29214,
     "part": 22
   },
   {
     "text": "15년형을 선고받았습니다.",
-    "startFrame": 29040,
-    "endFrame": 29076,
+    "startFrame": 29214,
+    "endFrame": 29269,
     "part": 22
   },
   {
     "text": "그런데 법원이 밝혀준 건 누가 책임을 지느냐까지입니다.",
-    "startFrame": 29076,
-    "endFrame": 29153,
+    "startFrame": 29269,
+    "endFrame": 29386,
     "part": 22
   },
   {
     "text": "왜 이런 구조가 만들어졌고 어쩌다 이렇게 무너졌는지,",
-    "startFrame": 29153,
-    "endFrame": 29227,
+    "startFrame": 29386,
+    "endFrame": 29499,
     "part": 22
   },
   {
     "text": "그건 판결문에 안 나옵니다.",
-    "startFrame": 29227,
-    "endFrame": 29266,
+    "startFrame": 29499,
+    "endFrame": 29557,
     "part": 22
   },
   {
     "text": "그래서 저는 오늘 그 이야기를 하고 싶었습니다.",
-    "startFrame": 29266,
-    "endFrame": 29332,
+    "startFrame": 29557,
+    "endFrame": 29658,
     "part": 22
   },
   {
     "text": "그럼 이 사건에서 우리가 배울 건 뭘까요.",
-    "startFrame": 29332,
-    "endFrame": 29389,
+    "startFrame": 29658,
+    "endFrame": 29745,
     "part": 22
   },
   {
     "text": "첫째, 이름에 '안정'이 붙었다고 금고가 있는 건 아닙니다.",
-    "startFrame": 29389,
-    "endFrame": 29474,
+    "startFrame": 29745,
+    "endFrame": 29873,
     "part": 22
   },
   {
     "text": "스테이블코인이라고 다 같은 스테이블코인이 아니에요.",
-    "startFrame": 29474,
-    "endFrame": 29545,
+    "startFrame": 29873,
+    "endFrame": 29982,
     "part": 22
   },
   {
     "text": "이름 말고, 뭘로 그 안정을 유지하는지를 봐야 합니다.",
-    "startFrame": 29545,
-    "endFrame": 29622,
+    "startFrame": 29982,
+    "endFrame": 30098,
     "part": 22
   },
   {
     "text": "달러인지, 국채인지, 아니면 다른 코인 가격인지.",
-    "startFrame": 29622,
-    "endFrame": 29690,
+    "startFrame": 30098,
+    "endFrame": 30203,
     "part": 22
   },
   {
     "text": "둘째, 수익률보다 그 수익이 어디서 나오는지가 먼저입니다.",
-    "startFrame": 29690,
-    "endFrame": 29813,
+    "startFrame": 30203,
+    "endFrame": 30325,
     "part": 23
   },
   {
     "text": "연 19.5%.",
-    "startFrame": 29813,
-    "endFrame": 29843,
+    "startFrame": 30325,
+    "endFrame": 30356,
     "part": 23
   },
   {
     "text": "이건 그냥 숫자에 불과합니다.",
-    "startFrame": 29843,
-    "endFrame": 29904,
+    "startFrame": 30356,
+    "endFrame": 30417,
     "part": 23
   },
   {
     "text": "진짜 봐야 할 건 그 뒤예요.",
-    "startFrame": 29904,
-    "endFrame": 29965,
+    "startFrame": 30417,
+    "endFrame": 30478,
     "part": 23
   },
   {
     "text": "이 이자를 누가 벌어서, 누구 돈으로, 언제까지 주는가.",
-    "startFrame": 29965,
-    "endFrame": 30084,
+    "startFrame": 30478,
+    "endFrame": 30596,
     "part": 23
   },
   {
     "text": "여기에 답이 없다면,",
-    "startFrame": 30084,
-    "endFrame": 30126,
+    "startFrame": 30596,
+    "endFrame": 30638,
     "part": 23
   },
   {
     "text": "그 돈은 결국 참여자 중 누군가의 주머니에서 나오고 있는 겁니다.",
-    "startFrame": 30126,
-    "endFrame": 30263,
+    "startFrame": 30638,
+    "endFrame": 30775,
     "part": 23
   },
   {
     "text": "셋째, 투명하다고 쉬운 건 아닙니다.",
-    "startFrame": 30263,
-    "endFrame": 30340,
+    "startFrame": 30775,
+    "endFrame": 30852,
     "part": 23
   },
   {
     "text": "테라의 장부는 처음부터 끝까지 다 공개돼 있었습니다.",
-    "startFrame": 30340,
-    "endFrame": 30451,
+    "startFrame": 30852,
+    "endFrame": 30963,
     "part": 23
   },
   {
     "text": "그런데도 대부분은 늦게 알았어요.",
-    "startFrame": 30451,
-    "endFrame": 30520,
+    "startFrame": 30963,
+    "endFrame": 31032,
     "part": 23
   },
   {
     "text": "기억해 두세요.",
-    "startFrame": 30520,
-    "endFrame": 30551,
+    "startFrame": 31032,
+    "endFrame": 31063,
     "part": 23
   },
   {
     "text": "복잡함은 어둠 속에만 숨는 게 아니라,",
-    "startFrame": 30551,
-    "endFrame": 30631,
+    "startFrame": 31063,
+    "endFrame": 31144,
     "part": 23
   },
   {
     "text": "밝은 곳에도 숨는다는 것을요.",
-    "startFrame": 30631,
-    "endFrame": 30693,
+    "startFrame": 31144,
+    "endFrame": 31205,
     "part": 23
   },
   {
     "text": "그런데 여기서 끝내면 안 될 것 같습니다.",
-    "startFrame": 30693,
-    "endFrame": 30779,
+    "startFrame": 31205,
+    "endFrame": 31291,
     "part": 23
   },
   {
     "text": "왜냐하면 이게 다 끝난 옛날얘기가 아니거든요.",
-    "startFrame": 30779,
-    "endFrame": 30872,
+    "startFrame": 31291,
+    "endFrame": 31385,
     "part": 23
   },
   {
     "text": "이 사건 이후에 스테이블코인 시장이 사라졌을까요.",
-    "startFrame": 30872,
-    "endFrame": 30972,
+    "startFrame": 31385,
+    "endFrame": 31484,
     "part": 24
   },
   {
     "text": "반대입니다.",
-    "startFrame": 30972,
-    "endFrame": 30994,
+    "startFrame": 31484,
+    "endFrame": 31506,
     "part": 24
   },
   {
     "text": "2026년 5월 기준 전체 스테이블코인 시가총액은 3,217억 달러로 사상 최고치를 찍었습니다.",
-    "startFrame": 30994,
-    "endFrame": 31189,
+    "startFrame": 31506,
+    "endFrame": 31701,
     "part": 24
   },
   {
     "text": "2026년 1월 한 달 이체량은 10조 달러를 넘었고요.",
-    "startFrame": 31189,
-    "endFrame": 31303,
+    "startFrame": 31701,
+    "endFrame": 31815,
     "part": 24
   },
   {
     "text": "테라가 무너지기 직전인 2022년 4월 이후 가장 큰 규모입니다.",
-    "startFrame": 31303,
-    "endFrame": 31435,
+    "startFrame": 31815,
+    "endFrame": 31948,
     "part": 24
   },
   {
     "text": "지금 스테이블코인은 거래소 안에만 있지 않습니다.",
-    "startFrame": 31435,
-    "endFrame": 31534,
+    "startFrame": 31948,
+    "endFrame": 32046,
     "part": 24
   },
   {
     "text": "결제에 쓰이고, 송금에 쓰이고, 기관들이 정산에 씁니다.",
-    "startFrame": 31534,
-    "endFrame": 31648,
+    "startFrame": 32046,
+    "endFrame": 32160,
     "part": 24
   },
   {
     "text": "그러니까 이건 코인 하는 사람들만의 얘기가 아니게 된 겁니다.",
-    "startFrame": 31648,
-    "endFrame": 31772,
+    "startFrame": 32160,
+    "endFrame": 32285,
     "part": 24
   },
   {
     "text": "그리고 그 코인들은 겉으로 보면 다 똑같이 생겼습니다.",
-    "startFrame": 31772,
-    "endFrame": 31883,
+    "startFrame": 32285,
+    "endFrame": 32395,
     "part": 24
   },
   {
     "text": "전부 1달러라고 적혀 있어요.",
-    "startFrame": 31883,
-    "endFrame": 31942,
+    "startFrame": 32395,
+    "endFrame": 32454,
     "part": 24
   },
   {
     "text": "뭐가 뒤에 있는지는, 열어봐야 압니다.",
-    "startFrame": 31942,
-    "endFrame": 32019,
+    "startFrame": 32454,
+    "endFrame": 32532,
     "part": 24
   },
   {
     "text": "이 영상은 특정 자산을 사라거나 팔라는 얘기가 아닙니다.",
-    "startFrame": 32019,
-    "endFrame": 32132,
+    "startFrame": 32532,
+    "endFrame": 32645,
     "part": 24
   },
   {
     "text": "우리는 그저 돈이 어떤 약속을 믿고 움직였는지를 따라가 봤을 뿐입니다.",
-    "startFrame": 32132,
-    "endFrame": 32274,
+    "startFrame": 32645,
+    "endFrame": 32786,
     "part": 24
   },
   {
     "text": "이 사건이 남긴 건 결국 이 한 문장입니다.",
-    "startFrame": 32274,
-    "endFrame": 32367,
+    "startFrame": 32786,
+    "endFrame": 32879,
     "part": 25
   },
   {
     "text": "시장에서 가장 먼저 무너지는 건 가격이 아닙니다.",
-    "startFrame": 32367,
-    "endFrame": 32476,
+    "startFrame": 32879,
+    "endFrame": 32988,
     "part": 25
   },
   {
     "text": "믿음입니다.",
-    "startFrame": 32476,
-    "endFrame": 32500,
+    "startFrame": 32988,
+    "endFrame": 33012,
     "part": 25
   },
   {
     "text": "가격은 그다음이고요.",
-    "startFrame": 32500,
-    "endFrame": 32544,
+    "startFrame": 33012,
+    "endFrame": 33057,
     "part": 25
   },
   {
     "text": "마지막으로 하나 여쭤보고 싶습니다.",
-    "startFrame": 32544,
-    "endFrame": 32618,
+    "startFrame": 33057,
+    "endFrame": 33130,
     "part": 25
   },
   {
     "text": "여러분이라면 그 밤에 어떻게 하셨을 것 같으세요.",
-    "startFrame": 32618,
-    "endFrame": 32727,
+    "startFrame": 33130,
+    "endFrame": 33240,
     "part": 25
   },
   {
     "text": "0.98달러.",
-    "startFrame": 32727,
-    "endFrame": 32756,
+    "startFrame": 33240,
+    "endFrame": 33268,
     "part": 25
   },
   {
     "text": "지금 팔면 2% 손해.",
-    "startFrame": 32756,
-    "endFrame": 32804,
+    "startFrame": 33268,
+    "endFrame": 33317,
     "part": 25
   },
   {
     "text": "기다리면 돌아올지도 모르는 상황.",
-    "startFrame": 32804,
-    "endFrame": 32877,
+    "startFrame": 33317,
+    "endFrame": 33390,
     "part": 25
   },
   {
     "text": "팔았을까요, 기다렸을까요.",
-    "startFrame": 32877,
-    "endFrame": 32934,
+    "startFrame": 33390,
+    "endFrame": 33446,
     "part": 25
   },
   {
     "text": "댓글에 적어주시면 다음 영상 만들 때 참고하겠습니다.",
-    "startFrame": 32934,
-    "endFrame": 33048,
+    "startFrame": 33446,
+    "endFrame": 33560,
     "part": 25
   },
   {
     "text": "사실 이게 이 채널이 계속 다루게 될 질문이거든요.",
-    "startFrame": 33048,
-    "endFrame": 33158,
+    "startFrame": 33560,
+    "endFrame": 33670,
     "part": 25
   },
   {
     "text": "다음 화에서는 은행 하나가 단 이틀 만에 사라진 사건을 다룹니다.",
-    "startFrame": 33158,
-    "endFrame": 33301,
+    "startFrame": 33670,
+    "endFrame": 33813,
     "part": 25
   },
   {
     "text": "이번엔 코인이 아닙니다.",
-    "startFrame": 33301,
-    "endFrame": 33352,
+    "startFrame": 33813,
+    "endFrame": 33865,
     "part": 25
   },
   {
     "text": "미국에서 열여섯 번째로 큰, 진짜 은행이었습니다.",
-    "startFrame": 33352,
-    "endFrame": 33459,
+    "startFrame": 33865,
+    "endFrame": 33972,
     "part": 25
   },
   {
     "text": "그리고 그 은행을 무너뜨린 건 예금자들의 문자메시지였습니다.",
-    "startFrame": 33459,
-    "endFrame": 33590,
+    "startFrame": 33972,
+    "endFrame": 34103,
     "part": 25
   },
   {
     "text": "돈이 움직인 사건을 계속 추적합니다.",
-    "startFrame": 33590,
-    "endFrame": 33669,
+    "startFrame": 34103,
+    "endFrame": 34182,
     "part": 25
   },
   {
     "text": "구독해 두시면 다음 궤적도 놓치지 않으실 겁니다.",
-    "startFrame": 33669,
-    "endFrame": 33776,
+    "startFrame": 34182,
+    "endFrame": 34288,
     "part": 25
   },
   {
     "text": "그럼 다음 사건에서 뵙겠습니다.",
-    "startFrame": 33776,
-    "endFrame": 33841,
+    "startFrame": 34288,
+    "endFrame": 34354,
     "part": 25
   }
 ];

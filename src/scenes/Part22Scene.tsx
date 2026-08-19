@@ -4,15 +4,15 @@ import {COLORS, FONT_FAMILY} from '../constants';
 import {AnimatedWaveform} from '../components/AnimatedWaveform';
 import {SlideImage} from '../components/SlideImage';
 
-// 파트22 오디오 구간(956.84s~989.68s) = 985프레임
-export const PART22_DURATION = 985;
+// 파트22 오디오 구간(956.84s~1006.76s) = 1498프레임 (재녹음으로 길이 갱신됨)
+export const PART22_DURATION = 1498;
 
 const B = {
   courtStart: 0,
-  hiddenReasonStart: 371, // 12.37s
-  whatWeLearnStart: 627, // +8.53s
-  lesson1Start: 684, // +1.9s
-  end: PART22_DURATION, // +10.03s
+  hiddenReasonStart: 564, // 18.8s
+  whatWeLearnStart: 953, // +12.97s
+  lesson1Start: 1040, // +2.9s
+  end: PART22_DURATION, // +15.27s
 };
 
 const Centered: React.FC<{children: React.ReactNode}> = ({children}) => (
@@ -49,9 +49,9 @@ const Caption: React.FC<{text: string; top?: string | number; color?: string}> =
 const CourtVerdict: React.FC<{durationInFrames: number}> = ({durationInFrames}) => {
   const frame = useCurrentFrame();
   const l1 = interpolate(frame, [0, 20], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const l2 = interpolate(frame, [57, 82], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const l3 = interpolate(frame, [157, 182], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const l4 = interpolate(frame, [238, 263], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const l2 = interpolate(frame, [87, 112], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const l3 = interpolate(frame, [238, 263], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const l4 = interpolate(frame, [362, 387], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
       <SlideImage
@@ -120,8 +120,8 @@ const CourtVerdict: React.FC<{durationInFrames: number}> = ({durationInFrames}) 
 const HiddenReason: React.FC = () => {
   const frame = useCurrentFrame();
   const op1 = interpolate(frame, [0, 20], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const op2 = interpolate(frame, [80, 105], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const op3 = interpolate(frame, [150, 175], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const op2 = interpolate(frame, [117, 142], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const op3 = interpolate(frame, [288, 313], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
       <Caption text="법원이 밝혀준 건, 책임을 지는 사람까지" />
@@ -206,16 +206,16 @@ const WhatWeLearn: React.FC = () => {
 };
 
 const ANCHOR_OPTIONS = [
-  {atFrame: 90, label: '달러'},
-  {atFrame: 140, label: '국채'},
-  {atFrame: 190, label: '다른 코인 가격'},
+  {atFrame: 370, label: '달러'},
+  {atFrame: 405, label: '국채'},
+  {atFrame: 440, label: '다른 코인 가격'},
 ];
 
 const Lesson1: React.FC = () => {
   const frame = useCurrentFrame();
   const numOpacity = interpolate(frame, [0, 20], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const bodyOpacity = interpolate(frame, [30, 55], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const questionOpacity = interpolate(frame, [65, 90], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const questionOpacity = interpolate(frame, [237, 262], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
       <Caption text="스테이블코인이라고 다 같은 스테이블코인이 아니다" color={COLORS.accent} />

@@ -1,5 +1,5 @@
 {
-  "totalDurationSec": 1128.04,
+  "totalDurationSec": 1145.12,
   "segments": [
     {
       "file": "1.wav",
@@ -113,23 +113,23 @@
     },
     {
       "file": "22.wav",
-      "durationSec": 32.84,
+      "durationSec": 49.92,
       "startSec": 956.84
     },
     {
       "file": "23.wav",
       "durationSec": 39.4,
-      "startSec": 989.68
+      "startSec": 1006.76
     },
     {
       "file": "24.wav",
       "durationSec": 46.72,
-      "startSec": 1029.08
+      "startSec": 1046.16
     },
     {
       "file": "25.wav",
       "durationSec": 52.24,
-      "startSec": 1075.8
+      "startSec": 1092.88
     }
   ]
 }
