@@ -1,0 +1,3 @@
+# 학생 개인정보(이름·학교)와 업로드용 zip은 저장소에 올리지 않는다
+**/student_roster.xlsx
+upload/

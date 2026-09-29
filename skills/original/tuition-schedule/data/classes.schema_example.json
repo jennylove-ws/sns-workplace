@@ -1,0 +1,52 @@
+{
+  "_설명": "이 파일은 예시/스키마 템플릿입니다. 실제 학기 데이터로 새로 만들 때는 data/classes.json 에 이 구조 그대로 채워서 저장하세요. gen_dates.py로 만든 회차·수강료 결과를 기반으로 강의실 배정 문서를 반영해 만듭니다.",
+
+  "teachers": {
+    "T01": "맥심", "T08": "신영준"
+  },
+
+  "classes": [
+    {
+      "id": "C005",
+      "name": "[고2] 유신/창현 A (미적1)",
+      "teacher_id": "T08",
+      "subject": "수학",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 12,
+        "total": 750000
+      },
+      "sessions": [
+        {"day": "화", "start": "18:00", "end": "22:00", "room": "6강의실"},
+        {"day": "토", "start": "09:00", "end": "13:00", "room": "6강의실"},
+        {"day": "목", "start": "18:00", "end": "22:00", "room": "1강의실", "clinic": true}
+      ]
+    },
+    {
+      "id": "E009",
+      "name": "[고2] 영어",
+      "teacher_id": "T01",
+      "subject": "영어",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 8
+      },
+      "sessions": [
+        {"day": "월", "start": "18:00", "end": "22:00", "room": "미정"},
+        {"day": "금", "start": "18:00", "end": "22:00", "room": "미정", "clinic": true}
+      ]
+    }
+  ],
+
+  "_필드설명": {
+    "pricing.type": "per_session(회당 단가×횟수) 또는 flat_monthly(정액, 곱하지 않음)",
+    "sessions[].clinic": "true면 클리닉(원문에서 괄호로 표시된 요일/시간/강의실). 생략하면 정규.",
+    "sessions[].clinic_union": "여러 반이 같은 시간·같은 방에서 합쳐서 진행하는 클리닉 연합반일 때 true",
+    "sessions[].group": "합반/클리닉연합처럼 같은 방을 의도적으로 공유하는 세션들을 묶는 임의의 문자열 태그. validate.py가 같은 group끼리는 충돌로 안 봄. build_room_view.py는 같은 group을 하나의 박스로 합쳐서 그림.",
+    "sessions[].room": "'미정'이면 강의실이 아직 정해지지 않은 것으로 처리 (검증/시간표에서 제외)"
+  }
+}

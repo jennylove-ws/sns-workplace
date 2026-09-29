@@ -1,0 +1,1305 @@
+{
+  "teachers": {
+    "T01": "맥심",
+    "T03": "박민수",
+    "T04": "박소진",
+    "T06": "박주신",
+    "T07": "배수안",
+    "T08": "신영준",
+    "T10": "엄태욱",
+    "T11": "엄형국",
+    "T12": "우지훈",
+    "T13": "윤재필",
+    "T15": "장현명",
+    "T16": "전진선",
+    "T17": "정수인",
+    "T18": "허지원",
+    "T19": "박선애",
+    "T20": "백강현",
+    "T21": "서현수",
+    "T22": "현민",
+    "T23": "이유진",
+    "T24": "폴&벤자민",
+    "T25": "노현석"
+  },
+  "classes": [
+    {
+      "id": "C001",
+      "name": "[고3] S반",
+      "teacher_id": "T03",
+      "subject": "수학",
+      "grade": "고3",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 70000,
+        "count": 4,
+        "total": 280000
+      },
+      "sessions": [
+        {
+          "day": "일",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "4강의실"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "name": "[고2] 광교/이의/수여 A (미적1)",
+      "teacher_id": "T11",
+      "subject": "수학",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 42000,
+        "count": 16,
+        "total": 672000
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "10강의실"
+        },
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "4강의실",
+          "group": "uhm_hyung_guk_combined"
+        },
+        {
+          "day": "토",
+          "start": "09:00",
+          "end": "13:00",
+          "room": "4강의실"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "name": "[고2] 광교/이의/수여 B (미적1)",
+      "teacher_id": "T11",
+      "subject": "수학",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 42000,
+        "count": 16,
+        "total": 672000
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실"
+        },
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "4강의실",
+          "group": "uhm_hyung_guk_combined"
+        },
+        {
+          "day": "토",
+          "start": "09:00",
+          "end": "13:00",
+          "room": "5강의실"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "name": "[고2] 유신/창현 A (미적1)",
+      "teacher_id": "T08",
+      "subject": "수학",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 12,
+        "total": 750000
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "6강의실"
+        },
+        {
+          "day": "토",
+          "start": "09:00",
+          "end": "13:00",
+          "room": "6강의실"
+        },
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실",
+          "clinic": true,
+          "note": "화 대체일"
+        },
+        {
+          "day": "토",
+          "start": "13:30",
+          "end": "16:30",
+          "room": "7강의실",
+          "clinic": true,
+          "note": "미적2 겸강생 클리닉 - 과학(박선애T)과 7강의실 합반"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "name": "[고2] 기하",
+      "teacher_id": "T08",
+      "subject": "수학",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 5,
+        "total": 312500
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "13:30",
+          "end": "16:30",
+          "room": "6강의실"
+        },
+        {
+          "day": "토",
+          "start": "16:30",
+          "end": "17:30",
+          "room": "6강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "name": "[고2] 미적2",
+      "teacher_id": "T08",
+      "subject": "수학",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 6,
+        "total": 375000
+      },
+      "sessions": [
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "21:00",
+          "room": "10강의실"
+        },
+        {
+          "day": "목",
+          "start": "21:00",
+          "end": "22:00",
+          "room": "10강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "name": "[고1] 광교/이의/매원/창현/수여 (공수2)",
+      "teacher_id": "T12",
+      "subject": "수학",
+      "grade": "고1",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 12,
+        "total": 750000
+      },
+      "sessions": [
+        {
+          "day": "월",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "1강의실"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "1강의실"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true,
+          "group": "wed_clinic_union_8_9"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실",
+          "clinic": true,
+          "group": "wed_clinic_union_8_9"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "name": "[고1] 유신/창현 (공수2)",
+      "teacher_id": "T13",
+      "subject": "수학",
+      "grade": "고1",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 12,
+        "total": 750000
+      },
+      "sessions": [
+        {
+          "day": "월",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "4강의실"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "4강의실"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true,
+          "group": "wed_clinic_union_8_9"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실",
+          "clinic": true,
+          "group": "wed_clinic_union_8_9"
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "name": "[고1] 공수2 합반",
+      "teacher_id": "T06",
+      "subject": "수학",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 395000,
+        "count": 8
+      },
+      "sessions": [
+        {
+          "day": "월",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true,
+          "group": "wed_clinic_union_8_9"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실",
+          "clinic": true,
+          "group": "wed_clinic_union_8_9"
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "name": "[중3] 공수 1·2",
+      "teacher_id": "T23",
+      "subject": "수학",
+      "grade": "중3",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 11,
+        "total": 687500
+      },
+      "sessions": [
+        {
+          "day": "월",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "7강의실"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "10강의실"
+        },
+        {
+          "day": "토",
+          "start": "10:00",
+          "end": "14:00",
+          "room": "10강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "name": "[고3] 수능수1,2",
+      "teacher_id": "T17",
+      "subject": "수학",
+      "grade": "고3",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 70000,
+        "count": 3,
+        "total": 210000
+      },
+      "sessions": [
+        {
+          "day": "월",
+          "start": "18:30",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true
+        },
+        {
+          "day": "토",
+          "start": "10:30",
+          "end": "12:10",
+          "room": "1강의실",
+          "clinic": true,
+          "note": "모의고사"
+        },
+        {
+          "day": "토",
+          "start": "13:30",
+          "end": "16:30",
+          "room": "1강의실"
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "name": "[고3] 미적분",
+      "teacher_id": "T17",
+      "subject": "수학",
+      "grade": "고3",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 70000,
+        "count": 4,
+        "total": 280000
+      },
+      "sessions": [
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "4강의실"
+        }
+      ]
+    },
+    {
+      "id": "C013",
+      "name": "[고1] 수원외고 (공수2)",
+      "teacher_id": "T13",
+      "subject": "수학",
+      "grade": "고1",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 9,
+        "total": 562500
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "09:00",
+          "end": "12:30",
+          "room": "미정"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "미정",
+          "clinic": true,
+          "note": "집중 클리닉"
+        }
+      ]
+    },
+    {
+      "id": "K001",
+      "name": "[중3] 국어",
+      "teacher_id": "T10",
+      "subject": "국어",
+      "grade": "중3",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 75000,
+        "count": 6,
+        "total": 450000
+      },
+      "sessions": [
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "21:00",
+          "room": "1강의실"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "21:00",
+          "room": "7강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "K002",
+      "name": "[고1] 유신 국어",
+      "teacher_id": "T16",
+      "subject": "국어",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 290000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "13:00",
+          "end": "16:00",
+          "room": "3강의실"
+        },
+        {
+          "day": "토",
+          "start": "16:00",
+          "end": "17:00",
+          "room": "3강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "K003",
+      "name": "[고2] 유신 국어",
+      "teacher_id": "T16",
+      "subject": "국어",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 290000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "21:00",
+          "room": "5강의실"
+        },
+        {
+          "day": "수",
+          "start": "21:00",
+          "end": "22:00",
+          "room": "5강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "K004",
+      "name": "[고1] 광교/이의/수원여 국어",
+      "teacher_id": "T04",
+      "subject": "국어",
+      "grade": "고1",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 72500,
+        "count": 9,
+        "total": 652500
+      },
+      "sessions": [
+        {
+          "day": "일",
+          "start": "13:00",
+          "end": "16:00",
+          "room": "10강의실"
+        },
+        {
+          "day": "일",
+          "start": "16:00",
+          "end": "17:00",
+          "room": "10강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "K005",
+      "name": "[고2] 광교/이의/수원여 국어",
+      "teacher_id": "T04",
+      "subject": "국어",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 72500,
+        "count": 9,
+        "total": 652500
+      },
+      "sessions": [
+        {
+          "day": "일",
+          "start": "17:00",
+          "end": "20:00",
+          "room": "10강의실"
+        },
+        {
+          "day": "일",
+          "start": "20:00",
+          "end": "21:00",
+          "room": "10강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "K008",
+      "name": "[고1] 광교고 국어",
+      "teacher_id": "T20",
+      "subject": "국어",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 260000,
+        "count": 6
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "13:00",
+          "end": "16:00",
+          "room": "미정",
+          "note": "웰빙관에서 수업 예정 - A관 강의실 배정 제외"
+        }
+      ]
+    },
+    {
+      "id": "K009",
+      "name": "[고2] 국어",
+      "teacher_id": "T20",
+      "subject": "국어",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 260000,
+        "count": 6
+      },
+      "sessions": [
+        {
+          "day": "일",
+          "start": "16:00",
+          "end": "19:00",
+          "room": "8강의실"
+        }
+      ]
+    },
+    {
+      "id": "K010",
+      "name": "[고3] 국어",
+      "teacher_id": "T20",
+      "subject": "국어",
+      "grade": "고3",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 260000,
+        "count": 6
+      },
+      "sessions": [
+        {
+          "day": "일",
+          "start": "13:00",
+          "end": "16:00",
+          "room": "8강의실"
+        }
+      ]
+    },
+    {
+      "id": "E001",
+      "name": "[중3] 브릿지 영어",
+      "teacher_id": "T01",
+      "subject": "영어",
+      "grade": "중3",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 50000,
+        "count": 11,
+        "total": 550000
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "19:00",
+          "end": "20:00",
+          "room": "8강의실",
+          "clinic": true
+        },
+        {
+          "day": "목",
+          "start": "19:00",
+          "end": "20:00",
+          "room": "8강의실",
+          "clinic": true
+        },
+        {
+          "day": "화",
+          "start": "20:00",
+          "end": "22:00",
+          "room": "1강의실"
+        },
+        {
+          "day": "목",
+          "start": "20:00",
+          "end": "22:00",
+          "room": "1강의실"
+        }
+      ]
+    },
+    {
+      "id": "E002",
+      "name": "[고1] 이의고 영어",
+      "teacher_id": "T01",
+      "subject": "영어",
+      "grade": "고1",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 50000,
+        "count": 12,
+        "total": 600000
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "20:00",
+          "room": "1강의실"
+        },
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "20:00",
+          "room": "1강의실"
+        },
+        {
+          "day": "화",
+          "start": "20:00",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true
+        },
+        {
+          "day": "목",
+          "start": "20:00",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "E003",
+      "name": "[고2] 영어",
+      "teacher_id": "T01",
+      "subject": "영어",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 8
+      },
+      "sessions": [
+        {
+          "day": "월",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "미정"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "미정",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "E004",
+      "name": "[고3] 수능영어 (+격주모고시험)",
+      "teacher_id": "T01",
+      "subject": "영어",
+      "grade": "고3",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 72500,
+        "count": 8,
+        "total": 580000
+      },
+      "sessions": [
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "6강의실"
+        }
+      ]
+    },
+    {
+      "id": "E005",
+      "name": "[고2] 유신고 영어",
+      "teacher_id": "T07",
+      "subject": "영어",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 9
+      },
+      "sessions": [
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "7강의실"
+        },
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "E006",
+      "name": "[고2] 창현고 영어",
+      "teacher_id": "T07",
+      "subject": "영어",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 9
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "7강의실"
+        },
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "8강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "E010",
+      "name": "[고1] 유신고 영어",
+      "teacher_id": "T21",
+      "subject": "영어",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 8
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "3강의실",
+          "note": "대체실 4강의실"
+        },
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "3강의실",
+          "note": "대체실 5강의실"
+        }
+      ]
+    },
+    {
+      "id": "G001",
+      "name": "[중1] 통합과학 정복",
+      "teacher_id": "T19",
+      "subject": "과학",
+      "grade": "중1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 180000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "13:00",
+          "end": "14:30",
+          "room": "8강의실"
+        },
+        {
+          "day": "토",
+          "start": "14:30",
+          "end": "15:30",
+          "room": "5강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "G002",
+      "name": "[중2] 통합과학 정복",
+      "teacher_id": "T19",
+      "subject": "과학",
+      "grade": "중2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 180000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "14:30",
+          "end": "16:00",
+          "room": "8강의실"
+        },
+        {
+          "day": "토",
+          "start": "16:00",
+          "end": "17:00",
+          "room": "5강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "G003",
+      "name": "[중3] 통합과학 정복",
+      "teacher_id": "T25",
+      "subject": "과학",
+      "grade": "중3",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 180000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "16:30",
+          "end": "19:30",
+          "room": "9강의실"
+        }
+      ]
+    },
+    {
+      "id": "G004",
+      "name": "[고1] 통합과학II",
+      "teacher_id": "T25",
+      "subject": "과학",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 220000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "09:30",
+          "end": "12:30",
+          "room": "9강의실"
+        }
+      ]
+    },
+    {
+      "id": "E011",
+      "name": "[고1] 수원외고 내신영어",
+      "teacher_id": "T18",
+      "subject": "수원외고",
+      "grade": "고1",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 72500,
+        "count": 9,
+        "total": 652500
+      },
+      "sessions": [
+        {
+          "day": "일",
+          "start": "10:00",
+          "end": "14:00",
+          "room": "3강의실"
+        }
+      ]
+    },
+    {
+      "id": "E012",
+      "name": "[중3] 외대부고 대비반",
+      "teacher_id": "T18",
+      "subject": "외대부고",
+      "grade": "중3",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 360000,
+        "count": 8
+      },
+      "sessions": [
+        {
+          "day": "목",
+          "start": "19:00",
+          "end": "22:00",
+          "room": "6강의실"
+        },
+        {
+          "day": "일",
+          "start": "10:00",
+          "end": "13:00",
+          "room": "6강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "name": "[고2] 유신/창현 B (미적1)",
+      "teacher_id": "T08",
+      "subject": "수학",
+      "grade": "고2",
+      "pricing": {
+        "type": "per_session",
+        "unit_fee": 62500,
+        "count": 12,
+        "total": 750000
+      },
+      "sessions": [
+        {
+          "day": "화",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "4강의실"
+        },
+        {
+          "day": "토",
+          "start": "09:00",
+          "end": "13:00",
+          "room": "7강의실"
+        },
+        {
+          "day": "목",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "9강의실",
+          "clinic": true,
+          "note": "화 대체일"
+        },
+        {
+          "day": "토",
+          "start": "13:30",
+          "end": "16:30",
+          "room": "7강의실",
+          "clinic": true,
+          "note": "미적2 겸강생 클리닉"
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "name": "[중3] S반_미적분",
+      "teacher_id": "T23",
+      "subject": "수학",
+      "grade": "중3",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 475000,
+        "count": 13,
+        "note": "8월 일부 시간변경 기간 포함, 5주"
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "14:00",
+          "end": "18:00",
+          "room": "10강의실"
+        },
+        {
+          "day": "월",
+          "start": "17:00",
+          "end": "18:30",
+          "room": "6강의실",
+          "clinic": true,
+          "note": "1:1 첨삭. 8월 2주간은 18:00-19:30"
+        },
+        {
+          "day": "금",
+          "start": "17:00",
+          "end": "18:30",
+          "room": "8강의실",
+          "clinic": true,
+          "note": "1:1 첨삭. 8월 2주간은 18:00-19:30"
+        }
+      ]
+    },
+    {
+      "id": "E013",
+      "name": "[고1] 창현고 영어",
+      "teacher_id": "T07",
+      "subject": "영어",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 8
+      },
+      "sessions": [
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "10강의실"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "7강의실",
+          "clinic": true,
+          "group": "room7_clinic_union"
+        }
+      ]
+    },
+    {
+      "id": "E014",
+      "name": "[고1] 유신고 영어(수금)",
+      "teacher_id": "T21",
+      "subject": "영어",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 8
+      },
+      "sessions": [
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "3강의실"
+        },
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "7강의실",
+          "clinic": true,
+          "group": "room7_clinic_union"
+        }
+      ]
+    },
+    {
+      "id": "E015",
+      "name": "[고2] 광교고 영어",
+      "teacher_id": "T21",
+      "subject": "영어",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 400000,
+        "count": 8
+      },
+      "sessions": [
+        {
+          "day": "금",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "3강의실"
+        },
+        {
+          "day": "수",
+          "start": "18:00",
+          "end": "22:00",
+          "room": "6강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "K014",
+      "name": "[고1] 창현 국어",
+      "teacher_id": "T16",
+      "subject": "국어",
+      "grade": "고1",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 290000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "18:00",
+          "end": "21:00",
+          "room": "3강의실"
+        },
+        {
+          "day": "토",
+          "start": "21:00",
+          "end": "22:00",
+          "room": "3강의실",
+          "clinic": true
+        }
+      ]
+    },
+    {
+      "id": "K015",
+      "name": "[중3] 국어B",
+      "teacher_id": "T20",
+      "subject": "국어",
+      "grade": "중3",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 240000,
+        "count": 6
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "20:00",
+          "end": "22:00",
+          "room": "4강의실"
+        }
+      ]
+    },
+    {
+      "id": "E017",
+      "name": "[녹지원]마스터반 영어",
+      "teacher_id": "T24",
+      "subject": "영어",
+      "grade": "녹지원",
+      "pricing": {
+        "type": "none",
+        "note": "강의실만 대여 - 수강료 없음"
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "09:00",
+          "end": "13:00",
+          "room": "8강의실"
+        }
+      ]
+    },
+    {
+      "id": "K016",
+      "name": "[중2]광교중_국어",
+      "teacher_id": "T20",
+      "subject": "국어",
+      "grade": "중2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 220000,
+        "count": 6
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "17:00",
+          "end": "19:00",
+          "room": "4강의실"
+        }
+      ]
+    },
+    {
+      "id": "K017",
+      "name": "[중2]연무중_국어",
+      "teacher_id": "T20",
+      "subject": "국어",
+      "grade": "중2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 220000,
+        "count": 6
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "17:00",
+          "end": "19:00",
+          "room": "7강의실"
+        }
+      ]
+    },
+    {
+      "id": "G005",
+      "name": "[고2] 역학과 에너지 II",
+      "teacher_id": "T25",
+      "subject": "과학",
+      "grade": "고2",
+      "pricing": {
+        "type": "flat_monthly",
+        "monthly_fee": 220000,
+        "count": 3
+      },
+      "sessions": [
+        {
+          "day": "토",
+          "start": "13:00",
+          "end": "16:00",
+          "room": "9강의실"
+        }
+      ]
+    }
+  ]
+}
