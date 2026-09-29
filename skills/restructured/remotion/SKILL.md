@@ -38,5 +38,5 @@ CSS `transition`/`animation`처럼 "실제 경과 시간"에 의존하는 방식
 ## 다른 스킬과의 관계
 - 이 스킬은 "리모션으로 무엇을 할 수 있는가"(범용 기술)만 다룬다. 채널별 규칙(자막 파이프라인, 팔레트, 재사용 컴포넌트, 비트 기획)은 여기서 중복 설명하지 않는다.
 - **돈5060 롱폼** → `don5060-longform`(전체 워크플로우) + `longform-video-design`(비트 기획 체크리스트)를 같이 쓴다.
-- **돈의 행방(구 돈의 궤적) 채널** → 예전엔 `donui-gwejeok-video` 스킬이 그 채널 파이프라인을 담당했으나 **2026-09-29 점검 시 계정 스킬 목록에 없다.** 그 채널 작업을 하면 사용자에게 스킬을 다시 올릴지 확인하고, 코드는 `jennylove-ws/sns-workplace` 브랜치 `claude/remocion-image-audio-editing-7izo61`을 참고한다.
+- **돈의 행방(구 돈의 궤적) 채널** → 예전엔 `donui-gwejeok-video` 스킬이 그 채널 파이프라인을 담당했으나 **사용자가 잠시 꺼둔 상태일 수 있다.** 목록에 보이면 같이 쓰고, 안 보이는데 그 채널 작업이면 사용자에게 켜달라고 요청하며, 코드는 `jennylove-ws/sns-workplace` 브랜치 `claude/remocion-image-audio-editing-7izo61`을 참고한다.
 - 다른 프로젝트에서 리모션으로 영상을 만들 때는 이 스킬만 있으면 된다.

@@ -137,7 +137,7 @@ description: 돈5060 채널의 롱폼(4~6분, 가로 16:9) 영상을 터진 Shor
 - `돈5060-유튜브팀\.claude\agents\short-script-writer.md`, `thumbnail-copywriter.md`, `seo-metadata.md`, `video-producer.md` — 대본·썸네일·메타데이터·장면 규칙(롱폼은 [2]·[9]에서 조정)
 - `돈5060_롱폼\제작_가이드_전체.md` — 옛 HyperFrames 롱폼 4편 이력(비트 기획 원칙·팔레트/톤 결정 과정 참고)
 - `https://github.com/jennylove-ws/sns-workplace` (브랜치 `claude/remocion-image-audio-editing-7izo61`) — 돈의 행방 구현 **열람용**(포크 소스 아님)
-- `donui-gwejeok-video` 스킬 — 예전엔 비트 쪼개기·컴포넌트 선택 참고(`references/scene-authoring.md`, `component-library.md`)로 쓰였으나 **2026-09-29 점검 시 계정 스킬 목록에 없다.** 있으면 참고하고, 없으면 위 저장소를 본다.
+- `donui-gwejeok-video` 스킬 — 예전엔 비트 쪼개기·컴포넌트 선택 참고(`references/scene-authoring.md`, `component-library.md`)로 쓰였으나 **사용자가 잠시 꺼둘 때가 있다.** 켜져 있으면 참고하고, 꺼져 있으면 위 저장소를 본다(돈5060 작업에 필수는 아님 — 핵심 원칙은 이 스킬과 longform-video-design에 이미 들어 있다).
 
 ## 결정 배경 (왜 이렇게 하나 — 다시 뒤집지 않도록)
 - **HyperFrames → Remotion 전환(2026-09-28 사용자 결정)**: 검증된 옛 롱폼 4편(퇴직후_건강보험료 v1/v2, 숨은돈찾기, 형제자매와재산문제)은 HyperFrames(HTML/CSS/SVG/GSAP + headless Chrome)였다. 실사/AI 이미지와 코드 모션그래픽을 한 컴포지션에서 자연스럽게 섞기 위해, 같은 시니어 타깃 채널 "돈의 행방"(구 "돈의 궤적")이 1화(25파트)를 실제 렌더링까지 검증한 Remotion 방식으로 옮겼다.
